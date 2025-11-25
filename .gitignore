@@ -1,0 +1,32 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+venv*/
+
+# dotenv files (ignore any file ending with .env)
+*.env
+
+# Common build/dist folders
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Test / coverage
+.coverage
+.pytest_cache/
+htmlcov/
+
+# temp files which stores static files which genereated during runtime
+app/tempfiles/
+
+# dummy directory - for external testing
+dummy/
+file_*
