@@ -30,3 +30,6 @@ app/tempfiles/
 # dummy directory - for external testing
 dummy/
 file_*
+
+# log files
+logs/
