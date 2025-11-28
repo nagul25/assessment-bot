@@ -1,7 +1,5 @@
-from typing import List, Optional
-from fastapi import UploadFile
-from pydantic import BaseModel
+from pydantic import BaseModel, Field
 
 class QueryPromptRequest(BaseModel):
-    prompt: str
+    prompt: str = Field(..., description="The prompt text submitted by the user")
     
