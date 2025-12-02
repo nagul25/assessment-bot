@@ -33,3 +33,4 @@ file_*
 
 # log files
 logs/
+/logs
