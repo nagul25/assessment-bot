@@ -62,16 +62,27 @@ async def upload_png_to_blob(png_directory: str, file_name: str):
             logger.info(f"Container {container_name} may already exist: {create_error}")
             pass
 
-        for index, png_file in enumerate(os.listdir(png_directory)):
-            if png_file.endswith(".png"):
-                png_path = os.path.join(png_directory, png_file)
-                blob_path = f"{file_name}/{index}_{png_file}"
+        for index, file in enumerate(os.listdir(png_directory)):
+            if file.endswith(".png"):
+                png_path = os.path.join(png_directory, file)
+                blob_path = f"{file_name}/{index}_{file}"
                 blob_client = container_client.get_blob_client(blob=blob_path)
                 with open(png_path, "rb") as data:
                     await blob_client.upload_blob(data, overwrite=True)
                 logger.info(f"Uploaded PNG blob: {blob_path} to container: {container_name}, blob url: {blob_client.url}")
                 uploaded_pngs.append({
-                    "filename": png_file,
+                    "filename": file,
+                    "blob_url": blob_client.url
+                })
+            elif file.endswith(".pdf"):
+                pdf_path = os.path.join(png_directory, file)
+                blob_path = f"{file_name}/{index}_{file}"
+                blob_client = container_client.get_blob_client(blob=blob_path)
+                with open(pdf_path, "rb") as data:
+                    await blob_client.upload_blob(data, overwrite=True)
+                logger.info(f"Uploaded PNG blob: {blob_path} to container: {container_name}, blob url: {blob_client.url}")
+                uploaded_pngs.append({
+                    "filename": file,
                     "blob_url": blob_client.url
                 })
         return uploaded_pngs

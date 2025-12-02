@@ -14,3 +14,5 @@ class Config:
     BLOB_ACCOUNT_KEY = os.getenv("BLOB_ACCOUNT_KEY", None)
     SAS_URL = os.getenv("SAS_URL", None)
     SAS_TOKEN = os.getenv("SAS_TOKEN", None)
+
+    FILE_CONVERSION_FORMAT = os.getenv("FILE_CONVERSION_FORMAT", "pdf")

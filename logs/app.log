@@ -4003,3 +4003,2500 @@ Response headers:
 2025-11-23 12:28:33,607 - watchfiles.main - INFO - 1 change detected
 2025-11-23 12:28:34,187 - watchfiles.main - INFO - 1 change detected
 2025-11-23 12:28:58,420 - watchfiles.main - INFO - 1 change detected
+2025-11-26 11:29:41,703 - root - INFO - Rate limiting check for client: 127.0.0.1
+2025-11-26 11:29:41,712 - root - ERROR - Redis error: Error 61 connecting to localhost:6379. Connection refused.
+2025-11-26 11:30:54,172 - root - INFO - Rate limiting check for client: 127.0.0.1
+2025-11-26 11:30:54,174 - root - ERROR - Redis error: Error 61 connecting to localhost:6379. Connection refused.
+2025-11-26 11:30:54,355 - root - INFO - Rate limiting check for client: 127.0.0.1
+2025-11-26 11:30:54,356 - root - ERROR - Redis error: Error 61 connecting to localhost:6379. Connection refused.
+2025-11-26 11:31:09,583 - root - INFO - Rate limiting check for client: 127.0.0.1
+2025-11-26 11:31:09,585 - root - ERROR - Redis error: Error 61 connecting to localhost:6379. Connection refused.
+2025-11-26 11:31:09,588 - root - INFO - Received assessment request: hi
+2025-11-26 11:31:09,588 - root - INFO - Assessment request received - prompt='hi'
+2025-11-26 11:31:09,639 - root - INFO - Assessment processed successfully: {'message': 'Assessment processed for prompt: hi', 'upload_info': None}
+2025-11-26 11:41:18,907 - root - INFO - Rate limiting check for client: 127.0.0.1
+2025-11-26 11:41:18,955 - root - INFO - Received assessment request: hi
+2025-11-26 11:41:18,956 - root - INFO - Assessment request received - prompt='hi'
+2025-11-26 11:41:18,985 - root - INFO - Assessment processed successfully: {'message': 'Assessment processed for prompt: hi', 'upload_info': None}
+2025-11-26 11:41:25,933 - root - INFO - Rate limiting check for client: 127.0.0.1
+2025-11-26 11:42:15,682 - watchfiles.main - INFO - 1 change detected
+2025-11-26 11:42:16,211 - watchfiles.main - INFO - 1 change detected
+2025-11-26 11:42:22,008 - watchfiles.main - INFO - 1 change detected
+2025-11-26 11:42:28,146 - root - INFO - Rate limiting check for client: 127.0.0.1
+2025-11-26 11:42:45,421 - root - INFO - Rate limiting check for client: 127.0.0.1
+2025-11-26 11:42:45,431 - root - INFO - Received assessment request: hi
+2025-11-26 11:42:45,431 - root - INFO - Assessment request received - prompt='hi'
+2025-11-26 11:42:45,485 - root - INFO - Assessment processed successfully: {'message': 'Assessment processed for prompt: hi', 'upload_info': None}
+2025-11-26 16:11:58,520 - root - INFO - Rate limiting check for client: 127.0.0.1
+2025-11-26 16:21:17,800 - root - INFO - Rate limiting check for client: 127.0.0.1
+2025-11-26 16:42:08,635 - root - INFO - Rate limiting check for client: 127.0.0.1
+2025-11-26 16:43:56,890 - root - INFO - Rate limiting check for client: 127.0.0.1
+2025-11-26 16:44:11,236 - root - INFO - Rate limiting check for client: 127.0.0.1
+2025-11-26 17:03:32,238 - root - INFO - Rate limiting check for client: 127.0.0.1
+2025-11-26 17:03:32,263 - root - INFO - Rate limiting check for client: 127.0.0.1
+2025-11-26 17:05:26,235 - root - INFO - Rate limiting check for client: 127.0.0.1
+2025-11-26 17:07:05,975 - watchfiles.main - INFO - 1 change detected
+2025-11-26 17:07:06,579 - watchfiles.main - INFO - 1 change detected
+2025-11-26 17:07:10,154 - root - INFO - Rate limiting check for client: 127.0.0.1
+2025-11-26 17:08:11,812 - root - INFO - Rate limiting check for client: 127.0.0.1
+2025-11-26 17:09:36,927 - root - INFO - Rate limiting check for client: 127.0.0.1
+2025-11-26 17:09:36,941 - root - INFO - Rate limiting check for client: 127.0.0.1
+2025-11-26 17:15:04,703 - root - INFO - Rate limiting check for client: 127.0.0.1
+2025-11-26 17:15:21,048 - root - INFO - Rate limiting check for client: 127.0.0.1
+2025-11-26 17:16:09,096 - root - INFO - Rate limiting check for client: 127.0.0.1
+2025-11-26 17:16:30,964 - root - INFO - Rate limiting check for client: 127.0.0.1
+2025-11-26 17:16:47,842 - root - INFO - Rate limiting check for client: 127.0.0.1
+2025-11-26 17:20:19,588 - watchfiles.main - INFO - 1 change detected
+2025-11-26 17:20:20,185 - watchfiles.main - INFO - 1 change detected
+2025-11-26 17:20:50,343 - root - INFO - Rate limiting check for client: 127.0.0.1
+2025-11-26 17:21:14,705 - watchfiles.main - INFO - 1 change detected
+2025-11-26 17:21:15,297 - watchfiles.main - INFO - 1 change detected
+2025-11-26 17:21:38,980 - watchfiles.main - INFO - 1 change detected
+2025-11-26 17:21:43,746 - watchfiles.main - INFO - 1 change detected
+2025-11-26 17:21:45,028 - watchfiles.main - INFO - 1 change detected
+2025-11-26 17:21:49,206 - watchfiles.main - INFO - 1 change detected
+2025-11-26 17:21:55,542 - root - INFO - Rate limiting check for client: 127.0.0.1
+2025-11-28 14:52:48,408 - watchfiles.main - INFO - 1 change detected
+2025-11-28 14:52:52,938 - watchfiles.main - INFO - 1 change detected
+2025-11-28 14:54:04,041 - watchfiles.main - INFO - 1 change detected
+2025-11-28 14:54:15,184 - watchfiles.main - INFO - 1 change detected
+2025-11-28 14:54:23,007 - watchfiles.main - INFO - 1 change detected
+2025-11-28 14:55:43,617 - watchfiles.main - INFO - 1 change detected
+2025-11-28 14:55:49,461 - watchfiles.main - INFO - 1 change detected
+2025-11-28 14:55:50,681 - watchfiles.main - INFO - 1 change detected
+2025-11-28 14:56:03,367 - root - INFO - Rate limiting check for client: 127.0.0.1
+2025-11-28 14:56:03,369 - root - ERROR - Redis error: Error 61 connecting to localhost:6379. Connection refused.
+2025-11-28 14:56:03,494 - root - INFO - Rate limiting check for client: 127.0.0.1
+2025-11-28 14:56:03,495 - root - ERROR - Redis error: Error 61 connecting to localhost:6379. Connection refused.
+2025-11-28 14:56:05,726 - root - INFO - Rate limiting check for client: 127.0.0.1
+2025-11-28 14:56:05,728 - root - ERROR - Redis error: Error 61 connecting to localhost:6379. Connection refused.
+2025-11-28 14:56:05,756 - root - INFO - Rate limiting check for client: 127.0.0.1
+2025-11-28 14:56:05,758 - root - ERROR - Redis error: Error 61 connecting to localhost:6379. Connection refused.
+2025-11-28 14:56:47,254 - watchfiles.main - INFO - 1 change detected
+2025-11-28 14:56:47,796 - watchfiles.main - INFO - 1 change detected
+2025-11-28 14:57:01,123 - root - INFO - Rate limiting check for client: 127.0.0.1
+2025-11-28 14:57:01,131 - root - INFO - Received assessment request: hi
+2025-11-28 14:57:01,131 - root - INFO - Assessment request received - prompt='hi'
+2025-11-28 14:57:01,196 - root - INFO - Assessment processed successfully: {'message': 'Assessment processed for prompt: hi', 'upload_info': None}
+2025-11-28 14:57:31,146 - watchfiles.main - INFO - 1 change detected
+2025-11-28 14:57:31,779 - watchfiles.main - INFO - 3 changes detected
+2025-11-28 14:57:32,354 - watchfiles.main - INFO - 4 changes detected
+2025-11-28 14:58:06,822 - root - INFO - Rate limiting check for client: 127.0.0.1
+2025-11-28 14:58:06,829 - root - INFO - Received assessment request: hi
+2025-11-28 14:58:06,829 - root - INFO - Assessment request received - prompt='hi'
+2025-11-28 14:58:06,857 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://stwu3mahaaya.blob.core.windows.net/newfiles?restype=REDACTED'
+Request method: 'PUT'
+Request headers:
+    'x-ms-version': 'REDACTED'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.27.0 Python/3.9.6 (macOS-15.6-arm64-arm-64bit)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '8c118ff0-cc3c-11f0-89bf-0e3386e78eb4'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+2025-11-28 14:58:07,910 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 409
+Response headers:
+    'Content-Length': '230'
+    'Content-Type': 'application/xml'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '67a6cec1-701e-00aa-3149-60fae7000000'
+    'x-ms-client-request-id': '8c118ff0-cc3c-11f0-89bf-0e3386e78eb4'
+    'x-ms-version': 'REDACTED'
+    'x-ms-error-code': 'ContainerAlreadyExists'
+    'Date': 'Fri, 28 Nov 2025 09:28:07 GMT'
+2025-11-28 14:58:07,913 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Template_basic.pptx'
+Request method: 'PUT'
+Request headers:
+    'Content-Length': '408137'
+    'x-ms-meta-content_type': 'REDACTED'
+    'x-ms-blob-type': 'REDACTED'
+    'x-ms-version': 'REDACTED'
+    'Content-Type': 'application/octet-stream'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.27.0 Python/3.9.6 (macOS-15.6-arm64-arm-64bit)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '8cb2ff20-cc3c-11f0-89bf-0e3386e78eb4'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+2025-11-28 14:58:09,644 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 201
+Response headers:
+    'Content-Length': '0'
+    'Content-MD5': 'REDACTED'
+    'Last-Modified': 'Fri, 28 Nov 2025 09:28:09 GMT'
+    'Etag': '"0x8DE2E6071DF0964"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '67a6cf78-701e-00aa-5449-60fae7000000'
+    'x-ms-client-request-id': '8cb2ff20-cc3c-11f0-89bf-0e3386e78eb4'
+    'x-ms-version': 'REDACTED'
+    'x-ms-content-crc64': 'REDACTED'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'Date': 'Fri, 28 Nov 2025 09:28:09 GMT'
+2025-11-28 14:58:09,645 - root - INFO - Closing BlobServiceClient
+2025-11-28 14:58:09,645 - root - INFO - Downloading and processing file from blob url: https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Template_basic.pptx
+2025-11-28 14:58:09,645 - root - INFO - Processing file: Dickinson_Template_basic.pptx from blob url: https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Template_basic.pptx
+2025-11-28 14:58:09,646 - root - INFO - Downloading blob from https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Template_basic.pptx
+2025-11-28 14:58:09,647 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Template_basic.pptx'
+Request method: 'GET'
+Request headers:
+    'x-ms-range': 'REDACTED'
+    'x-ms-version': 'REDACTED'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.27.0 Python/3.9.6 (macOS-15.6-arm64-arm-64bit)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '8dbba034-cc3c-11f0-89bf-0e3386e78eb4'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+2025-11-28 14:58:09,755 - watchfiles.main - INFO - 2 changes detected
+2025-11-28 14:58:10,615 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 206
+Response headers:
+    'Content-Length': '408137'
+    'Content-Type': 'application/octet-stream'
+    'Content-Range': 'REDACTED'
+    'Last-Modified': 'Fri, 28 Nov 2025 09:28:09 GMT'
+    'Accept-Ranges': 'REDACTED'
+    'Etag': '"0x8DE2E6071DF0964"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '76399492-701e-0013-2149-60fefd000000'
+    'x-ms-client-request-id': '8dbba034-cc3c-11f0-89bf-0e3386e78eb4'
+    'x-ms-version': 'REDACTED'
+    'x-ms-resource-type': 'REDACTED'
+    'x-ms-meta-content_type': 'REDACTED'
+    'x-ms-creation-time': 'REDACTED'
+    'x-ms-blob-content-md5': 'REDACTED'
+    'x-ms-lease-status': 'REDACTED'
+    'x-ms-lease-state': 'REDACTED'
+    'x-ms-blob-type': 'REDACTED'
+    'x-ms-server-encrypted': 'REDACTED'
+    'x-ms-owner': 'REDACTED'
+    'x-ms-group': 'REDACTED'
+    'x-ms-permissions': 'REDACTED'
+    'x-ms-acl': 'REDACTED'
+    'Date': 'Fri, 28 Nov 2025 09:28:10 GMT'
+2025-11-28 14:58:11,504 - root - INFO - Downloaded blob from https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Template_basic.pptx to local path /Users/aravind/Documents/GitHub/assessment-bot/app/tempfiles/Dickinson_Template_basic/Dickinson_Template_basic_20251128145809.pptx
+2025-11-28 14:58:11,505 - root - INFO - Closing BlobServiceClient
+2025-11-28 14:58:11,505 - root - INFO - Downloaded file to local path: /Users/aravind/Documents/GitHub/assessment-bot/app/tempfiles/Dickinson_Template_basic/Dickinson_Template_basic_20251128145809.pptx
+2025-11-28 14:58:11,506 - root - INFO - Local ppt file path: /Users/aravind/Documents/GitHub/assessment-bot/app/tempfiles/Dickinson_Template_basic/Dickinson_Template_basic_20251128145809.pptx - Dickinson_Template_basic
+2025-11-28 14:58:11,506 - root - INFO - Output directory for PNGs: /Users/aravind/Documents/GitHub/assessment-bot/app/tempfiles/Dickinson_Template_basic/slides
+2025-11-28 14:58:11,506 - root - INFO - Running command: /Applications/LibreOffice.app/Contents/MacOS/soffice --headless --invisible --nologo --nodefault --nofirststartwizard --convert-to png --outdir /Users/aravind/Documents/GitHub/assessment-bot/app/tempfiles/Dickinson_Template_basic/slides /Users/aravind/Documents/GitHub/assessment-bot/app/tempfiles/Dickinson_Template_basic/Dickinson_Template_basic_20251128145809.pptx
+2025-11-28 14:58:11,619 - watchfiles.main - INFO - 2 changes detected
+2025-11-28 14:58:14,244 - watchfiles.main - INFO - 1 change detected
+2025-11-28 14:58:14,654 - watchfiles.main - INFO - 6 changes detected
+2025-11-28 14:58:16,674 - root - INFO - Converted PPT to PNGs at: /Users/aravind/Documents/GitHub/assessment-bot/app/tempfiles/Dickinson_Template_basic/slides
+2025-11-28 14:58:16,675 - root - INFO - uploading pngs from directory: /Users/aravind/Documents/GitHub/assessment-bot/app/tempfiles/Dickinson_Template_basic/slides - under file: Dickinson_Template_basic
+2025-11-28 14:58:16,676 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://stwu3mahaaya.blob.core.windows.net/newfiles?restype=REDACTED'
+Request method: 'PUT'
+Request headers:
+    'x-ms-version': 'REDACTED'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.27.0 Python/3.9.6 (macOS-15.6-arm64-arm-64bit)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '91ec1d46-cc3c-11f0-89bf-0e3386e78eb4'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+2025-11-28 14:58:17,714 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 409
+Response headers:
+    'Content-Length': '230'
+    'Content-Type': 'application/xml'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '3c4c34ff-601e-0100-6749-6024fc000000'
+    'x-ms-client-request-id': '91ec1d46-cc3c-11f0-89bf-0e3386e78eb4'
+    'x-ms-version': 'REDACTED'
+    'x-ms-error-code': 'ContainerAlreadyExists'
+    'Date': 'Fri, 28 Nov 2025 09:28:17 GMT'
+2025-11-28 14:58:17,719 - root - INFO - Container newfiles may already exist: The specified container already exists.
+RequestId:3c4c34ff-601e-0100-6749-6024fc000000
+Time:2025-11-28T09:28:17.6112029Z
+ErrorCode:ContainerAlreadyExists
+Content: <?xml version="1.0" encoding="utf-8"?><Error><Code>ContainerAlreadyExists</Code><Message>The specified container already exists.
+RequestId:3c4c34ff-601e-0100-6749-6024fc000000
+Time:2025-11-28T09:28:17.6112029Z</Message></Error>
+2025-11-28 14:58:17,725 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Template_basic/0_Dickinson_Template_basic_20251128145809.png'
+Request method: 'PUT'
+Request headers:
+    'Content-Length': '70159'
+    'x-ms-blob-type': 'REDACTED'
+    'x-ms-version': 'REDACTED'
+    'Content-Type': 'application/octet-stream'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.27.0 Python/3.9.6 (macOS-15.6-arm64-arm-64bit)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '928c2a02-cc3c-11f0-89bf-0e3386e78eb4'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+2025-11-28 14:58:18,489 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 201
+Response headers:
+    'Content-Length': '0'
+    'Content-MD5': 'REDACTED'
+    'Last-Modified': 'Fri, 28 Nov 2025 09:28:18 GMT'
+    'Etag': '"0x8DE2E60772508DC"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '3c4c3586-601e-0100-5e49-6024fc000000'
+    'x-ms-client-request-id': '928c2a02-cc3c-11f0-89bf-0e3386e78eb4'
+    'x-ms-version': 'REDACTED'
+    'x-ms-content-crc64': 'REDACTED'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'Date': 'Fri, 28 Nov 2025 09:28:18 GMT'
+2025-11-28 14:58:18,491 - root - INFO - Uploaded PNG blob: Dickinson_Template_basic/0_Dickinson_Template_basic_20251128145809.png to container: newfiles, blob url: https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Template_basic/0_Dickinson_Template_basic_20251128145809.png
+2025-11-28 14:58:18,494 - root - INFO - Uploaded PNG files to blob storage: [{'filename': 'Dickinson_Template_basic_20251128145809.png', 'blob_url': 'https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Template_basic/0_Dickinson_Template_basic_20251128145809.png'}]
+2025-11-28 14:58:18,494 - root - INFO - Removed local file: /Users/aravind/Documents/GitHub/assessment-bot/app/tempfiles/Dickinson_Template_basic/Dickinson_Template_basic_20251128145809.pptx
+2025-11-28 14:58:18,495 - root - INFO - Assessment processed successfully: {'message': 'Assessment processed for prompt: hi', 'upload_info': {'uploaded_files': [{'filename': 'Dickinson_Template_basic.pptx', 'blob_url': 'https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Template_basic.pptx', 'png_uploads': [{'filename': 'Dickinson_Template_basic_20251128145809.png', 'blob_url': 'https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Template_basic/0_Dickinson_Template_basic_20251128145809.png'}]}], 'message': 'Files uploaded successfully'}}
+2025-11-28 14:58:18,613 - watchfiles.main - INFO - 2 changes detected
+2025-11-28 15:00:00,145 - root - INFO - Rate limiting check for client: 127.0.0.1
+2025-11-28 15:00:00,159 - root - INFO - Received assessment request: hello
+2025-11-28 15:00:00,160 - root - INFO - Assessment request received - prompt='hello'
+2025-11-28 15:00:00,212 - root - INFO - Assessment processed successfully: {'message': 'Assessment processed for prompt: hello', 'upload_info': None}
+2025-11-28 15:00:59,869 - root - INFO - Rate limiting check for client: 127.0.0.1
+2025-11-28 15:00:59,874 - root - INFO - Received assessment request: hello again with files
+2025-11-28 15:00:59,875 - root - INFO - Assessment request received - prompt='hello again with files'
+2025-11-28 15:00:59,925 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://stwu3mahaaya.blob.core.windows.net/newfiles?restype=REDACTED'
+Request method: 'PUT'
+Request headers:
+    'x-ms-version': 'REDACTED'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.27.0 Python/3.9.6 (macOS-15.6-arm64-arm-64bit)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': 'f339c8b4-cc3c-11f0-89bf-0e3386e78eb4'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+2025-11-28 15:01:00,964 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 409
+Response headers:
+    'Content-Length': '230'
+    'Content-Type': 'application/xml'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '66558245-301e-00ab-6049-60a53b000000'
+    'x-ms-client-request-id': 'f339c8b4-cc3c-11f0-89bf-0e3386e78eb4'
+    'x-ms-version': 'REDACTED'
+    'x-ms-error-code': 'ContainerAlreadyExists'
+    'Date': 'Fri, 28 Nov 2025 09:31:00 GMT'
+2025-11-28 15:01:00,966 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Template_Standard_format_Basic.pptx'
+Request method: 'PUT'
+Request headers:
+    'Content-Length': '407565'
+    'x-ms-meta-content_type': 'REDACTED'
+    'x-ms-blob-type': 'REDACTED'
+    'x-ms-version': 'REDACTED'
+    'Content-Type': 'application/octet-stream'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.27.0 Python/3.9.6 (macOS-15.6-arm64-arm-64bit)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': 'f3d8cc98-cc3c-11f0-89bf-0e3386e78eb4'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+2025-11-28 15:01:02,604 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 201
+Response headers:
+    'Content-Length': '0'
+    'Content-MD5': 'REDACTED'
+    'Last-Modified': 'Fri, 28 Nov 2025 09:31:02 GMT'
+    'Etag': '"0x8DE2E60D8EC8EC0"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '6655836b-301e-00ab-4649-60a53b000000'
+    'x-ms-client-request-id': 'f3d8cc98-cc3c-11f0-89bf-0e3386e78eb4'
+    'x-ms-version': 'REDACTED'
+    'x-ms-content-crc64': 'REDACTED'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'Date': 'Fri, 28 Nov 2025 09:31:02 GMT'
+2025-11-28 15:01:02,606 - root - INFO - Closing BlobServiceClient
+2025-11-28 15:01:02,606 - root - INFO - Downloading and processing file from blob url: https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Template_Standard_format_Basic.pptx
+2025-11-28 15:01:02,607 - root - INFO - Processing file: Dickinson_Template_Standard_format_Basic.pptx from blob url: https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Template_Standard_format_Basic.pptx
+2025-11-28 15:01:02,608 - root - INFO - Downloading blob from https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Template_Standard_format_Basic.pptx
+2025-11-28 15:01:02,610 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Template_Standard_format_Basic.pptx'
+Request method: 'GET'
+Request headers:
+    'x-ms-range': 'REDACTED'
+    'x-ms-version': 'REDACTED'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.27.0 Python/3.9.6 (macOS-15.6-arm64-arm-64bit)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': 'f4d3a370-cc3c-11f0-89bf-0e3386e78eb4'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+2025-11-28 15:01:02,714 - watchfiles.main - INFO - 2 changes detected
+2025-11-28 15:01:03,535 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 206
+Response headers:
+    'Content-Length': '407565'
+    'Content-Type': 'application/octet-stream'
+    'Content-Range': 'REDACTED'
+    'Last-Modified': 'Fri, 28 Nov 2025 09:31:02 GMT'
+    'Accept-Ranges': 'REDACTED'
+    'Etag': '"0x8DE2E60D8EC8EC0"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '46eefede-701e-004e-3849-60f479000000'
+    'x-ms-client-request-id': 'f4d3a370-cc3c-11f0-89bf-0e3386e78eb4'
+    'x-ms-version': 'REDACTED'
+    'x-ms-resource-type': 'REDACTED'
+    'x-ms-meta-content_type': 'REDACTED'
+    'x-ms-creation-time': 'REDACTED'
+    'x-ms-blob-content-md5': 'REDACTED'
+    'x-ms-lease-status': 'REDACTED'
+    'x-ms-lease-state': 'REDACTED'
+    'x-ms-blob-type': 'REDACTED'
+    'x-ms-server-encrypted': 'REDACTED'
+    'x-ms-owner': 'REDACTED'
+    'x-ms-group': 'REDACTED'
+    'x-ms-permissions': 'REDACTED'
+    'x-ms-acl': 'REDACTED'
+    'Date': 'Fri, 28 Nov 2025 09:31:02 GMT'
+2025-11-28 15:01:04,454 - root - INFO - Downloaded blob from https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Template_Standard_format_Basic.pptx to local path /Users/aravind/Documents/GitHub/assessment-bot/app/tempfiles/Dickinson_Template_Standard_format_Basic/Dickinson_Template_Standard_format_Basic_20251128150102.pptx
+2025-11-28 15:01:04,455 - root - INFO - Closing BlobServiceClient
+2025-11-28 15:01:04,455 - root - INFO - Downloaded file to local path: /Users/aravind/Documents/GitHub/assessment-bot/app/tempfiles/Dickinson_Template_Standard_format_Basic/Dickinson_Template_Standard_format_Basic_20251128150102.pptx
+2025-11-28 15:01:04,455 - root - INFO - Local ppt file path: /Users/aravind/Documents/GitHub/assessment-bot/app/tempfiles/Dickinson_Template_Standard_format_Basic/Dickinson_Template_Standard_format_Basic_20251128150102.pptx - Dickinson_Template_Standard_format_Basic
+2025-11-28 15:01:04,455 - root - INFO - Output directory for PNGs: /Users/aravind/Documents/GitHub/assessment-bot/app/tempfiles/Dickinson_Template_Standard_format_Basic/slides
+2025-11-28 15:01:04,456 - root - INFO - Running command: /Applications/LibreOffice.app/Contents/MacOS/soffice --headless --invisible --nologo --nodefault --nofirststartwizard --convert-to png --outdir /Users/aravind/Documents/GitHub/assessment-bot/app/tempfiles/Dickinson_Template_Standard_format_Basic/slides /Users/aravind/Documents/GitHub/assessment-bot/app/tempfiles/Dickinson_Template_Standard_format_Basic/Dickinson_Template_Standard_format_Basic_20251128150102.pptx
+2025-11-28 15:01:04,569 - watchfiles.main - INFO - 2 changes detected
+2025-11-28 15:01:06,759 - watchfiles.main - INFO - 1 change detected
+2025-11-28 15:01:07,125 - watchfiles.main - INFO - 6 changes detected
+2025-11-28 15:01:09,151 - root - INFO - Converted PPT to PNGs at: /Users/aravind/Documents/GitHub/assessment-bot/app/tempfiles/Dickinson_Template_Standard_format_Basic/slides
+2025-11-28 15:01:09,152 - root - INFO - uploading pngs from directory: /Users/aravind/Documents/GitHub/assessment-bot/app/tempfiles/Dickinson_Template_Standard_format_Basic/slides - under file: Dickinson_Template_Standard_format_Basic
+2025-11-28 15:01:09,152 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://stwu3mahaaya.blob.core.windows.net/newfiles?restype=REDACTED'
+Request method: 'PUT'
+Request headers:
+    'x-ms-version': 'REDACTED'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.27.0 Python/3.9.6 (macOS-15.6-arm64-arm-64bit)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': 'f8b9efbc-cc3c-11f0-89bf-0e3386e78eb4'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+2025-11-28 15:01:10,224 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 409
+Response headers:
+    'Content-Length': '230'
+    'Content-Type': 'application/xml'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '43e391e4-301e-0084-2649-60a8f0000000'
+    'x-ms-client-request-id': 'f8b9efbc-cc3c-11f0-89bf-0e3386e78eb4'
+    'x-ms-version': 'REDACTED'
+    'x-ms-error-code': 'ContainerAlreadyExists'
+    'Date': 'Fri, 28 Nov 2025 09:31:09 GMT'
+2025-11-28 15:01:10,226 - root - INFO - Container newfiles may already exist: The specified container already exists.
+RequestId:43e391e4-301e-0084-2649-60a8f0000000
+Time:2025-11-28T09:31:10.1129459Z
+ErrorCode:ContainerAlreadyExists
+Content: <?xml version="1.0" encoding="utf-8"?><Error><Code>ContainerAlreadyExists</Code><Message>The specified container already exists.
+RequestId:43e391e4-301e-0084-2649-60a8f0000000
+Time:2025-11-28T09:31:10.1129459Z</Message></Error>
+2025-11-28 15:01:10,228 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Template_Standard_format_Basic/0_Dickinson_Template_Standard_format_Basic_20251128150102.png'
+Request method: 'PUT'
+Request headers:
+    'Content-Length': '48251'
+    'x-ms-blob-type': 'REDACTED'
+    'x-ms-version': 'REDACTED'
+    'Content-Type': 'application/octet-stream'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.27.0 Python/3.9.6 (macOS-15.6-arm64-arm-64bit)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': 'f95e0c6e-cc3c-11f0-89bf-0e3386e78eb4'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+2025-11-28 15:01:11,102 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 201
+Response headers:
+    'Content-Length': '0'
+    'Content-MD5': 'REDACTED'
+    'Last-Modified': 'Fri, 28 Nov 2025 09:31:10 GMT'
+    'Etag': '"0x8DE2E60DDFCD87C"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '43e392a1-301e-0084-5049-60a8f0000000'
+    'x-ms-client-request-id': 'f95e0c6e-cc3c-11f0-89bf-0e3386e78eb4'
+    'x-ms-version': 'REDACTED'
+    'x-ms-content-crc64': 'REDACTED'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'Date': 'Fri, 28 Nov 2025 09:31:10 GMT'
+2025-11-28 15:01:11,102 - root - INFO - Uploaded PNG blob: Dickinson_Template_Standard_format_Basic/0_Dickinson_Template_Standard_format_Basic_20251128150102.png to container: newfiles, blob url: https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Template_Standard_format_Basic/0_Dickinson_Template_Standard_format_Basic_20251128150102.png
+2025-11-28 15:01:11,103 - root - INFO - Uploaded PNG files to blob storage: [{'filename': 'Dickinson_Template_Standard_format_Basic_20251128150102.png', 'blob_url': 'https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Template_Standard_format_Basic/0_Dickinson_Template_Standard_format_Basic_20251128150102.png'}]
+2025-11-28 15:01:11,103 - root - INFO - Removed local file: /Users/aravind/Documents/GitHub/assessment-bot/app/tempfiles/Dickinson_Template_Standard_format_Basic/Dickinson_Template_Standard_format_Basic_20251128150102.pptx
+2025-11-28 15:01:11,104 - root - INFO - Assessment processed successfully: {'message': 'Assessment processed for prompt: hello again with files', 'upload_info': {'uploaded_files': [{'filename': 'Dickinson_Template_Standard_format_Basic.pptx', 'blob_url': 'https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Template_Standard_format_Basic.pptx', 'png_uploads': [{'filename': 'Dickinson_Template_Standard_format_Basic_20251128150102.png', 'blob_url': 'https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Template_Standard_format_Basic/0_Dickinson_Template_Standard_format_Basic_20251128150102.png'}]}], 'message': 'Files uploaded successfully'}}
+2025-11-28 15:01:11,184 - watchfiles.main - INFO - 1 change detected
+2025-11-28 15:03:43,988 - root - INFO - Rate limiting check for client: 127.0.0.1
+2025-11-28 15:03:43,998 - root - INFO - Received assessment request: hey there
+2025-11-28 15:03:43,998 - root - INFO - Assessment request received - prompt='hey there'
+2025-11-28 15:03:44,035 - root - INFO - Assessment processed successfully: {'message': 'Assessment processed for prompt: hey there', 'upload_info': None}
+2025-11-28 15:04:14,127 - root - INFO - Rate limiting check for client: 127.0.0.1
+2025-11-28 15:04:14,147 - root - INFO - Received assessment request: again with files here
+2025-11-28 15:04:14,148 - root - INFO - Assessment request received - prompt='again with files here'
+2025-11-28 15:04:14,172 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://stwu3mahaaya.blob.core.windows.net/newfiles?restype=REDACTED'
+Request method: 'PUT'
+Request headers:
+    'x-ms-version': 'REDACTED'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.27.0 Python/3.9.6 (macOS-15.6-arm64-arm-64bit)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '6701b338-cc3d-11f0-89bf-0e3386e78eb4'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+2025-11-28 15:04:15,103 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 409
+Response headers:
+    'Content-Length': '230'
+    'Content-Type': 'application/xml'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '646641ec-601e-0089-7b4a-606024000000'
+    'x-ms-client-request-id': '6701b338-cc3d-11f0-89bf-0e3386e78eb4'
+    'x-ms-version': 'REDACTED'
+    'x-ms-error-code': 'ContainerAlreadyExists'
+    'Date': 'Fri, 28 Nov 2025 09:34:14 GMT'
+2025-11-28 15:04:15,107 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Template_Standard_format_Basic.pptx'
+Request method: 'PUT'
+Request headers:
+    'Content-Length': '407565'
+    'x-ms-meta-content_type': 'REDACTED'
+    'x-ms-blob-type': 'REDACTED'
+    'x-ms-version': 'REDACTED'
+    'Content-Type': 'application/octet-stream'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.27.0 Python/3.9.6 (macOS-15.6-arm64-arm-64bit)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '67904a12-cc3d-11f0-89bf-0e3386e78eb4'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+2025-11-28 15:04:16,451 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 201
+Response headers:
+    'Content-Length': '0'
+    'Content-MD5': 'REDACTED'
+    'Last-Modified': 'Fri, 28 Nov 2025 09:34:16 GMT'
+    'Etag': '"0x8DE2E614C788EF8"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '64664255-601e-0089-464a-606024000000'
+    'x-ms-client-request-id': '67904a12-cc3d-11f0-89bf-0e3386e78eb4'
+    'x-ms-version': 'REDACTED'
+    'x-ms-content-crc64': 'REDACTED'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'Date': 'Fri, 28 Nov 2025 09:34:15 GMT'
+2025-11-28 15:04:16,454 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Template_basic.pptx'
+Request method: 'PUT'
+Request headers:
+    'Content-Length': '408137'
+    'x-ms-meta-content_type': 'REDACTED'
+    'x-ms-blob-type': 'REDACTED'
+    'x-ms-version': 'REDACTED'
+    'Content-Type': 'application/octet-stream'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.27.0 Python/3.9.6 (macOS-15.6-arm64-arm-64bit)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '685dd69e-cc3d-11f0-89bf-0e3386e78eb4'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+2025-11-28 15:04:16,941 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 201
+Response headers:
+    'Content-Length': '0'
+    'Content-MD5': 'REDACTED'
+    'Last-Modified': 'Fri, 28 Nov 2025 09:34:16 GMT'
+    'Etag': '"0x8DE2E614CCC8D18"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '64664324-601e-0089-7b4a-606024000000'
+    'x-ms-client-request-id': '685dd69e-cc3d-11f0-89bf-0e3386e78eb4'
+    'x-ms-version': 'REDACTED'
+    'x-ms-content-crc64': 'REDACTED'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'Date': 'Fri, 28 Nov 2025 09:34:16 GMT'
+2025-11-28 15:04:16,944 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Template_white.pptx'
+Request method: 'PUT'
+Request headers:
+    'Content-Length': '43804'
+    'x-ms-meta-content_type': 'REDACTED'
+    'x-ms-blob-type': 'REDACTED'
+    'x-ms-version': 'REDACTED'
+    'Content-Type': 'application/octet-stream'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.27.0 Python/3.9.6 (macOS-15.6-arm64-arm-64bit)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '68a8b09c-cc3d-11f0-89bf-0e3386e78eb4'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+2025-11-28 15:04:17,221 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 201
+Response headers:
+    'Content-Length': '0'
+    'Content-MD5': 'REDACTED'
+    'Last-Modified': 'Fri, 28 Nov 2025 09:34:17 GMT'
+    'Etag': '"0x8DE2E614CF23900"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '64664398-601e-0089-584a-606024000000'
+    'x-ms-client-request-id': '68a8b09c-cc3d-11f0-89bf-0e3386e78eb4'
+    'x-ms-version': 'REDACTED'
+    'x-ms-content-crc64': 'REDACTED'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'Date': 'Fri, 28 Nov 2025 09:34:16 GMT'
+2025-11-28 15:04:17,223 - root - INFO - Closing BlobServiceClient
+2025-11-28 15:04:17,224 - root - INFO - Downloading and processing file from blob url: https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Template_Standard_format_Basic.pptx
+2025-11-28 15:04:17,224 - root - INFO - Processing file: Dickinson_Template_Standard_format_Basic.pptx from blob url: https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Template_Standard_format_Basic.pptx
+2025-11-28 15:04:17,224 - root - INFO - Downloading blob from https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Template_Standard_format_Basic.pptx
+2025-11-28 15:04:17,225 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Template_Standard_format_Basic.pptx'
+Request method: 'GET'
+Request headers:
+    'x-ms-range': 'REDACTED'
+    'x-ms-version': 'REDACTED'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.27.0 Python/3.9.6 (macOS-15.6-arm64-arm-64bit)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '68d3a586-cc3d-11f0-89bf-0e3386e78eb4'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+2025-11-28 15:04:17,309 - watchfiles.main - INFO - 1 change detected
+2025-11-28 15:04:18,326 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 206
+Response headers:
+    'Content-Length': '407565'
+    'Content-Type': 'application/octet-stream'
+    'Content-Range': 'REDACTED'
+    'Last-Modified': 'Fri, 28 Nov 2025 09:34:16 GMT'
+    'Accept-Ranges': 'REDACTED'
+    'Etag': '"0x8DE2E614C788EF8"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '23e94a6f-501e-0004-3e4a-6057f6000000'
+    'x-ms-client-request-id': '68d3a586-cc3d-11f0-89bf-0e3386e78eb4'
+    'x-ms-version': 'REDACTED'
+    'x-ms-resource-type': 'REDACTED'
+    'x-ms-meta-content_type': 'REDACTED'
+    'x-ms-creation-time': 'REDACTED'
+    'x-ms-blob-content-md5': 'REDACTED'
+    'x-ms-lease-status': 'REDACTED'
+    'x-ms-lease-state': 'REDACTED'
+    'x-ms-blob-type': 'REDACTED'
+    'x-ms-server-encrypted': 'REDACTED'
+    'x-ms-owner': 'REDACTED'
+    'x-ms-group': 'REDACTED'
+    'x-ms-permissions': 'REDACTED'
+    'x-ms-acl': 'REDACTED'
+    'Date': 'Fri, 28 Nov 2025 09:34:17 GMT'
+2025-11-28 15:04:19,322 - root - INFO - Downloaded blob from https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Template_Standard_format_Basic.pptx to local path /Users/aravind/Documents/GitHub/assessment-bot/app/tempfiles/Dickinson_Template_Standard_format_Basic/Dickinson_Template_Standard_format_Basic_20251128150417.pptx
+2025-11-28 15:04:19,323 - root - INFO - Closing BlobServiceClient
+2025-11-28 15:04:19,323 - root - INFO - Downloaded file to local path: /Users/aravind/Documents/GitHub/assessment-bot/app/tempfiles/Dickinson_Template_Standard_format_Basic/Dickinson_Template_Standard_format_Basic_20251128150417.pptx
+2025-11-28 15:04:19,324 - root - INFO - Local ppt file path: /Users/aravind/Documents/GitHub/assessment-bot/app/tempfiles/Dickinson_Template_Standard_format_Basic/Dickinson_Template_Standard_format_Basic_20251128150417.pptx - Dickinson_Template_Standard_format_Basic
+2025-11-28 15:04:19,324 - root - INFO - Output directory for PNGs: /Users/aravind/Documents/GitHub/assessment-bot/app/tempfiles/Dickinson_Template_Standard_format_Basic/slides
+2025-11-28 15:04:19,324 - root - INFO - Running command: /Applications/LibreOffice.app/Contents/MacOS/soffice --headless --invisible --nologo --nodefault --nofirststartwizard --convert-to png --outdir /Users/aravind/Documents/GitHub/assessment-bot/app/tempfiles/Dickinson_Template_Standard_format_Basic/slides /Users/aravind/Documents/GitHub/assessment-bot/app/tempfiles/Dickinson_Template_Standard_format_Basic/Dickinson_Template_Standard_format_Basic_20251128150417.pptx
+2025-11-28 15:04:19,396 - watchfiles.main - INFO - 1 change detected
+2025-11-28 15:04:21,575 - watchfiles.main - INFO - 1 change detected
+2025-11-28 15:04:21,940 - watchfiles.main - INFO - 6 changes detected
+2025-11-28 15:04:23,988 - root - INFO - Converted PPT to PNGs at: /Users/aravind/Documents/GitHub/assessment-bot/app/tempfiles/Dickinson_Template_Standard_format_Basic/slides
+2025-11-28 15:04:23,989 - root - INFO - uploading pngs from directory: /Users/aravind/Documents/GitHub/assessment-bot/app/tempfiles/Dickinson_Template_Standard_format_Basic/slides - under file: Dickinson_Template_Standard_format_Basic
+2025-11-28 15:04:23,990 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://stwu3mahaaya.blob.core.windows.net/newfiles?restype=REDACTED'
+Request method: 'PUT'
+Request headers:
+    'x-ms-version': 'REDACTED'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.27.0 Python/3.9.6 (macOS-15.6-arm64-arm-64bit)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '6cdbcb04-cc3d-11f0-89bf-0e3386e78eb4'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+2025-11-28 15:04:25,157 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 409
+Response headers:
+    'Content-Length': '230'
+    'Content-Type': 'application/xml'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '02ba8168-e01e-00f5-574a-604edb000000'
+    'x-ms-client-request-id': '6cdbcb04-cc3d-11f0-89bf-0e3386e78eb4'
+    'x-ms-version': 'REDACTED'
+    'x-ms-error-code': 'ContainerAlreadyExists'
+    'Date': 'Fri, 28 Nov 2025 09:34:24 GMT'
+2025-11-28 15:04:25,160 - root - INFO - Container newfiles may already exist: The specified container already exists.
+RequestId:02ba8168-e01e-00f5-574a-604edb000000
+Time:2025-11-28T09:34:25.0120921Z
+ErrorCode:ContainerAlreadyExists
+Content: <?xml version="1.0" encoding="utf-8"?><Error><Code>ContainerAlreadyExists</Code><Message>The specified container already exists.
+RequestId:02ba8168-e01e-00f5-574a-604edb000000
+Time:2025-11-28T09:34:25.0120921Z</Message></Error>
+2025-11-28 15:04:25,162 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Template_Standard_format_Basic/0_Dickinson_Template_Standard_format_Basic_20251128150102.png'
+Request method: 'PUT'
+Request headers:
+    'Content-Length': '48251'
+    'x-ms-blob-type': 'REDACTED'
+    'x-ms-version': 'REDACTED'
+    'Content-Type': 'application/octet-stream'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.27.0 Python/3.9.6 (macOS-15.6-arm64-arm-64bit)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '6d8e9f04-cc3d-11f0-89bf-0e3386e78eb4'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+2025-11-28 15:04:26,074 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 201
+Response headers:
+    'Content-Length': '0'
+    'Content-MD5': 'REDACTED'
+    'Last-Modified': 'Fri, 28 Nov 2025 09:34:25 GMT'
+    'Etag': '"0x8DE2E61523390EC"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '02ba820c-e01e-00f5-5c4a-604edb000000'
+    'x-ms-client-request-id': '6d8e9f04-cc3d-11f0-89bf-0e3386e78eb4'
+    'x-ms-version': 'REDACTED'
+    'x-ms-content-crc64': 'REDACTED'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'Date': 'Fri, 28 Nov 2025 09:34:24 GMT'
+2025-11-28 15:04:26,074 - root - INFO - Uploaded PNG blob: Dickinson_Template_Standard_format_Basic/0_Dickinson_Template_Standard_format_Basic_20251128150102.png to container: newfiles, blob url: https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Template_Standard_format_Basic/0_Dickinson_Template_Standard_format_Basic_20251128150102.png
+2025-11-28 15:04:26,075 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Template_Standard_format_Basic/1_Dickinson_Template_Standard_format_Basic_20251128150417.png'
+Request method: 'PUT'
+Request headers:
+    'Content-Length': '48251'
+    'x-ms-blob-type': 'REDACTED'
+    'x-ms-version': 'REDACTED'
+    'Content-Type': 'application/octet-stream'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.27.0 Python/3.9.6 (macOS-15.6-arm64-arm-64bit)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '6e1a0684-cc3d-11f0-89bf-0e3386e78eb4'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+2025-11-28 15:04:26,384 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 201
+Response headers:
+    'Content-Length': '0'
+    'Content-MD5': 'REDACTED'
+    'Last-Modified': 'Fri, 28 Nov 2025 09:34:26 GMT'
+    'Etag': '"0x8DE2E615262E6C4"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '02ba82a5-e01e-00f5-574a-604edb000000'
+    'x-ms-client-request-id': '6e1a0684-cc3d-11f0-89bf-0e3386e78eb4'
+    'x-ms-version': 'REDACTED'
+    'x-ms-content-crc64': 'REDACTED'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'Date': 'Fri, 28 Nov 2025 09:34:25 GMT'
+2025-11-28 15:04:26,386 - root - INFO - Uploaded PNG blob: Dickinson_Template_Standard_format_Basic/1_Dickinson_Template_Standard_format_Basic_20251128150417.png to container: newfiles, blob url: https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Template_Standard_format_Basic/1_Dickinson_Template_Standard_format_Basic_20251128150417.png
+2025-11-28 15:04:26,387 - root - INFO - Uploaded PNG files to blob storage: [{'filename': 'Dickinson_Template_Standard_format_Basic_20251128150102.png', 'blob_url': 'https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Template_Standard_format_Basic/0_Dickinson_Template_Standard_format_Basic_20251128150102.png'}, {'filename': 'Dickinson_Template_Standard_format_Basic_20251128150417.png', 'blob_url': 'https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Template_Standard_format_Basic/1_Dickinson_Template_Standard_format_Basic_20251128150417.png'}]
+2025-11-28 15:04:26,387 - root - INFO - Removed local file: /Users/aravind/Documents/GitHub/assessment-bot/app/tempfiles/Dickinson_Template_Standard_format_Basic/Dickinson_Template_Standard_format_Basic_20251128150417.pptx
+2025-11-28 15:04:26,387 - root - INFO - Downloading and processing file from blob url: https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Template_basic.pptx
+2025-11-28 15:04:26,388 - root - INFO - Processing file: Dickinson_Template_basic.pptx from blob url: https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Template_basic.pptx
+2025-11-28 15:04:26,388 - root - INFO - Downloading blob from https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Template_basic.pptx
+2025-11-28 15:04:26,391 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Template_basic.pptx'
+Request method: 'GET'
+Request headers:
+    'x-ms-range': 'REDACTED'
+    'x-ms-version': 'REDACTED'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.27.0 Python/3.9.6 (macOS-15.6-arm64-arm-64bit)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '6e4a1fc2-cc3d-11f0-89bf-0e3386e78eb4'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+2025-11-28 15:04:26,490 - watchfiles.main - INFO - 3 changes detected
+2025-11-28 15:04:27,380 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 206
+Response headers:
+    'Content-Length': '408137'
+    'Content-Type': 'application/octet-stream'
+    'Content-Range': 'REDACTED'
+    'Last-Modified': 'Fri, 28 Nov 2025 09:34:16 GMT'
+    'Accept-Ranges': 'REDACTED'
+    'Etag': '"0x8DE2E614CCC8D18"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': 'e2b237eb-f01e-0102-244a-609a44000000'
+    'x-ms-client-request-id': '6e4a1fc2-cc3d-11f0-89bf-0e3386e78eb4'
+    'x-ms-version': 'REDACTED'
+    'x-ms-resource-type': 'REDACTED'
+    'x-ms-meta-content_type': 'REDACTED'
+    'x-ms-creation-time': 'REDACTED'
+    'x-ms-blob-content-md5': 'REDACTED'
+    'x-ms-lease-status': 'REDACTED'
+    'x-ms-lease-state': 'REDACTED'
+    'x-ms-blob-type': 'REDACTED'
+    'x-ms-server-encrypted': 'REDACTED'
+    'x-ms-owner': 'REDACTED'
+    'x-ms-group': 'REDACTED'
+    'x-ms-permissions': 'REDACTED'
+    'x-ms-acl': 'REDACTED'
+    'Date': 'Fri, 28 Nov 2025 09:34:27 GMT'
+2025-11-28 15:04:28,288 - root - INFO - Downloaded blob from https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Template_basic.pptx to local path /Users/aravind/Documents/GitHub/assessment-bot/app/tempfiles/Dickinson_Template_basic/Dickinson_Template_basic_20251128150426.pptx
+2025-11-28 15:04:28,289 - root - INFO - Closing BlobServiceClient
+2025-11-28 15:04:28,289 - root - INFO - Downloaded file to local path: /Users/aravind/Documents/GitHub/assessment-bot/app/tempfiles/Dickinson_Template_basic/Dickinson_Template_basic_20251128150426.pptx
+2025-11-28 15:04:28,289 - root - INFO - Local ppt file path: /Users/aravind/Documents/GitHub/assessment-bot/app/tempfiles/Dickinson_Template_basic/Dickinson_Template_basic_20251128150426.pptx - Dickinson_Template_basic
+2025-11-28 15:04:28,289 - root - INFO - Output directory for PNGs: /Users/aravind/Documents/GitHub/assessment-bot/app/tempfiles/Dickinson_Template_basic/slides
+2025-11-28 15:04:28,289 - root - INFO - Running command: /Applications/LibreOffice.app/Contents/MacOS/soffice --headless --invisible --nologo --nodefault --nofirststartwizard --convert-to png --outdir /Users/aravind/Documents/GitHub/assessment-bot/app/tempfiles/Dickinson_Template_basic/slides /Users/aravind/Documents/GitHub/assessment-bot/app/tempfiles/Dickinson_Template_basic/Dickinson_Template_basic_20251128150426.pptx
+2025-11-28 15:04:28,395 - watchfiles.main - INFO - 1 change detected
+2025-11-28 15:04:29,932 - watchfiles.main - INFO - 1 change detected
+2025-11-28 15:04:30,343 - watchfiles.main - INFO - 6 changes detected
+2025-11-28 15:04:32,353 - root - INFO - Converted PPT to PNGs at: /Users/aravind/Documents/GitHub/assessment-bot/app/tempfiles/Dickinson_Template_basic/slides
+2025-11-28 15:04:32,355 - root - INFO - uploading pngs from directory: /Users/aravind/Documents/GitHub/assessment-bot/app/tempfiles/Dickinson_Template_basic/slides - under file: Dickinson_Template_basic
+2025-11-28 15:04:32,356 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://stwu3mahaaya.blob.core.windows.net/newfiles?restype=REDACTED'
+Request method: 'PUT'
+Request headers:
+    'x-ms-version': 'REDACTED'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.27.0 Python/3.9.6 (macOS-15.6-arm64-arm-64bit)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '71d852b2-cc3d-11f0-89bf-0e3386e78eb4'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+2025-11-28 15:04:33,557 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 409
+Response headers:
+    'Content-Length': '230'
+    'Content-Type': 'application/xml'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': 'ce65327a-101e-0093-1e4a-6001fb000000'
+    'x-ms-client-request-id': '71d852b2-cc3d-11f0-89bf-0e3386e78eb4'
+    'x-ms-version': 'REDACTED'
+    'x-ms-error-code': 'ContainerAlreadyExists'
+    'Date': 'Fri, 28 Nov 2025 09:34:32 GMT'
+2025-11-28 15:04:33,558 - root - INFO - Container newfiles may already exist: The specified container already exists.
+RequestId:ce65327a-101e-0093-1e4a-6001fb000000
+Time:2025-11-28T09:34:33.3762317Z
+ErrorCode:ContainerAlreadyExists
+Content: <?xml version="1.0" encoding="utf-8"?><Error><Code>ContainerAlreadyExists</Code><Message>The specified container already exists.
+RequestId:ce65327a-101e-0093-1e4a-6001fb000000
+Time:2025-11-28T09:34:33.3762317Z</Message></Error>
+2025-11-28 15:04:33,560 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Template_basic/0_Dickinson_Template_basic_20251128150426.png'
+Request method: 'PUT'
+Request headers:
+    'Content-Length': '70159'
+    'x-ms-blob-type': 'REDACTED'
+    'x-ms-version': 'REDACTED'
+    'Content-Type': 'application/octet-stream'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.27.0 Python/3.9.6 (macOS-15.6-arm64-arm-64bit)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '7290194c-cc3d-11f0-89bf-0e3386e78eb4'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+2025-11-28 15:04:34,383 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 201
+Response headers:
+    'Content-Length': '0'
+    'Content-MD5': 'REDACTED'
+    'Last-Modified': 'Fri, 28 Nov 2025 09:34:34 GMT'
+    'Etag': '"0x8DE2E615724C6C8"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': 'ce653337-101e-0093-474a-6001fb000000'
+    'x-ms-client-request-id': '7290194c-cc3d-11f0-89bf-0e3386e78eb4'
+    'x-ms-version': 'REDACTED'
+    'x-ms-content-crc64': 'REDACTED'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'Date': 'Fri, 28 Nov 2025 09:34:33 GMT'
+2025-11-28 15:04:34,385 - root - INFO - Uploaded PNG blob: Dickinson_Template_basic/0_Dickinson_Template_basic_20251128150426.png to container: newfiles, blob url: https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Template_basic/0_Dickinson_Template_basic_20251128150426.png
+2025-11-28 15:04:34,387 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Template_basic/1_Dickinson_Template_basic_20251128145809.png'
+Request method: 'PUT'
+Request headers:
+    'Content-Length': '70159'
+    'x-ms-blob-type': 'REDACTED'
+    'x-ms-version': 'REDACTED'
+    'Content-Type': 'application/octet-stream'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.27.0 Python/3.9.6 (macOS-15.6-arm64-arm-64bit)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '730e4a24-cc3d-11f0-89bf-0e3386e78eb4'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+2025-11-28 15:04:34,850 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 201
+Response headers:
+    'Content-Length': '0'
+    'Content-MD5': 'REDACTED'
+    'Last-Modified': 'Fri, 28 Nov 2025 09:34:34 GMT'
+    'Etag': '"0x8DE2E615778A0E8"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': 'ce653407-101e-0093-034a-6001fb000000'
+    'x-ms-client-request-id': '730e4a24-cc3d-11f0-89bf-0e3386e78eb4'
+    'x-ms-version': 'REDACTED'
+    'x-ms-content-crc64': 'REDACTED'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'Date': 'Fri, 28 Nov 2025 09:34:33 GMT'
+2025-11-28 15:04:34,854 - root - INFO - Uploaded PNG blob: Dickinson_Template_basic/1_Dickinson_Template_basic_20251128145809.png to container: newfiles, blob url: https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Template_basic/1_Dickinson_Template_basic_20251128145809.png
+2025-11-28 15:04:34,858 - root - INFO - Uploaded PNG files to blob storage: [{'filename': 'Dickinson_Template_basic_20251128150426.png', 'blob_url': 'https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Template_basic/0_Dickinson_Template_basic_20251128150426.png'}, {'filename': 'Dickinson_Template_basic_20251128145809.png', 'blob_url': 'https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Template_basic/1_Dickinson_Template_basic_20251128145809.png'}]
+2025-11-28 15:04:34,859 - root - INFO - Removed local file: /Users/aravind/Documents/GitHub/assessment-bot/app/tempfiles/Dickinson_Template_basic/Dickinson_Template_basic_20251128150426.pptx
+2025-11-28 15:04:34,859 - root - INFO - Downloading and processing file from blob url: https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Template_white.pptx
+2025-11-28 15:04:34,860 - root - INFO - Processing file: Dickinson_Template_white.pptx from blob url: https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Template_white.pptx
+2025-11-28 15:04:34,861 - root - INFO - Downloading blob from https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Template_white.pptx
+2025-11-28 15:04:34,863 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Template_white.pptx'
+Request method: 'GET'
+Request headers:
+    'x-ms-range': 'REDACTED'
+    'x-ms-version': 'REDACTED'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.27.0 Python/3.9.6 (macOS-15.6-arm64-arm-64bit)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '7356ddde-cc3d-11f0-89bf-0e3386e78eb4'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+2025-11-28 15:04:34,940 - watchfiles.main - INFO - 3 changes detected
+2025-11-28 15:04:36,008 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 206
+Response headers:
+    'Content-Length': '43804'
+    'Content-Type': 'application/octet-stream'
+    'Content-Range': 'REDACTED'
+    'Last-Modified': 'Fri, 28 Nov 2025 09:34:17 GMT'
+    'Accept-Ranges': 'REDACTED'
+    'Etag': '"0x8DE2E614CF23900"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': 'a109ddcb-401e-0027-234a-60cd35000000'
+    'x-ms-client-request-id': '7356ddde-cc3d-11f0-89bf-0e3386e78eb4'
+    'x-ms-version': 'REDACTED'
+    'x-ms-resource-type': 'REDACTED'
+    'x-ms-meta-content_type': 'REDACTED'
+    'x-ms-creation-time': 'REDACTED'
+    'x-ms-blob-content-md5': 'REDACTED'
+    'x-ms-lease-status': 'REDACTED'
+    'x-ms-lease-state': 'REDACTED'
+    'x-ms-blob-type': 'REDACTED'
+    'x-ms-server-encrypted': 'REDACTED'
+    'x-ms-owner': 'REDACTED'
+    'x-ms-group': 'REDACTED'
+    'x-ms-permissions': 'REDACTED'
+    'x-ms-acl': 'REDACTED'
+    'Date': 'Fri, 28 Nov 2025 09:34:35 GMT'
+2025-11-28 15:04:36,230 - root - INFO - Downloaded blob from https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Template_white.pptx to local path /Users/aravind/Documents/GitHub/assessment-bot/app/tempfiles/Dickinson_Template_white/Dickinson_Template_white_20251128150434.pptx
+2025-11-28 15:04:36,231 - root - INFO - Closing BlobServiceClient
+2025-11-28 15:04:36,231 - root - INFO - Downloaded file to local path: /Users/aravind/Documents/GitHub/assessment-bot/app/tempfiles/Dickinson_Template_white/Dickinson_Template_white_20251128150434.pptx
+2025-11-28 15:04:36,232 - root - INFO - Local ppt file path: /Users/aravind/Documents/GitHub/assessment-bot/app/tempfiles/Dickinson_Template_white/Dickinson_Template_white_20251128150434.pptx - Dickinson_Template_white
+2025-11-28 15:04:36,232 - root - INFO - Output directory for PNGs: /Users/aravind/Documents/GitHub/assessment-bot/app/tempfiles/Dickinson_Template_white/slides
+2025-11-28 15:04:36,232 - root - INFO - Running command: /Applications/LibreOffice.app/Contents/MacOS/soffice --headless --invisible --nologo --nodefault --nofirststartwizard --convert-to png --outdir /Users/aravind/Documents/GitHub/assessment-bot/app/tempfiles/Dickinson_Template_white/slides /Users/aravind/Documents/GitHub/assessment-bot/app/tempfiles/Dickinson_Template_white/Dickinson_Template_white_20251128150434.pptx
+2025-11-28 15:04:36,318 - watchfiles.main - INFO - 2 changes detected
+2025-11-28 15:04:37,540 - watchfiles.main - INFO - 1 change detected
+2025-11-28 15:04:37,904 - watchfiles.main - INFO - 6 changes detected
+2025-11-28 15:04:37,928 - root - INFO - Converted PPT to PNGs at: /Users/aravind/Documents/GitHub/assessment-bot/app/tempfiles/Dickinson_Template_white/slides
+2025-11-28 15:04:37,929 - root - INFO - uploading pngs from directory: /Users/aravind/Documents/GitHub/assessment-bot/app/tempfiles/Dickinson_Template_white/slides - under file: Dickinson_Template_white
+2025-11-28 15:04:37,930 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://stwu3mahaaya.blob.core.windows.net/newfiles?restype=REDACTED'
+Request method: 'PUT'
+Request headers:
+    'x-ms-version': 'REDACTED'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.27.0 Python/3.9.6 (macOS-15.6-arm64-arm-64bit)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '752ad48a-cc3d-11f0-89bf-0e3386e78eb4'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+2025-11-28 15:04:39,081 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 409
+Response headers:
+    'Content-Length': '230'
+    'Content-Type': 'application/xml'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '43cd5427-b01e-00a5-524a-608c8b000000'
+    'x-ms-client-request-id': '752ad48a-cc3d-11f0-89bf-0e3386e78eb4'
+    'x-ms-version': 'REDACTED'
+    'x-ms-error-code': 'ContainerAlreadyExists'
+    'Date': 'Fri, 28 Nov 2025 09:34:38 GMT'
+2025-11-28 15:04:39,083 - root - INFO - Container newfiles may already exist: The specified container already exists.
+RequestId:43cd5427-b01e-00a5-524a-608c8b000000
+Time:2025-11-28T09:34:38.9248465Z
+ErrorCode:ContainerAlreadyExists
+Content: <?xml version="1.0" encoding="utf-8"?><Error><Code>ContainerAlreadyExists</Code><Message>The specified container already exists.
+RequestId:43cd5427-b01e-00a5-524a-608c8b000000
+Time:2025-11-28T09:34:38.9248465Z</Message></Error>
+2025-11-28 15:04:39,086 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Template_white/0_Dickinson_Template_white_20251128150434.png'
+Request method: 'PUT'
+Request headers:
+    'Content-Length': '3232'
+    'x-ms-blob-type': 'REDACTED'
+    'x-ms-version': 'REDACTED'
+    'Content-Type': 'application/octet-stream'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.27.0 Python/3.9.6 (macOS-15.6-arm64-arm-64bit)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '75db371c-cc3d-11f0-89bf-0e3386e78eb4'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+2025-11-28 15:04:39,388 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 201
+Response headers:
+    'Content-Length': '0'
+    'Content-MD5': 'REDACTED'
+    'Last-Modified': 'Fri, 28 Nov 2025 09:34:39 GMT'
+    'Etag': '"0x8DE2E615A26C4DC"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '43cd5464-b01e-00a5-7e4a-608c8b000000'
+    'x-ms-client-request-id': '75db371c-cc3d-11f0-89bf-0e3386e78eb4'
+    'x-ms-version': 'REDACTED'
+    'x-ms-content-crc64': 'REDACTED'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'Date': 'Fri, 28 Nov 2025 09:34:38 GMT'
+2025-11-28 15:04:39,388 - root - INFO - Uploaded PNG blob: Dickinson_Template_white/0_Dickinson_Template_white_20251128150434.png to container: newfiles, blob url: https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Template_white/0_Dickinson_Template_white_20251128150434.png
+2025-11-28 15:04:39,390 - root - INFO - Uploaded PNG files to blob storage: [{'filename': 'Dickinson_Template_white_20251128150434.png', 'blob_url': 'https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Template_white/0_Dickinson_Template_white_20251128150434.png'}]
+2025-11-28 15:04:39,390 - root - INFO - Removed local file: /Users/aravind/Documents/GitHub/assessment-bot/app/tempfiles/Dickinson_Template_white/Dickinson_Template_white_20251128150434.pptx
+2025-11-28 15:04:39,391 - root - INFO - Assessment processed successfully: {'message': 'Assessment processed for prompt: again with files here', 'upload_info': {'uploaded_files': [{'filename': 'Dickinson_Template_Standard_format_Basic.pptx', 'blob_url': 'https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Template_Standard_format_Basic.pptx', 'png_uploads': [{'filename': 'Dickinson_Template_Standard_format_Basic_20251128150102.png', 'blob_url': 'https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Template_Standard_format_Basic/0_Dickinson_Template_Standard_format_Basic_20251128150102.png'}, {'filename': 'Dickinson_Template_Standard_format_Basic_20251128150417.png', 'blob_url': 'https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Template_Standard_format_Basic/1_Dickinson_Template_Standard_format_Basic_20251128150417.png'}]}, {'filename': 'Dickinson_Template_basic.pptx', 'blob_url': 'https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Template_basic.pptx', 'png_uploads': [{'filename': 'Dickinson_Template_basic_20251128150426.png', 'blob_url': 'https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Template_basic/0_Dickinson_Template_basic_20251128150426.png'}, {'filename': 'Dickinson_Template_basic_20251128145809.png', 'blob_url': 'https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Template_basic/1_Dickinson_Template_basic_20251128145809.png'}]}, {'filename': 'Dickinson_Template_white.pptx', 'blob_url': 'https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Template_white.pptx', 'png_uploads': [{'filename': 'Dickinson_Template_white_20251128150434.png', 'blob_url': 'https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Template_white/0_Dickinson_Template_white_20251128150434.png'}]}], 'message': 'Files uploaded successfully'}}
+2025-11-28 15:04:39,472 - watchfiles.main - INFO - 2 changes detected
+2025-11-28 15:29:23,725 - watchfiles.main - INFO - 1 change detected
+2025-11-28 15:29:24,096 - watchfiles.main - INFO - 3 changes detected
+2025-11-28 15:29:24,518 - watchfiles.main - INFO - 4 changes detected
+2025-11-28 15:58:13,317 - watchfiles.main - INFO - 1 change detected
+2025-11-28 15:58:13,806 - watchfiles.main - INFO - 1 change detected
+2025-11-28 16:01:16,192 - watchfiles.main - INFO - 1 change detected
+2025-11-28 16:01:16,825 - watchfiles.main - INFO - 3 changes detected
+2025-11-28 16:01:17,400 - watchfiles.main - INFO - 4 changes detected
+2025-11-28 16:10:18,406 - watchfiles.main - INFO - 1 change detected
+2025-11-28 16:10:20,212 - watchfiles.main - INFO - 1 change detected
+2025-11-28 16:10:22,761 - watchfiles.main - INFO - 1 change detected
+2025-11-28 16:10:29,004 - watchfiles.main - INFO - 1 change detected
+2025-11-28 16:10:56,142 - watchfiles.main - INFO - 1 change detected
+2025-11-28 16:11:28,847 - watchfiles.main - INFO - 1 change detected
+2025-11-28 16:12:41,457 - root - INFO - Rate limiting check for client: 127.0.0.1
+2025-11-28 16:12:41,469 - root - INFO - Received assessment request: healthy kutta?
+2025-11-28 16:12:41,473 - root - INFO - Assessment request received - prompt='healthy kutta?'
+2025-11-28 16:12:41,520 - root - INFO - Assessment processed successfully: {'message': 'Assessment processed for prompt: healthy kutta?', 'upload_info': None}
+2025-11-28 16:13:02,814 - root - INFO - Rate limiting check for client: 127.0.0.1
+2025-11-28 16:13:02,823 - root - INFO - Received assessment request: madhuram idave vendam
+2025-11-28 16:13:02,824 - root - INFO - Assessment request received - prompt='madhuram idave vendam'
+2025-11-28 16:13:02,872 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://stwu3mahaaya.blob.core.windows.net/newfiles?restype=REDACTED'
+Request method: 'PUT'
+Request headers:
+    'x-ms-version': 'REDACTED'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.27.0 Python/3.9.6 (macOS-15.6-arm64-arm-64bit)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '03e7411e-cc47-11f0-97f3-0e3386e78eb4'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+2025-11-28 16:13:03,936 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 409
+Response headers:
+    'Content-Length': '230'
+    'Content-Type': 'application/xml'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '43fb12f0-301e-0084-5953-60a8f0000000'
+    'x-ms-client-request-id': '03e7411e-cc47-11f0-97f3-0e3386e78eb4'
+    'x-ms-version': 'REDACTED'
+    'x-ms-error-code': 'ContainerAlreadyExists'
+    'Date': 'Fri, 28 Nov 2025 10:43:03 GMT'
+2025-11-28 16:13:03,939 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Sample_Slides.pptx'
+Request method: 'PUT'
+Request headers:
+    'Content-Length': '647237'
+    'x-ms-meta-content_type': 'REDACTED'
+    'x-ms-blob-type': 'REDACTED'
+    'x-ms-version': 'REDACTED'
+    'Content-Type': 'application/octet-stream'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.27.0 Python/3.9.6 (macOS-15.6-arm64-arm-64bit)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '048a2a3c-cc47-11f0-97f3-0e3386e78eb4'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+2025-11-28 16:13:05,780 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 201
+Response headers:
+    'Content-Length': '0'
+    'Content-MD5': 'REDACTED'
+    'Last-Modified': 'Fri, 28 Nov 2025 10:43:05 GMT'
+    'Etag': '"0x8DE2E6AE9BF5B70"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '43fb1399-301e-0084-6f53-60a8f0000000'
+    'x-ms-client-request-id': '048a2a3c-cc47-11f0-97f3-0e3386e78eb4'
+    'x-ms-version': 'REDACTED'
+    'x-ms-content-crc64': 'REDACTED'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'Date': 'Fri, 28 Nov 2025 10:43:04 GMT'
+2025-11-28 16:13:05,782 - root - INFO - Closing BlobServiceClient
+2025-11-28 16:13:05,783 - root - INFO - Downloading and processing file from blob url: https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Sample_Slides.pptx
+2025-11-28 16:13:05,783 - root - INFO - Processing file: Dickinson_Sample_Slides.pptx from blob url: https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Sample_Slides.pptx
+2025-11-28 16:13:05,785 - root - INFO - Downloading blob from https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Sample_Slides.pptx
+2025-11-28 16:13:05,786 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Sample_Slides.pptx'
+Request method: 'GET'
+Request headers:
+    'x-ms-range': 'REDACTED'
+    'x-ms-version': 'REDACTED'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.27.0 Python/3.9.6 (macOS-15.6-arm64-arm-64bit)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '05a40140-cc47-11f0-97f3-0e3386e78eb4'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+2025-11-28 16:13:05,874 - watchfiles.main - INFO - 2 changes detected
+2025-11-28 16:13:06,711 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 206
+Response headers:
+    'Content-Length': '647237'
+    'Content-Type': 'application/octet-stream'
+    'Content-Range': 'REDACTED'
+    'Last-Modified': 'Fri, 28 Nov 2025 10:43:05 GMT'
+    'Accept-Ranges': 'REDACTED'
+    'Etag': '"0x8DE2E6AE9BF5B70"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '83d53283-901e-00a2-4c53-60e0e8000000'
+    'x-ms-client-request-id': '05a40140-cc47-11f0-97f3-0e3386e78eb4'
+    'x-ms-version': 'REDACTED'
+    'x-ms-resource-type': 'REDACTED'
+    'x-ms-meta-content_type': 'REDACTED'
+    'x-ms-creation-time': 'REDACTED'
+    'x-ms-blob-content-md5': 'REDACTED'
+    'x-ms-lease-status': 'REDACTED'
+    'x-ms-lease-state': 'REDACTED'
+    'x-ms-blob-type': 'REDACTED'
+    'x-ms-server-encrypted': 'REDACTED'
+    'x-ms-owner': 'REDACTED'
+    'x-ms-group': 'REDACTED'
+    'x-ms-permissions': 'REDACTED'
+    'x-ms-acl': 'REDACTED'
+    'Date': 'Fri, 28 Nov 2025 10:43:06 GMT'
+2025-11-28 16:13:08,576 - root - INFO - Downloaded blob from https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Sample_Slides.pptx to local path /Users/aravind/Documents/GitHub/assessment-bot/app/tempfiles/Dickinson_Sample_Slides/Dickinson_Sample_Slides_20251128161305.pptx
+2025-11-28 16:13:08,577 - root - INFO - Closing BlobServiceClient
+2025-11-28 16:13:08,577 - root - INFO - Downloaded file to local path: /Users/aravind/Documents/GitHub/assessment-bot/app/tempfiles/Dickinson_Sample_Slides/Dickinson_Sample_Slides_20251128161305.pptx
+2025-11-28 16:13:08,577 - root - INFO - Local ppt file path: /Users/aravind/Documents/GitHub/assessment-bot/app/tempfiles/Dickinson_Sample_Slides/Dickinson_Sample_Slides_20251128161305.pptx - Dickinson_Sample_Slides
+2025-11-28 16:13:08,577 - root - INFO - Output directory for PNGs: /Users/aravind/Documents/GitHub/assessment-bot/app/tempfiles/Dickinson_Sample_Slides/slides
+2025-11-28 16:13:08,578 - root - INFO - Running command: /Applications/LibreOffice.app/Contents/MacOS/soffice --headless --invisible --nologo --nodefault --nofirststartwizard --convert-to png --outdir /Users/aravind/Documents/GitHub/assessment-bot/app/tempfiles/Dickinson_Sample_Slides/slides /Users/aravind/Documents/GitHub/assessment-bot/app/tempfiles/Dickinson_Sample_Slides/Dickinson_Sample_Slides_20251128161305.pptx
+2025-11-28 16:13:08,646 - watchfiles.main - INFO - 2 changes detected
+2025-11-28 16:13:10,865 - watchfiles.main - INFO - 1 change detected
+2025-11-28 16:13:11,225 - watchfiles.main - INFO - 6 changes detected
+2025-11-28 16:13:13,267 - root - INFO - Converted PPT to PNGs at: /Users/aravind/Documents/GitHub/assessment-bot/app/tempfiles/Dickinson_Sample_Slides/slides
+2025-11-28 16:13:13,268 - root - INFO - uploading pngs from directory: /Users/aravind/Documents/GitHub/assessment-bot/app/tempfiles/Dickinson_Sample_Slides/slides - under file: Dickinson_Sample_Slides
+2025-11-28 16:13:13,269 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://stwu3mahaaya.blob.core.windows.net/newfiles?restype=REDACTED'
+Request method: 'PUT'
+Request headers:
+    'x-ms-version': 'REDACTED'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.27.0 Python/3.9.6 (macOS-15.6-arm64-arm-64bit)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '0a19be04-cc47-11f0-97f3-0e3386e78eb4'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+2025-11-28 16:13:14,276 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 409
+Response headers:
+    'Content-Length': '230'
+    'Content-Type': 'application/xml'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '40ab3a8a-601e-000f-6653-60ac9d000000'
+    'x-ms-client-request-id': '0a19be04-cc47-11f0-97f3-0e3386e78eb4'
+    'x-ms-version': 'REDACTED'
+    'x-ms-error-code': 'ContainerAlreadyExists'
+    'Date': 'Fri, 28 Nov 2025 10:43:13 GMT'
+2025-11-28 16:13:14,278 - root - INFO - Container newfiles may already exist: The specified container already exists.
+RequestId:40ab3a8a-601e-000f-6653-60ac9d000000
+Time:2025-11-28T10:43:14.1067463Z
+ErrorCode:ContainerAlreadyExists
+Content: <?xml version="1.0" encoding="utf-8"?><Error><Code>ContainerAlreadyExists</Code><Message>The specified container already exists.
+RequestId:40ab3a8a-601e-000f-6653-60ac9d000000
+Time:2025-11-28T10:43:14.1067463Z</Message></Error>
+2025-11-28 16:13:14,280 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Sample_Slides/0_Dickinson_Sample_Slides_20251128161305.png'
+Request method: 'PUT'
+Request headers:
+    'Content-Length': '29883'
+    'x-ms-blob-type': 'REDACTED'
+    'x-ms-version': 'REDACTED'
+    'Content-Type': 'application/octet-stream'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.27.0 Python/3.9.6 (macOS-15.6-arm64-arm-64bit)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '0ab40644-cc47-11f0-97f3-0e3386e78eb4'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+2025-11-28 16:13:14,894 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 201
+Response headers:
+    'Content-Length': '0'
+    'Content-MD5': 'REDACTED'
+    'Last-Modified': 'Fri, 28 Nov 2025 10:43:14 GMT'
+    'Etag': '"0x8DE2E6AEF2C7124"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '40ab3b28-601e-000f-6753-60ac9d000000'
+    'x-ms-client-request-id': '0ab40644-cc47-11f0-97f3-0e3386e78eb4'
+    'x-ms-version': 'REDACTED'
+    'x-ms-content-crc64': 'REDACTED'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'Date': 'Fri, 28 Nov 2025 10:43:14 GMT'
+2025-11-28 16:13:14,895 - root - INFO - Uploaded PNG blob: Dickinson_Sample_Slides/0_Dickinson_Sample_Slides_20251128161305.png to container: newfiles, blob url: https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Sample_Slides/0_Dickinson_Sample_Slides_20251128161305.png
+2025-11-28 16:13:14,896 - root - INFO - Uploaded PNG files to blob storage: [{'filename': 'Dickinson_Sample_Slides_20251128161305.png', 'blob_url': 'https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Sample_Slides/0_Dickinson_Sample_Slides_20251128161305.png'}]
+2025-11-28 16:13:14,897 - root - INFO - Removed local file: /Users/aravind/Documents/GitHub/assessment-bot/app/tempfiles/Dickinson_Sample_Slides/Dickinson_Sample_Slides_20251128161305.pptx
+2025-11-28 16:13:14,897 - root - INFO - Assessment processed successfully: {'message': 'Assessment processed for prompt: madhuram idave vendam', 'upload_info': {'uploaded_files': [{'filename': 'Dickinson_Sample_Slides.pptx', 'blob_url': 'https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Sample_Slides.pptx', 'png_uploads': [{'filename': 'Dickinson_Sample_Slides_20251128161305.png', 'blob_url': 'https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Sample_Slides/0_Dickinson_Sample_Slides_20251128161305.png'}]}], 'message': 'Files uploaded successfully'}}
+2025-11-28 16:13:15,012 - watchfiles.main - INFO - 2 changes detected
+2025-11-28 16:14:36,712 - watchfiles.main - INFO - 1 change detected
+2025-11-28 16:15:22,493 - watchfiles.main - INFO - 1 change detected
+2025-11-28 16:15:34,472 - watchfiles.main - INFO - 1 change detected
+2025-11-28 16:15:37,671 - watchfiles.main - INFO - 1 change detected
+2025-11-28 16:20:03,380 - watchfiles.main - INFO - 1 change detected
+2025-11-28 16:20:41,519 - watchfiles.main - INFO - 3 changes detected
+2025-11-28 16:20:44,468 - watchfiles.main - INFO - 1 change detected
+2025-11-28 16:21:53,266 - watchfiles.main - INFO - 50 changes detected
+2025-11-28 16:22:00,414 - watchfiles.main - INFO - 5 changes detected
+2025-11-28 16:22:00,993 - watchfiles.main - INFO - 3 changes detected
+2025-11-28 16:22:01,561 - watchfiles.main - INFO - 4 changes detected
+2025-11-28 16:55:09,630 - watchfiles.main - INFO - 1 change detected
+2025-11-28 16:55:10,113 - watchfiles.main - INFO - 3 changes detected
+2025-11-28 16:55:10,687 - watchfiles.main - INFO - 4 changes detected
+2025-12-02 10:59:09,126 - root - INFO - Rate limiting check for client: 127.0.0.1
+2025-12-02 10:59:09,132 - root - ERROR - Redis error: Error 61 connecting to localhost:6379. Connection refused.
+2025-12-02 10:59:09,281 - root - INFO - Rate limiting check for client: 127.0.0.1
+2025-12-02 10:59:09,283 - root - ERROR - Redis error: Error 61 connecting to localhost:6379. Connection refused.
+2025-12-02 10:59:10,450 - root - INFO - Rate limiting check for client: 127.0.0.1
+2025-12-02 10:59:10,453 - root - ERROR - Redis error: Error 61 connecting to localhost:6379. Connection refused.
+2025-12-02 10:59:10,505 - root - INFO - Rate limiting check for client: 127.0.0.1
+2025-12-02 10:59:10,508 - root - ERROR - Redis error: Error 61 connecting to localhost:6379. Connection refused.
+2025-12-02 10:59:11,539 - root - INFO - Rate limiting check for client: 127.0.0.1
+2025-12-02 10:59:11,541 - root - ERROR - Redis error: Error 61 connecting to localhost:6379. Connection refused.
+2025-12-02 10:59:11,594 - root - INFO - Rate limiting check for client: 127.0.0.1
+2025-12-02 10:59:11,597 - root - ERROR - Redis error: Error 61 connecting to localhost:6379. Connection refused.
+2025-12-02 10:59:21,919 - root - INFO - Rate limiting check for client: 127.0.0.1
+2025-12-02 10:59:21,923 - root - ERROR - Redis error: Error 61 connecting to localhost:6379. Connection refused.
+2025-12-02 10:59:21,931 - root - INFO - Received assessment request: hi
+2025-12-02 10:59:21,932 - root - INFO - Assessment request received - prompt='hi'
+2025-12-02 10:59:21,980 - root - INFO - Assessment processed successfully: {'message': 'Assessment processed for prompt: hi', 'upload_info': None}
+2025-12-02 11:02:27,781 - root - INFO - Rate limiting check for client: 127.0.0.1
+2025-12-02 11:02:27,787 - root - ERROR - Redis error: Error 61 connecting to localhost:6379. Connection refused.
+2025-12-02 11:02:27,798 - root - INFO - Received assessment request: hi
+2025-12-02 11:02:27,799 - root - INFO - Assessment request received - prompt='hi'
+2025-12-02 11:02:27,831 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://stwu3mahaaya.blob.core.windows.net/newfiles?restype=REDACTED'
+Request method: 'PUT'
+Request headers:
+    'x-ms-version': 'REDACTED'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.27.0 Python/3.9.6 (macOS-15.6-arm64-arm-64bit)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '4a34a4e4-cf40-11f0-a7b6-0e3386e78eb4'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+2025-12-02 11:02:28,812 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 409
+Response headers:
+    'Content-Length': '230'
+    'Content-Type': 'application/xml'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '317fd081-701e-0003-054d-633b95000000'
+    'x-ms-client-request-id': '4a34a4e4-cf40-11f0-a7b6-0e3386e78eb4'
+    'x-ms-version': 'REDACTED'
+    'x-ms-error-code': 'ContainerAlreadyExists'
+    'Date': 'Tue, 02 Dec 2025 05:32:27 GMT'
+2025-12-02 11:02:28,819 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Template_Standard_format_Basic.pptx'
+Request method: 'PUT'
+Request headers:
+    'Content-Length': '407565'
+    'x-ms-meta-content_type': 'REDACTED'
+    'x-ms-blob-type': 'REDACTED'
+    'x-ms-version': 'REDACTED'
+    'Content-Type': 'application/octet-stream'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.27.0 Python/3.9.6 (macOS-15.6-arm64-arm-64bit)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '4acb71da-cf40-11f0-a7b6-0e3386e78eb4'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+2025-12-02 11:02:30,079 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 201
+Response headers:
+    'Content-Length': '0'
+    'Content-MD5': 'REDACTED'
+    'Last-Modified': 'Tue, 02 Dec 2025 05:32:29 GMT'
+    'Etag': '"0x8DE31642FAF6608"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '317fd1e2-701e-0003-274d-633b95000000'
+    'x-ms-client-request-id': '4acb71da-cf40-11f0-a7b6-0e3386e78eb4'
+    'x-ms-version': 'REDACTED'
+    'x-ms-content-crc64': 'REDACTED'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'Date': 'Tue, 02 Dec 2025 05:32:29 GMT'
+2025-12-02 11:02:30,081 - root - INFO - Closing BlobServiceClient
+2025-12-02 11:02:30,082 - root - INFO - Downloading and processing file from blob url: https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Template_Standard_format_Basic.pptx
+2025-12-02 11:02:30,082 - root - INFO - Processing file: Dickinson_Template_Standard_format_Basic.pptx from blob url: https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Template_Standard_format_Basic.pptx
+2025-12-02 11:02:30,083 - root - INFO - Downloading blob from https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Template_Standard_format_Basic.pptx
+2025-12-02 11:02:30,086 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Template_Standard_format_Basic.pptx'
+Request method: 'GET'
+Request headers:
+    'x-ms-range': 'REDACTED'
+    'x-ms-version': 'REDACTED'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.27.0 Python/3.9.6 (macOS-15.6-arm64-arm-64bit)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '4b8cccea-cf40-11f0-a7b6-0e3386e78eb4'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+2025-12-02 11:02:30,239 - watchfiles.main - INFO - 1 change detected
+2025-12-02 11:02:31,089 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 206
+Response headers:
+    'Content-Length': '407565'
+    'Content-Type': 'application/octet-stream'
+    'Content-Range': 'REDACTED'
+    'Last-Modified': 'Tue, 02 Dec 2025 05:32:29 GMT'
+    'Accept-Ranges': 'REDACTED'
+    'Etag': '"0x8DE31642FAF6608"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '415e4d5f-101e-0067-0d4d-63ca0d000000'
+    'x-ms-client-request-id': '4b8cccea-cf40-11f0-a7b6-0e3386e78eb4'
+    'x-ms-version': 'REDACTED'
+    'x-ms-resource-type': 'REDACTED'
+    'x-ms-meta-content_type': 'REDACTED'
+    'x-ms-creation-time': 'REDACTED'
+    'x-ms-blob-content-md5': 'REDACTED'
+    'x-ms-lease-status': 'REDACTED'
+    'x-ms-lease-state': 'REDACTED'
+    'x-ms-blob-type': 'REDACTED'
+    'x-ms-server-encrypted': 'REDACTED'
+    'x-ms-owner': 'REDACTED'
+    'x-ms-group': 'REDACTED'
+    'x-ms-permissions': 'REDACTED'
+    'x-ms-acl': 'REDACTED'
+    'Date': 'Tue, 02 Dec 2025 05:32:30 GMT'
+2025-12-02 11:02:32,188 - root - INFO - Downloaded blob from https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Template_Standard_format_Basic.pptx to local path /Users/aravind/Documents/GitHub/assessment-bot/app/tempfiles/Dickinson_Template_Standard_format_Basic/Dickinson_Template_Standard_format_Basic_20251202110230.pptx
+2025-12-02 11:02:32,190 - root - INFO - Closing BlobServiceClient
+2025-12-02 11:02:32,191 - root - INFO - Downloaded file to local path: /Users/aravind/Documents/GitHub/assessment-bot/app/tempfiles/Dickinson_Template_Standard_format_Basic/Dickinson_Template_Standard_format_Basic_20251202110230.pptx
+2025-12-02 11:02:32,191 - root - INFO - Local ppt file path: /Users/aravind/Documents/GitHub/assessment-bot/app/tempfiles/Dickinson_Template_Standard_format_Basic/Dickinson_Template_Standard_format_Basic_20251202110230.pptx - Dickinson_Template_Standard_format_Basic
+2025-12-02 11:02:32,191 - root - INFO - Output directory for PNGs: /Users/aravind/Documents/GitHub/assessment-bot/app/tempfiles/Dickinson_Template_Standard_format_Basic/slides
+2025-12-02 11:02:32,191 - root - INFO - Running command: /Applications/LibreOffice.app/Contents/MacOS/soffice --headless --invisible --nologo --nodefault --nofirststartwizard --convert-to pdf --outdir /Users/aravind/Documents/GitHub/assessment-bot/app/tempfiles/Dickinson_Template_Standard_format_Basic/slides /Users/aravind/Documents/GitHub/assessment-bot/app/tempfiles/Dickinson_Template_Standard_format_Basic/Dickinson_Template_Standard_format_Basic_20251202110230.pptx
+2025-12-02 11:02:32,288 - watchfiles.main - INFO - 1 change detected
+2025-12-02 11:02:34,721 - watchfiles.main - INFO - 6 changes detected
+2025-12-02 11:02:36,701 - root - INFO - Converted PPT stored at: /Users/aravind/Documents/GitHub/assessment-bot/app/tempfiles/Dickinson_Template_Standard_format_Basic/slides
+2025-12-02 11:02:36,702 - root - INFO - uploading pngs from directory: /Users/aravind/Documents/GitHub/assessment-bot/app/tempfiles/Dickinson_Template_Standard_format_Basic/slides - under file: Dickinson_Template_Standard_format_Basic
+2025-12-02 11:02:36,703 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://stwu3mahaaya.blob.core.windows.net/newfiles?restype=REDACTED'
+Request method: 'PUT'
+Request headers:
+    'x-ms-version': 'REDACTED'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.27.0 Python/3.9.6 (macOS-15.6-arm64-arm-64bit)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '4f7e7b50-cf40-11f0-a7b6-0e3386e78eb4'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+2025-12-02 11:02:37,775 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 409
+Response headers:
+    'Content-Length': '230'
+    'Content-Type': 'application/xml'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '12bdb9e8-e01e-00b8-3d4d-638137000000'
+    'x-ms-client-request-id': '4f7e7b50-cf40-11f0-a7b6-0e3386e78eb4'
+    'x-ms-version': 'REDACTED'
+    'x-ms-error-code': 'ContainerAlreadyExists'
+    'Date': 'Tue, 02 Dec 2025 05:32:37 GMT'
+2025-12-02 11:02:37,777 - root - INFO - Container newfiles may already exist: The specified container already exists.
+RequestId:12bdb9e8-e01e-00b8-3d4d-638137000000
+Time:2025-12-02T05:32:37.6711716Z
+ErrorCode:ContainerAlreadyExists
+Content: <?xml version="1.0" encoding="utf-8"?><Error><Code>ContainerAlreadyExists</Code><Message>The specified container already exists.
+RequestId:12bdb9e8-e01e-00b8-3d4d-638137000000
+Time:2025-12-02T05:32:37.6711716Z</Message></Error>
+2025-12-02 11:02:37,781 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Template_Standard_format_Basic/0_Dickinson_Template_Standard_format_Basic_20251128150102.png'
+Request method: 'PUT'
+Request headers:
+    'Content-Length': '48251'
+    'x-ms-blob-type': 'REDACTED'
+    'x-ms-version': 'REDACTED'
+    'Content-Type': 'application/octet-stream'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.27.0 Python/3.9.6 (macOS-15.6-arm64-arm-64bit)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '5022e7ee-cf40-11f0-a7b6-0e3386e78eb4'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+2025-12-02 11:02:38,470 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 201
+Response headers:
+    'Content-Length': '0'
+    'Content-MD5': 'REDACTED'
+    'Last-Modified': 'Tue, 02 Dec 2025 05:32:38 GMT'
+    'Etag': '"0x8DE316434AFB4B0"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '12bdba82-e01e-00b8-284d-638137000000'
+    'x-ms-client-request-id': '5022e7ee-cf40-11f0-a7b6-0e3386e78eb4'
+    'x-ms-version': 'REDACTED'
+    'x-ms-content-crc64': 'REDACTED'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'Date': 'Tue, 02 Dec 2025 05:32:38 GMT'
+2025-12-02 11:02:38,471 - root - INFO - Uploaded PNG blob: Dickinson_Template_Standard_format_Basic/0_Dickinson_Template_Standard_format_Basic_20251128150102.png to container: newfiles, blob url: https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Template_Standard_format_Basic/0_Dickinson_Template_Standard_format_Basic_20251128150102.png
+2025-12-02 11:02:38,477 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Template_Standard_format_Basic/2_Dickinson_Template_Standard_format_Basic_20251128150417.png'
+Request method: 'PUT'
+Request headers:
+    'Content-Length': '48251'
+    'x-ms-blob-type': 'REDACTED'
+    'x-ms-version': 'REDACTED'
+    'Content-Type': 'application/octet-stream'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.27.0 Python/3.9.6 (macOS-15.6-arm64-arm-64bit)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '508d1dda-cf40-11f0-a7b6-0e3386e78eb4'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+2025-12-02 11:02:38,739 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 201
+Response headers:
+    'Content-Length': '0'
+    'Content-MD5': 'REDACTED'
+    'Last-Modified': 'Tue, 02 Dec 2025 05:32:38 GMT'
+    'Etag': '"0x8DE316434D68E40"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '12bdbb40-e01e-00b8-2e4d-638137000000'
+    'x-ms-client-request-id': '508d1dda-cf40-11f0-a7b6-0e3386e78eb4'
+    'x-ms-version': 'REDACTED'
+    'x-ms-content-crc64': 'REDACTED'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'Date': 'Tue, 02 Dec 2025 05:32:38 GMT'
+2025-12-02 11:02:38,740 - root - INFO - Uploaded PNG blob: Dickinson_Template_Standard_format_Basic/2_Dickinson_Template_Standard_format_Basic_20251128150417.png to container: newfiles, blob url: https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Template_Standard_format_Basic/2_Dickinson_Template_Standard_format_Basic_20251128150417.png
+2025-12-02 11:02:38,742 - root - INFO - Uploaded - converted files to blob storage: [{'filename': 'Dickinson_Template_Standard_format_Basic_20251128150102.png', 'blob_url': 'https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Template_Standard_format_Basic/0_Dickinson_Template_Standard_format_Basic_20251128150102.png'}, {'filename': 'Dickinson_Template_Standard_format_Basic_20251128150417.png', 'blob_url': 'https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Template_Standard_format_Basic/2_Dickinson_Template_Standard_format_Basic_20251128150417.png'}]
+2025-12-02 11:02:38,743 - root - INFO - Removed local file: /Users/aravind/Documents/GitHub/assessment-bot/app/tempfiles/Dickinson_Template_Standard_format_Basic/Dickinson_Template_Standard_format_Basic_20251202110230.pptx
+2025-12-02 11:02:38,744 - root - INFO - Assessment processed successfully: {'message': 'Assessment processed for prompt: hi', 'upload_info': {'uploaded_files': [{'filename': 'Dickinson_Template_Standard_format_Basic.pptx', 'blob_url': 'https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Template_Standard_format_Basic.pptx', 'converted_file_uploads': [{'filename': 'Dickinson_Template_Standard_format_Basic_20251128150102.png', 'blob_url': 'https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Template_Standard_format_Basic/0_Dickinson_Template_Standard_format_Basic_20251128150102.png'}, {'filename': 'Dickinson_Template_Standard_format_Basic_20251128150417.png', 'blob_url': 'https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Template_Standard_format_Basic/2_Dickinson_Template_Standard_format_Basic_20251128150417.png'}]}], 'message': 'Files uploaded successfully'}}
+2025-12-02 11:02:38,824 - watchfiles.main - INFO - 2 changes detected
+2025-12-02 11:22:56,058 - watchfiles.main - INFO - 1 change detected
+2025-12-02 11:22:56,656 - watchfiles.main - INFO - 1 change detected
+2025-12-02 11:23:08,868 - root - INFO - Rate limiting check for client: 127.0.0.1
+2025-12-02 11:23:08,884 - root - ERROR - Redis error: Error 61 connecting to localhost:6379. Connection refused.
+2025-12-02 11:23:08,977 - root - INFO - Received assessment request: hi
+2025-12-02 11:23:08,978 - root - INFO - Assessment request received - prompt='hi'
+2025-12-02 11:23:09,015 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://stwu3mahaaya.blob.core.windows.net/newfiles?restype=REDACTED'
+Request method: 'PUT'
+Request headers:
+    'x-ms-version': 'REDACTED'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.27.0 Python/3.9.6 (macOS-15.6-arm64-arm-64bit)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '2e025408-cf43-11f0-b6a3-0e3386e78eb4'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+2025-12-02 11:23:10,064 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 409
+Response headers:
+    'Content-Length': '230'
+    'Content-Type': 'application/xml'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '8c988dd3-001e-009f-2c4f-6396f3000000'
+    'x-ms-client-request-id': '2e025408-cf43-11f0-b6a3-0e3386e78eb4'
+    'x-ms-version': 'REDACTED'
+    'x-ms-error-code': 'ContainerAlreadyExists'
+    'Date': 'Tue, 02 Dec 2025 05:53:09 GMT'
+2025-12-02 11:23:10,071 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Template_Standard_format_Basic.pptx'
+Request method: 'PUT'
+Request headers:
+    'Content-Length': '407565'
+    'x-ms-meta-content_type': 'REDACTED'
+    'x-ms-blob-type': 'REDACTED'
+    'x-ms-version': 'REDACTED'
+    'Content-Type': 'application/octet-stream'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.27.0 Python/3.9.6 (macOS-15.6-arm64-arm-64bit)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '2ea360f0-cf43-11f0-b6a3-0e3386e78eb4'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+2025-12-02 11:23:11,584 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 201
+Response headers:
+    'Content-Length': '0'
+    'Content-MD5': 'REDACTED'
+    'Last-Modified': 'Tue, 02 Dec 2025 05:53:11 GMT'
+    'Etag': '"0x8DE316713ADFE88"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '8c988e53-001e-009f-104f-6396f3000000'
+    'x-ms-client-request-id': '2ea360f0-cf43-11f0-b6a3-0e3386e78eb4'
+    'x-ms-version': 'REDACTED'
+    'x-ms-content-crc64': 'REDACTED'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'Date': 'Tue, 02 Dec 2025 05:53:10 GMT'
+2025-12-02 11:23:11,587 - root - INFO - Closing BlobServiceClient
+2025-12-02 11:23:11,588 - root - INFO - Downloading and processing file from blob url: https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Template_Standard_format_Basic.pptx
+2025-12-02 11:23:11,588 - root - INFO - Processing file: Dickinson_Template_Standard_format_Basic.pptx from blob url: https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Template_Standard_format_Basic.pptx
+2025-12-02 11:23:11,589 - root - INFO - Downloading blob from https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Template_Standard_format_Basic.pptx
+2025-12-02 11:23:11,591 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Template_Standard_format_Basic.pptx'
+Request method: 'GET'
+Request headers:
+    'x-ms-range': 'REDACTED'
+    'x-ms-version': 'REDACTED'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.27.0 Python/3.9.6 (macOS-15.6-arm64-arm-64bit)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '2f8b7bce-cf43-11f0-b6a3-0e3386e78eb4'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+2025-12-02 11:23:11,677 - watchfiles.main - INFO - 1 change detected
+2025-12-02 11:23:12,538 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 206
+Response headers:
+    'Content-Length': '407565'
+    'Content-Type': 'application/octet-stream'
+    'Content-Range': 'REDACTED'
+    'Last-Modified': 'Tue, 02 Dec 2025 05:53:11 GMT'
+    'Accept-Ranges': 'REDACTED'
+    'Etag': '"0x8DE316713ADFE88"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': 'dea2b0ae-801e-0091-254f-63bf43000000'
+    'x-ms-client-request-id': '2f8b7bce-cf43-11f0-b6a3-0e3386e78eb4'
+    'x-ms-version': 'REDACTED'
+    'x-ms-resource-type': 'REDACTED'
+    'x-ms-meta-content_type': 'REDACTED'
+    'x-ms-creation-time': 'REDACTED'
+    'x-ms-blob-content-md5': 'REDACTED'
+    'x-ms-lease-status': 'REDACTED'
+    'x-ms-lease-state': 'REDACTED'
+    'x-ms-blob-type': 'REDACTED'
+    'x-ms-server-encrypted': 'REDACTED'
+    'x-ms-owner': 'REDACTED'
+    'x-ms-group': 'REDACTED'
+    'x-ms-permissions': 'REDACTED'
+    'x-ms-acl': 'REDACTED'
+    'Date': 'Tue, 02 Dec 2025 05:53:12 GMT'
+2025-12-02 11:23:13,444 - root - INFO - Downloaded blob from https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Template_Standard_format_Basic.pptx to local path /Users/aravind/Documents/GitHub/assessment-bot/app/tempfiles/Dickinson_Template_Standard_format_Basic/Dickinson_Template_Standard_format_Basic_20251202112311.pptx
+2025-12-02 11:23:13,446 - root - INFO - Closing BlobServiceClient
+2025-12-02 11:23:13,446 - root - INFO - Downloaded file to local path: /Users/aravind/Documents/GitHub/assessment-bot/app/tempfiles/Dickinson_Template_Standard_format_Basic/Dickinson_Template_Standard_format_Basic_20251202112311.pptx
+2025-12-02 11:23:13,446 - root - INFO - Local ppt file path: /Users/aravind/Documents/GitHub/assessment-bot/app/tempfiles/Dickinson_Template_Standard_format_Basic/Dickinson_Template_Standard_format_Basic_20251202112311.pptx - Dickinson_Template_Standard_format_Basic
+2025-12-02 11:23:13,447 - root - INFO - Output directory for PNGs: /Users/aravind/Documents/GitHub/assessment-bot/app/tempfiles/Dickinson_Template_Standard_format_Basic/slides
+2025-12-02 11:23:13,447 - root - INFO - Running command: /Applications/LibreOffice.app/Contents/MacOS/soffice --headless --invisible --nologo --nodefault --nofirststartwizard --convert-to pdf --outdir /Users/aravind/Documents/GitHub/assessment-bot/app/tempfiles/Dickinson_Template_Standard_format_Basic/slides /Users/aravind/Documents/GitHub/assessment-bot/app/tempfiles/Dickinson_Template_Standard_format_Basic/Dickinson_Template_Standard_format_Basic_20251202112311.pptx
+2025-12-02 11:23:13,528 - watchfiles.main - INFO - 1 change detected
+2025-12-02 11:23:15,731 - watchfiles.main - INFO - 6 changes detected
+2025-12-02 11:23:17,726 - root - INFO - Converted PPT stored at: /Users/aravind/Documents/GitHub/assessment-bot/app/tempfiles/Dickinson_Template_Standard_format_Basic/slides
+2025-12-02 11:23:17,729 - root - INFO - uploading pngs from directory: /Users/aravind/Documents/GitHub/assessment-bot/app/tempfiles/Dickinson_Template_Standard_format_Basic/slides - under file: Dickinson_Template_Standard_format_Basic
+2025-12-02 11:23:17,730 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://stwu3mahaaya.blob.core.windows.net/newfiles?restype=REDACTED'
+Request method: 'PUT'
+Request headers:
+    'x-ms-version': 'REDACTED'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.27.0 Python/3.9.6 (macOS-15.6-arm64-arm-64bit)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '33342fc8-cf43-11f0-b6a3-0e3386e78eb4'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+2025-12-02 11:23:18,752 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 409
+Response headers:
+    'Content-Length': '230'
+    'Content-Type': 'application/xml'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '7d9fde12-e01e-0011-684f-634045000000'
+    'x-ms-client-request-id': '33342fc8-cf43-11f0-b6a3-0e3386e78eb4'
+    'x-ms-version': 'REDACTED'
+    'x-ms-error-code': 'ContainerAlreadyExists'
+    'Date': 'Tue, 02 Dec 2025 05:53:17 GMT'
+2025-12-02 11:23:18,753 - root - INFO - Container newfiles may already exist: The specified container already exists.
+RequestId:7d9fde12-e01e-0011-684f-634045000000
+Time:2025-12-02T05:53:18.6474703Z
+ErrorCode:ContainerAlreadyExists
+Content: <?xml version="1.0" encoding="utf-8"?><Error><Code>ContainerAlreadyExists</Code><Message>The specified container already exists.
+RequestId:7d9fde12-e01e-0011-684f-634045000000
+Time:2025-12-02T05:53:18.6474703Z</Message></Error>
+2025-12-02 11:23:18,757 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Template_Standard_format_Basic/0_Dickinson_Template_Standard_format_Basic_20251128150102.png'
+Request method: 'PUT'
+Request headers:
+    'Content-Length': '48251'
+    'x-ms-blob-type': 'REDACTED'
+    'x-ms-version': 'REDACTED'
+    'Content-Type': 'application/octet-stream'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.27.0 Python/3.9.6 (macOS-15.6-arm64-arm-64bit)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '33d0ea2a-cf43-11f0-b6a3-0e3386e78eb4'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+2025-12-02 11:23:19,634 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 201
+Response headers:
+    'Content-Length': '0'
+    'Content-MD5': 'REDACTED'
+    'Last-Modified': 'Tue, 02 Dec 2025 05:53:19 GMT'
+    'Etag': '"0x8DE31671870DF10"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '7d9fde75-e01e-0011-384f-634045000000'
+    'x-ms-client-request-id': '33d0ea2a-cf43-11f0-b6a3-0e3386e78eb4'
+    'x-ms-version': 'REDACTED'
+    'x-ms-content-crc64': 'REDACTED'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'Date': 'Tue, 02 Dec 2025 05:53:18 GMT'
+2025-12-02 11:23:19,635 - root - INFO - Uploaded PNG blob: Dickinson_Template_Standard_format_Basic/0_Dickinson_Template_Standard_format_Basic_20251128150102.png to container: newfiles, blob url: https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Template_Standard_format_Basic/0_Dickinson_Template_Standard_format_Basic_20251128150102.png
+2025-12-02 11:23:19,639 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Template_Standard_format_Basic/2_Dickinson_Template_Standard_format_Basic_20251128150417.png'
+Request method: 'PUT'
+Request headers:
+    'Content-Length': '48251'
+    'x-ms-blob-type': 'REDACTED'
+    'x-ms-version': 'REDACTED'
+    'Content-Type': 'application/octet-stream'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.27.0 Python/3.9.6 (macOS-15.6-arm64-arm-64bit)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '3457813e-cf43-11f0-b6a3-0e3386e78eb4'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+2025-12-02 11:23:19,942 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 201
+Response headers:
+    'Content-Length': '0'
+    'Content-MD5': 'REDACTED'
+    'Last-Modified': 'Tue, 02 Dec 2025 05:53:19 GMT'
+    'Etag': '"0x8DE316718A14DEC"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '7d9fdf20-e01e-0011-384f-634045000000'
+    'x-ms-client-request-id': '3457813e-cf43-11f0-b6a3-0e3386e78eb4'
+    'x-ms-version': 'REDACTED'
+    'x-ms-content-crc64': 'REDACTED'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'Date': 'Tue, 02 Dec 2025 05:53:19 GMT'
+2025-12-02 11:23:19,943 - root - INFO - Uploaded PNG blob: Dickinson_Template_Standard_format_Basic/2_Dickinson_Template_Standard_format_Basic_20251128150417.png to container: newfiles, blob url: https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Template_Standard_format_Basic/2_Dickinson_Template_Standard_format_Basic_20251128150417.png
+2025-12-02 11:23:19,948 - root - INFO - Uploaded - converted files to blob storage: [{'filename': 'Dickinson_Template_Standard_format_Basic_20251128150102.png', 'blob_url': 'https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Template_Standard_format_Basic/0_Dickinson_Template_Standard_format_Basic_20251128150102.png'}, {'filename': 'Dickinson_Template_Standard_format_Basic_20251128150417.png', 'blob_url': 'https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Template_Standard_format_Basic/2_Dickinson_Template_Standard_format_Basic_20251128150417.png'}]
+2025-12-02 11:23:19,949 - root - INFO - Removed local file: /Users/aravind/Documents/GitHub/assessment-bot/app/tempfiles/Dickinson_Template_Standard_format_Basic/Dickinson_Template_Standard_format_Basic_20251202112311.pptx
+2025-12-02 11:23:19,950 - root - INFO - Assessment processed successfully: {'message': 'Assessment processed for prompt: hi', 'upload_info': {'uploaded_files': [{'filename': 'Dickinson_Template_Standard_format_Basic.pptx', 'blob_url': 'https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Template_Standard_format_Basic.pptx', 'converted_file_uploads': [{'filename': 'Dickinson_Template_Standard_format_Basic_20251128150102.png', 'blob_url': 'https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Template_Standard_format_Basic/0_Dickinson_Template_Standard_format_Basic_20251128150102.png'}, {'filename': 'Dickinson_Template_Standard_format_Basic_20251128150417.png', 'blob_url': 'https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Template_Standard_format_Basic/2_Dickinson_Template_Standard_format_Basic_20251128150417.png'}]}], 'message': 'Files uploaded successfully'}}
+2025-12-02 11:23:20,041 - watchfiles.main - INFO - 2 changes detected
+2025-12-02 11:41:31,997 - watchfiles.main - INFO - 2 changes detected
+2025-12-02 11:41:40,477 - watchfiles.main - INFO - 2 changes detected
+2025-12-02 11:41:53,138 - watchfiles.main - INFO - 1 change detected
+2025-12-02 11:41:58,153 - watchfiles.main - INFO - 1 change detected
+2025-12-02 11:42:06,383 - watchfiles.main - INFO - 1 change detected
+2025-12-02 11:42:24,593 - watchfiles.main - INFO - 1 change detected
+2025-12-02 11:42:34,998 - watchfiles.main - INFO - 2 changes detected
+2025-12-02 11:43:57,965 - watchfiles.main - INFO - 1 change detected
+2025-12-02 11:43:58,519 - watchfiles.main - INFO - 1 change detected
+2025-12-02 11:46:01,947 - watchfiles.main - INFO - 1 change detected
+2025-12-02 11:46:12,118 - watchfiles.main - INFO - 1 change detected
+2025-12-02 11:46:51,125 - watchfiles.main - INFO - 1 change detected
+2025-12-02 11:47:03,601 - watchfiles.main - INFO - 1 change detected
+2025-12-02 11:48:07,497 - watchfiles.main - INFO - 1 change detected
+2025-12-02 11:48:10,244 - watchfiles.main - INFO - 1 change detected
+2025-12-02 11:48:11,404 - watchfiles.main - INFO - 1 change detected
+2025-12-02 11:48:13,994 - watchfiles.main - INFO - 2 changes detected
+2025-12-02 11:48:15,980 - watchfiles.main - INFO - 1 change detected
+2025-12-02 11:48:17,581 - watchfiles.main - INFO - 2 changes detected
+2025-12-02 11:48:19,028 - watchfiles.main - INFO - 1 change detected
+2025-12-02 11:48:23,061 - watchfiles.main - INFO - 1 change detected
+2025-12-02 11:48:25,783 - watchfiles.main - INFO - 1 change detected
+2025-12-02 11:48:33,101 - root - INFO - Rate limiting check for client: 127.0.0.1
+2025-12-02 11:48:33,105 - root - ERROR - Redis error: Error 61 connecting to localhost:6379. Connection refused.
+2025-12-02 11:48:33,190 - root - INFO - Received assessment request: hi
+2025-12-02 11:48:33,190 - root - INFO - Assessment request received - prompt='hi'
+2025-12-02 11:48:33,221 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://stwu3mahaaya.blob.core.windows.net/newfiles?restype=REDACTED'
+Request method: 'PUT'
+Request headers:
+    'x-ms-version': 'REDACTED'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.27.0 Python/3.9.6 (macOS-15.6-arm64-arm-64bit)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': 'ba81c96a-cf46-11f0-82ab-0e3386e78eb4'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+2025-12-02 11:48:34,358 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 409
+Response headers:
+    'Content-Length': '230'
+    'Content-Type': 'application/xml'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '0778c11d-001e-00c2-2453-639c77000000'
+    'x-ms-client-request-id': 'ba81c96a-cf46-11f0-82ab-0e3386e78eb4'
+    'x-ms-version': 'REDACTED'
+    'x-ms-error-code': 'ContainerAlreadyExists'
+    'Date': 'Tue, 02 Dec 2025 06:18:33 GMT'
+2025-12-02 11:48:34,364 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Sample_Slides.pptx'
+Request method: 'PUT'
+Request headers:
+    'Content-Length': '647237'
+    'x-ms-meta-content_type': 'REDACTED'
+    'x-ms-blob-type': 'REDACTED'
+    'x-ms-version': 'REDACTED'
+    'Content-Type': 'application/octet-stream'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.27.0 Python/3.9.6 (macOS-15.6-arm64-arm-64bit)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': 'bb30244c-cf46-11f0-82ab-0e3386e78eb4'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+2025-12-02 11:48:35,941 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 201
+Response headers:
+    'Content-Length': '0'
+    'Content-MD5': 'REDACTED'
+    'Last-Modified': 'Tue, 02 Dec 2025 06:18:35 GMT'
+    'Etag': '"0x8DE316AA044A0AC"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '0778c233-001e-00c2-0653-639c77000000'
+    'x-ms-client-request-id': 'bb30244c-cf46-11f0-82ab-0e3386e78eb4'
+    'x-ms-version': 'REDACTED'
+    'x-ms-content-crc64': 'REDACTED'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'Date': 'Tue, 02 Dec 2025 06:18:34 GMT'
+2025-12-02 11:48:35,943 - root - INFO - Closing BlobServiceClient
+2025-12-02 11:48:35,944 - root - INFO - Downloading and processing file from blob url: https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Sample_Slides.pptx
+2025-12-02 11:48:35,944 - root - INFO - Processing file: Dickinson_Sample_Slides.pptx from blob url: https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Sample_Slides.pptx
+2025-12-02 11:48:35,945 - root - INFO - Downloading blob from https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Sample_Slides.pptx
+2025-12-02 11:48:35,947 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Sample_Slides.pptx'
+Request method: 'GET'
+Request headers:
+    'x-ms-range': 'REDACTED'
+    'x-ms-version': 'REDACTED'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.27.0 Python/3.9.6 (macOS-15.6-arm64-arm-64bit)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': 'bc21c1d0-cf46-11f0-82ab-0e3386e78eb4'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+2025-12-02 11:48:36,026 - watchfiles.main - INFO - 2 changes detected
+2025-12-02 11:48:36,877 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 206
+Response headers:
+    'Content-Length': '647237'
+    'Content-Type': 'application/octet-stream'
+    'Content-Range': 'REDACTED'
+    'Last-Modified': 'Tue, 02 Dec 2025 06:18:35 GMT'
+    'Accept-Ranges': 'REDACTED'
+    'Etag': '"0x8DE316AA044A0AC"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '9889fc55-b01e-0103-1753-63c598000000'
+    'x-ms-client-request-id': 'bc21c1d0-cf46-11f0-82ab-0e3386e78eb4'
+    'x-ms-version': 'REDACTED'
+    'x-ms-resource-type': 'REDACTED'
+    'x-ms-meta-content_type': 'REDACTED'
+    'x-ms-creation-time': 'REDACTED'
+    'x-ms-blob-content-md5': 'REDACTED'
+    'x-ms-lease-status': 'REDACTED'
+    'x-ms-lease-state': 'REDACTED'
+    'x-ms-blob-type': 'REDACTED'
+    'x-ms-server-encrypted': 'REDACTED'
+    'x-ms-owner': 'REDACTED'
+    'x-ms-group': 'REDACTED'
+    'x-ms-permissions': 'REDACTED'
+    'x-ms-acl': 'REDACTED'
+    'Date': 'Tue, 02 Dec 2025 06:18:36 GMT'
+2025-12-02 11:48:38,819 - root - INFO - Downloaded blob from https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Sample_Slides.pptx to local path /Users/aravind/Documents/GitHub/assessment-bot/app/tempfiles/Dickinson_Sample_Slides/Dickinson_Sample_Slides_20251202114835.pptx
+2025-12-02 11:48:38,823 - root - INFO - Closing BlobServiceClient
+2025-12-02 11:48:38,824 - root - INFO - Downloaded file to local path: /Users/aravind/Documents/GitHub/assessment-bot/app/tempfiles/Dickinson_Sample_Slides/Dickinson_Sample_Slides_20251202114835.pptx
+2025-12-02 11:48:38,824 - root - INFO - Local ppt file path: /Users/aravind/Documents/GitHub/assessment-bot/app/tempfiles/Dickinson_Sample_Slides/Dickinson_Sample_Slides_20251202114835.pptx - Dickinson_Sample_Slides
+2025-12-02 11:48:38,824 - root - INFO - Output directory for PNGs: /Users/aravind/Documents/GitHub/assessment-bot/app/tempfiles/Dickinson_Sample_Slides/slides
+2025-12-02 11:48:38,825 - root - INFO - Running command: /Applications/LibreOffice.app/Contents/MacOS/soffice --headless --invisible --nologo --nodefault --nofirststartwizard --convert-to pdf --outdir /Users/aravind/Documents/GitHub/assessment-bot/app/tempfiles/Dickinson_Sample_Slides/slides /Users/aravind/Documents/GitHub/assessment-bot/app/tempfiles/Dickinson_Sample_Slides/Dickinson_Sample_Slides_20251202114835.pptx
+2025-12-02 11:48:38,881 - watchfiles.main - INFO - 2 changes detected
+2025-12-02 11:48:40,954 - watchfiles.main - INFO - 2 changes detected
+2025-12-02 11:48:41,315 - watchfiles.main - INFO - 6 changes detected
+2025-12-02 11:48:43,250 - root - INFO - Converted PPT stored at: /Users/aravind/Documents/GitHub/assessment-bot/app/tempfiles/Dickinson_Sample_Slides/slides
+2025-12-02 11:48:43,252 - root - INFO - uploading pngs from directory: /Users/aravind/Documents/GitHub/assessment-bot/app/tempfiles/Dickinson_Sample_Slides/slides - under file: Dickinson_Sample_Slides
+2025-12-02 11:48:43,252 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://stwu3mahaaya.blob.core.windows.net/newfiles?restype=REDACTED'
+Request method: 'PUT'
+Request headers:
+    'x-ms-version': 'REDACTED'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.27.0 Python/3.9.6 (macOS-15.6-arm64-arm-64bit)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': 'c07c67ee-cf46-11f0-82ab-0e3386e78eb4'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+2025-12-02 11:48:44,395 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 409
+Response headers:
+    'Content-Length': '230'
+    'Content-Type': 'application/xml'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '527603b6-f01e-0040-7453-63ddc9000000'
+    'x-ms-client-request-id': 'c07c67ee-cf46-11f0-82ab-0e3386e78eb4'
+    'x-ms-version': 'REDACTED'
+    'x-ms-error-code': 'ContainerAlreadyExists'
+    'Date': 'Tue, 02 Dec 2025 06:18:44 GMT'
+2025-12-02 11:48:44,398 - root - INFO - Container newfiles may already exist: The specified container already exists.
+RequestId:527603b6-f01e-0040-7453-63ddc9000000
+Time:2025-12-02T06:18:44.2188010Z
+ErrorCode:ContainerAlreadyExists
+Content: <?xml version="1.0" encoding="utf-8"?><Error><Code>ContainerAlreadyExists</Code><Message>The specified container already exists.
+RequestId:527603b6-f01e-0040-7453-63ddc9000000
+Time:2025-12-02T06:18:44.2188010Z</Message></Error>
+2025-12-02 11:48:44,402 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Sample_Slides/0_Dickinson_Sample_Slides_20251202114835.pdf'
+Request method: 'PUT'
+Request headers:
+    'Content-Length': '455195'
+    'x-ms-blob-type': 'REDACTED'
+    'x-ms-version': 'REDACTED'
+    'Content-Type': 'application/octet-stream'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.27.0 Python/3.9.6 (macOS-15.6-arm64-arm-64bit)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': 'c12bc8b0-cf46-11f0-82ab-0e3386e78eb4'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+2025-12-02 11:48:45,913 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 201
+Response headers:
+    'Content-Length': '0'
+    'Content-MD5': 'REDACTED'
+    'Last-Modified': 'Tue, 02 Dec 2025 06:18:45 GMT'
+    'Etag': '"0x8DE316AA6363750"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '52760410-f01e-0040-3953-63ddc9000000'
+    'x-ms-client-request-id': 'c12bc8b0-cf46-11f0-82ab-0e3386e78eb4'
+    'x-ms-version': 'REDACTED'
+    'x-ms-content-crc64': 'REDACTED'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'Date': 'Tue, 02 Dec 2025 06:18:45 GMT'
+2025-12-02 11:48:45,915 - root - INFO - Uploaded PNG blob: Dickinson_Sample_Slides/0_Dickinson_Sample_Slides_20251202114835.pdf to container: newfiles, blob url: https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Sample_Slides/0_Dickinson_Sample_Slides_20251202114835.pdf
+2025-12-02 11:48:45,918 - root - INFO - Uploaded - converted files to blob storage: [{'filename': 'Dickinson_Sample_Slides_20251202114835.pdf', 'blob_url': 'https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Sample_Slides/0_Dickinson_Sample_Slides_20251202114835.pdf'}]
+2025-12-02 11:48:45,919 - root - INFO - Removed local file: /Users/aravind/Documents/GitHub/assessment-bot/app/tempfiles/Dickinson_Sample_Slides/Dickinson_Sample_Slides_20251202114835.pptx
+2025-12-02 11:48:45,920 - root - INFO - Assessment processed successfully: {'message': 'Assessment processed for prompt: hi', 'upload_info': {'uploaded_files': [{'filename': 'Dickinson_Sample_Slides.pptx', 'blob_url': 'https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Sample_Slides.pptx', 'converted_file_uploads': [{'filename': 'Dickinson_Sample_Slides_20251202114835.pdf', 'blob_url': 'https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Sample_Slides/0_Dickinson_Sample_Slides_20251202114835.pdf'}]}], 'message': 'Files uploaded successfully'}}
+2025-12-02 11:51:09,699 - watchfiles.main - INFO - 1 change detected
+2025-12-02 11:51:10,206 - watchfiles.main - INFO - 1 change detected
+2025-12-02 11:51:46,450 - watchfiles.main - INFO - 1 change detected
+2025-12-02 11:51:48,620 - watchfiles.main - INFO - 1 change detected
+2025-12-02 11:51:57,178 - watchfiles.main - INFO - 1 change detected
+2025-12-02 11:52:36,013 - root - INFO - Rate limiting check for client: 127.0.0.1
+2025-12-02 11:52:36,019 - root - ERROR - Redis error: Error 61 connecting to localhost:6379. Connection refused.
+2025-12-02 11:52:36,110 - root - INFO - Received assessment request: hi
+2025-12-02 11:52:36,110 - root - INFO - Assessment request received - prompt='hi'
+2025-12-02 11:52:36,144 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://stwu3mahaaya.blob.core.windows.net/newfiles?restype=REDACTED'
+Request method: 'PUT'
+Request headers:
+    'x-ms-version': 'REDACTED'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.27.0 Python/3.9.6 (macOS-15.6-arm64-arm-64bit)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '4b4ced62-cf47-11f0-b18c-0e3386e78eb4'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+2025-12-02 11:52:37,138 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 409
+Response headers:
+    'Content-Length': '230'
+    'Content-Type': 'application/xml'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': 'd38eb6ba-401e-0018-6b54-630596000000'
+    'x-ms-client-request-id': '4b4ced62-cf47-11f0-b18c-0e3386e78eb4'
+    'x-ms-version': 'REDACTED'
+    'x-ms-error-code': 'ContainerAlreadyExists'
+    'Date': 'Tue, 02 Dec 2025 06:22:37 GMT'
+2025-12-02 11:52:37,148 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Template_basic.pptx'
+Request method: 'PUT'
+Request headers:
+    'Content-Length': '408137'
+    'x-ms-meta-content_type': 'REDACTED'
+    'x-ms-blob-type': 'REDACTED'
+    'x-ms-version': 'REDACTED'
+    'Content-Type': 'application/octet-stream'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.27.0 Python/3.9.6 (macOS-15.6-arm64-arm-64bit)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '4be5f188-cf47-11f0-b18c-0e3386e78eb4'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+2025-12-02 11:52:38,757 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 201
+Response headers:
+    'Content-Length': '0'
+    'Content-MD5': 'REDACTED'
+    'Last-Modified': 'Tue, 02 Dec 2025 06:22:38 GMT'
+    'Etag': '"0x8DE316B30FF7DE0"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': 'd38eb7cf-401e-0018-7854-630596000000'
+    'x-ms-client-request-id': '4be5f188-cf47-11f0-b18c-0e3386e78eb4'
+    'x-ms-version': 'REDACTED'
+    'x-ms-content-crc64': 'REDACTED'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'Date': 'Tue, 02 Dec 2025 06:22:38 GMT'
+2025-12-02 11:52:38,759 - root - INFO - Closing BlobServiceClient
+2025-12-02 11:52:38,759 - root - INFO - Downloading and processing file from blob url: https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Template_basic.pptx
+2025-12-02 11:52:38,760 - root - INFO - Processing file: Dickinson_Template_basic.pptx from blob url: https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Template_basic.pptx
+2025-12-02 11:52:38,760 - root - INFO - Downloading blob from https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Template_basic.pptx
+2025-12-02 11:52:38,761 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Template_basic.pptx'
+Request method: 'GET'
+Request headers:
+    'x-ms-range': 'REDACTED'
+    'x-ms-version': 'REDACTED'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.27.0 Python/3.9.6 (macOS-15.6-arm64-arm-64bit)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '4cdc4754-cf47-11f0-b18c-0e3386e78eb4'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+2025-12-02 11:52:38,911 - watchfiles.main - INFO - 2 changes detected
+2025-12-02 11:52:39,811 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 206
+Response headers:
+    'Content-Length': '408137'
+    'Content-Type': 'application/octet-stream'
+    'Content-Range': 'REDACTED'
+    'Last-Modified': 'Tue, 02 Dec 2025 06:22:38 GMT'
+    'Accept-Ranges': 'REDACTED'
+    'Etag': '"0x8DE316B30FF7DE0"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': 'f4f1a9ae-301e-00d9-3f54-63a274000000'
+    'x-ms-client-request-id': '4cdc4754-cf47-11f0-b18c-0e3386e78eb4'
+    'x-ms-version': 'REDACTED'
+    'x-ms-resource-type': 'REDACTED'
+    'x-ms-meta-content_type': 'REDACTED'
+    'x-ms-creation-time': 'REDACTED'
+    'x-ms-blob-content-md5': 'REDACTED'
+    'x-ms-lease-status': 'REDACTED'
+    'x-ms-lease-state': 'REDACTED'
+    'x-ms-blob-type': 'REDACTED'
+    'x-ms-server-encrypted': 'REDACTED'
+    'x-ms-owner': 'REDACTED'
+    'x-ms-group': 'REDACTED'
+    'x-ms-permissions': 'REDACTED'
+    'x-ms-acl': 'REDACTED'
+    'Date': 'Tue, 02 Dec 2025 06:22:39 GMT'
+2025-12-02 11:52:41,043 - root - INFO - Downloaded blob from https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Template_basic.pptx to local path /Users/aravind/Documents/GitHub/assessment-bot/app/tempfiles/Dickinson_Template_basic/Dickinson_Template_basic_20251202115238.pptx
+2025-12-02 11:52:41,044 - root - INFO - Closing BlobServiceClient
+2025-12-02 11:52:41,044 - root - INFO - Downloaded file to local path: /Users/aravind/Documents/GitHub/assessment-bot/app/tempfiles/Dickinson_Template_basic/Dickinson_Template_basic_20251202115238.pptx
+2025-12-02 11:52:41,046 - root - INFO - Local ppt file path: /Users/aravind/Documents/GitHub/assessment-bot/app/tempfiles/Dickinson_Template_basic/Dickinson_Template_basic_20251202115238.pptx - Dickinson_Template_basic
+2025-12-02 11:52:41,046 - root - INFO - Output directory for PNGs: /Users/aravind/Documents/GitHub/assessment-bot/app/tempfiles/Dickinson_Template_basic/slides
+2025-12-02 11:52:41,047 - root - INFO - Running command: /Applications/LibreOffice.app/Contents/MacOS/soffice --headless --invisible --nologo --nodefault --nofirststartwizard --convert-to pdf --outdir /Users/aravind/Documents/GitHub/assessment-bot/app/tempfiles/Dickinson_Template_basic/slides /Users/aravind/Documents/GitHub/assessment-bot/app/tempfiles/Dickinson_Template_basic/Dickinson_Template_basic_20251202115238.pptx
+2025-12-02 11:52:41,116 - watchfiles.main - INFO - 2 changes detected
+2025-12-02 11:52:43,079 - watchfiles.main - INFO - 6 changes detected
+2025-12-02 11:52:45,056 - root - INFO - Converted PPT stored at: /Users/aravind/Documents/GitHub/assessment-bot/app/tempfiles/Dickinson_Template_basic/slides
+2025-12-02 11:52:45,057 - root - INFO - uploading pngs from directory: /Users/aravind/Documents/GitHub/assessment-bot/app/tempfiles/Dickinson_Template_basic/slides - under file: Dickinson_Template_basic
+2025-12-02 11:52:45,058 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://stwu3mahaaya.blob.core.windows.net/newfiles?restype=REDACTED'
+Request method: 'PUT'
+Request headers:
+    'x-ms-version': 'REDACTED'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.27.0 Python/3.9.6 (macOS-15.6-arm64-arm-64bit)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '509d09dc-cf47-11f0-b18c-0e3386e78eb4'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+2025-12-02 11:52:46,195 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 409
+Response headers:
+    'Content-Length': '230'
+    'Content-Type': 'application/xml'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': 'b439a43d-801e-00ae-2754-6377e0000000'
+    'x-ms-client-request-id': '509d09dc-cf47-11f0-b18c-0e3386e78eb4'
+    'x-ms-version': 'REDACTED'
+    'x-ms-error-code': 'ContainerAlreadyExists'
+    'Date': 'Tue, 02 Dec 2025 06:22:45 GMT'
+2025-12-02 11:52:46,199 - root - INFO - Container newfiles may already exist: The specified container already exists.
+RequestId:b439a43d-801e-00ae-2754-6377e0000000
+Time:2025-12-02T06:22:46.0887395Z
+ErrorCode:ContainerAlreadyExists
+Content: <?xml version="1.0" encoding="utf-8"?><Error><Code>ContainerAlreadyExists</Code><Message>The specified container already exists.
+RequestId:b439a43d-801e-00ae-2754-6377e0000000
+Time:2025-12-02T06:22:46.0887395Z</Message></Error>
+2025-12-02 11:52:46,201 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Template_basic/0_Dickinson_Template_basic_20251202115238.pdf'
+Request method: 'PUT'
+Request headers:
+    'Content-Length': '49370'
+    'x-ms-blob-type': 'REDACTED'
+    'x-ms-version': 'REDACTED'
+    'Content-Type': 'application/octet-stream'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.27.0 Python/3.9.6 (macOS-15.6-arm64-arm-64bit)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '514b794a-cf47-11f0-b18c-0e3386e78eb4'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+2025-12-02 11:52:46,979 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 201
+Response headers:
+    'Content-Length': '0'
+    'Content-MD5': 'REDACTED'
+    'Last-Modified': 'Tue, 02 Dec 2025 06:22:46 GMT'
+    'Etag': '"0x8DE316B35D8E4D4"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': 'b439a510-801e-00ae-6354-6377e0000000'
+    'x-ms-client-request-id': '514b794a-cf47-11f0-b18c-0e3386e78eb4'
+    'x-ms-version': 'REDACTED'
+    'x-ms-content-crc64': 'REDACTED'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'Date': 'Tue, 02 Dec 2025 06:22:46 GMT'
+2025-12-02 11:52:46,980 - root - INFO - Uploaded PNG blob: Dickinson_Template_basic/0_Dickinson_Template_basic_20251202115238.pdf to container: newfiles, blob url: https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Template_basic/0_Dickinson_Template_basic_20251202115238.pdf
+2025-12-02 11:52:46,985 - root - INFO - Uploaded - converted files to blob storage: [{'filename': 'Dickinson_Template_basic_20251202115238.pdf', 'blob_url': 'https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Template_basic/0_Dickinson_Template_basic_20251202115238.pdf'}]
+2025-12-02 11:52:46,986 - root - ERROR - Error processing assessment: [Errno 66] Directory not empty: '/Users/aravind/Documents/GitHub/assessment-bot/app/tempfiles/Dickinson_Template_basic'
+2025-12-02 11:52:46,992 - root - INFO - Assessment processed successfully: {'error': 'Failed to process assessment'}
+2025-12-02 11:52:47,109 - watchfiles.main - INFO - 2 changes detected
+2025-12-02 11:53:19,144 - watchfiles.main - INFO - 1 change detected
+2025-12-02 11:53:19,727 - watchfiles.main - INFO - 1 change detected
+2025-12-02 11:53:23,604 - root - INFO - Rate limiting check for client: 127.0.0.1
+2025-12-02 11:53:23,607 - root - ERROR - Redis error: Error 61 connecting to localhost:6379. Connection refused.
+2025-12-02 11:53:23,692 - root - INFO - Received assessment request: hi
+2025-12-02 11:53:23,692 - root - INFO - Assessment request received - prompt='hi'
+2025-12-02 11:53:23,722 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://stwu3mahaaya.blob.core.windows.net/newfiles?restype=REDACTED'
+Request method: 'PUT'
+Request headers:
+    'x-ms-version': 'REDACTED'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.27.0 Python/3.9.6 (macOS-15.6-arm64-arm-64bit)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '67a8a898-cf47-11f0-b718-0e3386e78eb4'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+2025-12-02 11:53:24,773 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 409
+Response headers:
+    'Content-Length': '230'
+    'Content-Type': 'application/xml'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '1b617dc1-501e-00bd-7354-6353ec000000'
+    'x-ms-client-request-id': '67a8a898-cf47-11f0-b718-0e3386e78eb4'
+    'x-ms-version': 'REDACTED'
+    'x-ms-error-code': 'ContainerAlreadyExists'
+    'Date': 'Tue, 02 Dec 2025 06:23:23 GMT'
+2025-12-02 11:53:24,780 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Template_basic.pptx'
+Request method: 'PUT'
+Request headers:
+    'Content-Length': '408137'
+    'x-ms-meta-content_type': 'REDACTED'
+    'x-ms-blob-type': 'REDACTED'
+    'x-ms-version': 'REDACTED'
+    'Content-Type': 'application/octet-stream'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.27.0 Python/3.9.6 (macOS-15.6-arm64-arm-64bit)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '684a0e68-cf47-11f0-b718-0e3386e78eb4'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+2025-12-02 11:53:26,295 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 201
+Response headers:
+    'Content-Length': '0'
+    'Content-MD5': 'REDACTED'
+    'Last-Modified': 'Tue, 02 Dec 2025 06:23:26 GMT'
+    'Etag': '"0x8DE316B4D546888"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '1b617e69-501e-00bd-0854-6353ec000000'
+    'x-ms-client-request-id': '684a0e68-cf47-11f0-b718-0e3386e78eb4'
+    'x-ms-version': 'REDACTED'
+    'x-ms-content-crc64': 'REDACTED'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'Date': 'Tue, 02 Dec 2025 06:23:25 GMT'
+2025-12-02 11:53:26,310 - root - INFO - Closing BlobServiceClient
+2025-12-02 11:53:26,312 - root - INFO - Downloading and processing file from blob url: https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Template_basic.pptx
+2025-12-02 11:53:26,312 - root - INFO - Processing file: Dickinson_Template_basic.pptx from blob url: https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Template_basic.pptx
+2025-12-02 11:53:26,317 - root - INFO - Downloading blob from https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Template_basic.pptx
+2025-12-02 11:53:26,322 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Template_basic.pptx'
+Request method: 'GET'
+Request headers:
+    'x-ms-range': 'REDACTED'
+    'x-ms-version': 'REDACTED'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.27.0 Python/3.9.6 (macOS-15.6-arm64-arm-64bit)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '69355440-cf47-11f0-b718-0e3386e78eb4'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+2025-12-02 11:53:26,433 - watchfiles.main - INFO - 1 change detected
+2025-12-02 11:53:27,322 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 206
+Response headers:
+    'Content-Length': '408137'
+    'Content-Type': 'application/octet-stream'
+    'Content-Range': 'REDACTED'
+    'Last-Modified': 'Tue, 02 Dec 2025 06:23:26 GMT'
+    'Accept-Ranges': 'REDACTED'
+    'Etag': '"0x8DE316B4D546888"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '8ea07206-301e-00f6-6c54-63afbf000000'
+    'x-ms-client-request-id': '69355440-cf47-11f0-b718-0e3386e78eb4'
+    'x-ms-version': 'REDACTED'
+    'x-ms-resource-type': 'REDACTED'
+    'x-ms-meta-content_type': 'REDACTED'
+    'x-ms-creation-time': 'REDACTED'
+    'x-ms-blob-content-md5': 'REDACTED'
+    'x-ms-lease-status': 'REDACTED'
+    'x-ms-lease-state': 'REDACTED'
+    'x-ms-blob-type': 'REDACTED'
+    'x-ms-server-encrypted': 'REDACTED'
+    'x-ms-owner': 'REDACTED'
+    'x-ms-group': 'REDACTED'
+    'x-ms-permissions': 'REDACTED'
+    'x-ms-acl': 'REDACTED'
+    'Date': 'Tue, 02 Dec 2025 06:23:26 GMT'
+2025-12-02 11:53:29,378 - root - INFO - Downloaded blob from https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Template_basic.pptx to local path /Users/aravind/Documents/GitHub/assessment-bot/app/tempfiles/Dickinson_Template_basic/Dickinson_Template_basic_20251202115326.pptx
+2025-12-02 11:53:29,384 - root - INFO - Closing BlobServiceClient
+2025-12-02 11:53:29,385 - root - INFO - Downloaded file to local path: /Users/aravind/Documents/GitHub/assessment-bot/app/tempfiles/Dickinson_Template_basic/Dickinson_Template_basic_20251202115326.pptx
+2025-12-02 11:53:29,385 - root - INFO - Local ppt file path: /Users/aravind/Documents/GitHub/assessment-bot/app/tempfiles/Dickinson_Template_basic/Dickinson_Template_basic_20251202115326.pptx - Dickinson_Template_basic
+2025-12-02 11:53:29,386 - root - INFO - Output directory for PNGs: /Users/aravind/Documents/GitHub/assessment-bot/app/tempfiles/Dickinson_Template_basic/slides
+2025-12-02 11:53:29,388 - root - INFO - Running command: /Applications/LibreOffice.app/Contents/MacOS/soffice --headless --invisible --nologo --nodefault --nofirststartwizard --convert-to pdf --outdir /Users/aravind/Documents/GitHub/assessment-bot/app/tempfiles/Dickinson_Template_basic/slides /Users/aravind/Documents/GitHub/assessment-bot/app/tempfiles/Dickinson_Template_basic/Dickinson_Template_basic_20251202115326.pptx
+2025-12-02 11:53:29,450 - watchfiles.main - INFO - 1 change detected
+2025-12-02 11:53:31,352 - watchfiles.main - INFO - 6 changes detected
+2025-12-02 11:53:33,387 - root - INFO - Converted PPT stored at: /Users/aravind/Documents/GitHub/assessment-bot/app/tempfiles/Dickinson_Template_basic/slides
+2025-12-02 11:53:33,388 - root - INFO - uploading pngs from directory: /Users/aravind/Documents/GitHub/assessment-bot/app/tempfiles/Dickinson_Template_basic/slides - under file: Dickinson_Template_basic
+2025-12-02 11:53:33,388 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://stwu3mahaaya.blob.core.windows.net/newfiles?restype=REDACTED'
+Request method: 'PUT'
+Request headers:
+    'x-ms-version': 'REDACTED'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.27.0 Python/3.9.6 (macOS-15.6-arm64-arm-64bit)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '6d6bab7c-cf47-11f0-b718-0e3386e78eb4'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+2025-12-02 11:53:34,432 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 409
+Response headers:
+    'Content-Length': '230'
+    'Content-Type': 'application/xml'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '634c4135-f01e-00c6-3154-631170000000'
+    'x-ms-client-request-id': '6d6bab7c-cf47-11f0-b718-0e3386e78eb4'
+    'x-ms-version': 'REDACTED'
+    'x-ms-error-code': 'ContainerAlreadyExists'
+    'Date': 'Tue, 02 Dec 2025 06:23:33 GMT'
+2025-12-02 11:53:34,439 - root - INFO - Container newfiles may already exist: The specified container already exists.
+RequestId:634c4135-f01e-00c6-3154-631170000000
+Time:2025-12-02T06:23:34.3241871Z
+ErrorCode:ContainerAlreadyExists
+Content: <?xml version="1.0" encoding="utf-8"?><Error><Code>ContainerAlreadyExists</Code><Message>The specified container already exists.
+RequestId:634c4135-f01e-00c6-3154-631170000000
+Time:2025-12-02T06:23:34.3241871Z</Message></Error>
+2025-12-02 11:53:34,444 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Template_basic/0_Dickinson_Template_basic_20251202115326.pdf'
+Request method: 'PUT'
+Request headers:
+    'Content-Length': '49370'
+    'x-ms-blob-type': 'REDACTED'
+    'x-ms-version': 'REDACTED'
+    'Content-Type': 'application/octet-stream'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.27.0 Python/3.9.6 (macOS-15.6-arm64-arm-64bit)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '6e0ca8a6-cf47-11f0-b718-0e3386e78eb4'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+2025-12-02 11:53:35,210 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 201
+Response headers:
+    'Content-Length': '0'
+    'Content-MD5': 'REDACTED'
+    'Last-Modified': 'Tue, 02 Dec 2025 06:23:35 GMT'
+    'Etag': '"0x8DE316B5299B124"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '634c41a2-f01e-00c6-1054-631170000000'
+    'x-ms-client-request-id': '6e0ca8a6-cf47-11f0-b718-0e3386e78eb4'
+    'x-ms-version': 'REDACTED'
+    'x-ms-content-crc64': 'REDACTED'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'Date': 'Tue, 02 Dec 2025 06:23:34 GMT'
+2025-12-02 11:53:35,213 - root - INFO - Uploaded PNG blob: Dickinson_Template_basic/0_Dickinson_Template_basic_20251202115326.pdf to container: newfiles, blob url: https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Template_basic/0_Dickinson_Template_basic_20251202115326.pdf
+2025-12-02 11:53:35,223 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Template_basic/1_Dickinson_Template_basic_20251202115238.pdf'
+Request method: 'PUT'
+Request headers:
+    'Content-Length': '49370'
+    'x-ms-blob-type': 'REDACTED'
+    'x-ms-version': 'REDACTED'
+    'Content-Type': 'application/octet-stream'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.27.0 Python/3.9.6 (macOS-15.6-arm64-arm-64bit)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '6e839696-cf47-11f0-b718-0e3386e78eb4'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+2025-12-02 11:53:35,519 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 201
+Response headers:
+    'Content-Length': '0'
+    'Content-MD5': 'REDACTED'
+    'Last-Modified': 'Tue, 02 Dec 2025 06:23:35 GMT'
+    'Etag': '"0x8DE316B52D06B54"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '634c424c-f01e-00c6-2154-631170000000'
+    'x-ms-client-request-id': '6e839696-cf47-11f0-b718-0e3386e78eb4'
+    'x-ms-version': 'REDACTED'
+    'x-ms-content-crc64': 'REDACTED'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'Date': 'Tue, 02 Dec 2025 06:23:34 GMT'
+2025-12-02 11:53:35,521 - root - INFO - Uploaded PNG blob: Dickinson_Template_basic/1_Dickinson_Template_basic_20251202115238.pdf to container: newfiles, blob url: https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Template_basic/1_Dickinson_Template_basic_20251202115238.pdf
+2025-12-02 11:53:35,527 - root - INFO - Uploaded - converted files to blob storage: [{'filename': 'Dickinson_Template_basic_20251202115326.pdf', 'blob_url': 'https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Template_basic/0_Dickinson_Template_basic_20251202115326.pdf'}, {'filename': 'Dickinson_Template_basic_20251202115238.pdf', 'blob_url': 'https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Template_basic/1_Dickinson_Template_basic_20251202115238.pdf'}]
+2025-12-02 11:53:35,528 - root - ERROR - Error processing assessment: [Errno 1] Operation not permitted: '/Users/aravind/Documents/GitHub/assessment-bot/app/tempfiles/Dickinson_Template_basic/slides'
+2025-12-02 11:53:35,538 - root - INFO - Assessment processed successfully: {'error': 'Failed to process assessment'}
+2025-12-02 11:53:35,598 - watchfiles.main - INFO - 2 changes detected
+2025-12-02 12:29:56,958 - watchfiles.main - INFO - 1 change detected
+2025-12-02 12:29:57,571 - watchfiles.main - INFO - 1 change detected
+2025-12-02 12:30:04,345 - root - INFO - Rate limiting check for client: 127.0.0.1
+2025-12-02 12:30:04,350 - root - ERROR - Redis error: Error 61 connecting to localhost:6379. Connection refused.
+2025-12-02 12:30:04,451 - root - INFO - Received assessment request: hi
+2025-12-02 12:30:04,451 - root - INFO - Assessment request received - prompt='hi'
+2025-12-02 12:30:04,482 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://stwu3mahaaya.blob.core.windows.net/newfiles?restype=REDACTED'
+Request method: 'PUT'
+Request headers:
+    'x-ms-version': 'REDACTED'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.27.0 Python/3.9.6 (macOS-15.6-arm64-arm-64bit)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '8769fd4e-cf4c-11f0-b4ac-0e3386e78eb4'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+2025-12-02 12:30:05,670 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 409
+Response headers:
+    'Content-Length': '230'
+    'Content-Type': 'application/xml'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '9cac5200-a01e-00a9-7159-631b83000000'
+    'x-ms-client-request-id': '8769fd4e-cf4c-11f0-b4ac-0e3386e78eb4'
+    'x-ms-version': 'REDACTED'
+    'x-ms-error-code': 'ContainerAlreadyExists'
+    'Date': 'Tue, 02 Dec 2025 07:00:04 GMT'
+2025-12-02 12:30:05,676 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Template_basic.pptx'
+Request method: 'PUT'
+Request headers:
+    'Content-Length': '408137'
+    'x-ms-meta-content_type': 'REDACTED'
+    'x-ms-blob-type': 'REDACTED'
+    'x-ms-version': 'REDACTED'
+    'Content-Type': 'application/octet-stream'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.27.0 Python/3.9.6 (macOS-15.6-arm64-arm-64bit)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '88202880-cf4c-11f0-b4ac-0e3386e78eb4'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+2025-12-02 12:30:06,841 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 201
+Response headers:
+    'Content-Length': '0'
+    'Content-MD5': 'REDACTED'
+    'Last-Modified': 'Tue, 02 Dec 2025 07:00:06 GMT'
+    'Etag': '"0x8DE31706CF66704"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '9cac528d-a01e-00a9-6c59-631b83000000'
+    'x-ms-client-request-id': '88202880-cf4c-11f0-b4ac-0e3386e78eb4'
+    'x-ms-version': 'REDACTED'
+    'x-ms-content-crc64': 'REDACTED'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'Date': 'Tue, 02 Dec 2025 07:00:05 GMT'
+2025-12-02 12:30:06,844 - root - INFO - Closing BlobServiceClient
+2025-12-02 12:30:06,844 - root - INFO - Downloading and processing file from blob url: https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Template_basic.pptx
+2025-12-02 12:30:06,845 - root - INFO - Processing file: Dickinson_Template_basic.pptx from blob url: https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Template_basic.pptx
+2025-12-02 12:30:06,846 - root - INFO - Downloading blob from https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Template_basic.pptx
+2025-12-02 12:30:06,849 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Template_basic.pptx'
+Request method: 'GET'
+Request headers:
+    'x-ms-range': 'REDACTED'
+    'x-ms-version': 'REDACTED'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.27.0 Python/3.9.6 (macOS-15.6-arm64-arm-64bit)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '88d32836-cf4c-11f0-b4ac-0e3386e78eb4'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+2025-12-02 12:30:06,922 - watchfiles.main - INFO - 1 change detected
+2025-12-02 12:30:07,856 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 206
+Response headers:
+    'Content-Length': '408137'
+    'Content-Type': 'application/octet-stream'
+    'Content-Range': 'REDACTED'
+    'Last-Modified': 'Tue, 02 Dec 2025 07:00:06 GMT'
+    'Accept-Ranges': 'REDACTED'
+    'Etag': '"0x8DE31706CF66704"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': 'ab6b93a3-301e-005f-1d59-636ecd000000'
+    'x-ms-client-request-id': '88d32836-cf4c-11f0-b4ac-0e3386e78eb4'
+    'x-ms-version': 'REDACTED'
+    'x-ms-resource-type': 'REDACTED'
+    'x-ms-meta-content_type': 'REDACTED'
+    'x-ms-creation-time': 'REDACTED'
+    'x-ms-blob-content-md5': 'REDACTED'
+    'x-ms-lease-status': 'REDACTED'
+    'x-ms-lease-state': 'REDACTED'
+    'x-ms-blob-type': 'REDACTED'
+    'x-ms-server-encrypted': 'REDACTED'
+    'x-ms-owner': 'REDACTED'
+    'x-ms-group': 'REDACTED'
+    'x-ms-permissions': 'REDACTED'
+    'x-ms-acl': 'REDACTED'
+    'Date': 'Tue, 02 Dec 2025 07:00:07 GMT'
+2025-12-02 12:30:08,955 - root - INFO - Downloaded blob from https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Template_basic.pptx to local path /Users/aravind/Documents/GitHub/assessment-bot/app/tempfiles/Dickinson_Template_basic/Dickinson_Template_basic_20251202123006.pptx
+2025-12-02 12:30:08,958 - root - INFO - Closing BlobServiceClient
+2025-12-02 12:30:08,958 - root - INFO - Downloaded file to local path: /Users/aravind/Documents/GitHub/assessment-bot/app/tempfiles/Dickinson_Template_basic/Dickinson_Template_basic_20251202123006.pptx
+2025-12-02 12:30:08,958 - root - INFO - Local ppt file path: /Users/aravind/Documents/GitHub/assessment-bot/app/tempfiles/Dickinson_Template_basic/Dickinson_Template_basic_20251202123006.pptx - Dickinson_Template_basic
+2025-12-02 12:30:08,959 - root - INFO - Output directory for PNGs: /Users/aravind/Documents/GitHub/assessment-bot/app/tempfiles/Dickinson_Template_basic/slides
+2025-12-02 12:30:08,960 - root - INFO - Running command: /Applications/LibreOffice.app/Contents/MacOS/soffice --headless --invisible --nologo --nodefault --nofirststartwizard --convert-to pdf --outdir /Users/aravind/Documents/GitHub/assessment-bot/app/tempfiles/Dickinson_Template_basic/slides /Users/aravind/Documents/GitHub/assessment-bot/app/tempfiles/Dickinson_Template_basic/Dickinson_Template_basic_20251202123006.pptx
+2025-12-02 12:30:09,023 - watchfiles.main - INFO - 1 change detected
+2025-12-02 12:30:11,323 - watchfiles.main - INFO - 6 changes detected
+2025-12-02 12:30:13,309 - root - INFO - Converted PPT stored at: /Users/aravind/Documents/GitHub/assessment-bot/app/tempfiles/Dickinson_Template_basic/slides
+2025-12-02 12:30:13,312 - root - INFO - uploading pngs from directory: /Users/aravind/Documents/GitHub/assessment-bot/app/tempfiles/Dickinson_Template_basic/slides - under file: Dickinson_Template_basic
+2025-12-02 12:30:13,313 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://stwu3mahaaya.blob.core.windows.net/newfiles?restype=REDACTED'
+Request method: 'PUT'
+Request headers:
+    'x-ms-version': 'REDACTED'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.27.0 Python/3.9.6 (macOS-15.6-arm64-arm-64bit)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '8cad7c4a-cf4c-11f0-b4ac-0e3386e78eb4'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+2025-12-02 12:30:14,338 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 409
+Response headers:
+    'Content-Length': '230'
+    'Content-Type': 'application/xml'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '1ebc882f-601e-00eb-7359-63a203000000'
+    'x-ms-client-request-id': '8cad7c4a-cf4c-11f0-b4ac-0e3386e78eb4'
+    'x-ms-version': 'REDACTED'
+    'x-ms-error-code': 'ContainerAlreadyExists'
+    'Date': 'Tue, 02 Dec 2025 07:00:13 GMT'
+2025-12-02 12:30:14,350 - root - INFO - Container newfiles may already exist: The specified container already exists.
+RequestId:1ebc882f-601e-00eb-7359-63a203000000
+Time:2025-12-02T07:00:14.2177040Z
+ErrorCode:ContainerAlreadyExists
+Content: <?xml version="1.0" encoding="utf-8"?><Error><Code>ContainerAlreadyExists</Code><Message>The specified container already exists.
+RequestId:1ebc882f-601e-00eb-7359-63a203000000
+Time:2025-12-02T07:00:14.2177040Z</Message></Error>
+2025-12-02 12:30:14,367 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Template_basic/0_Dickinson_Template_basic_20251202115326.pdf'
+Request method: 'PUT'
+Request headers:
+    'Content-Length': '49370'
+    'x-ms-blob-type': 'REDACTED'
+    'x-ms-version': 'REDACTED'
+    'Content-Type': 'application/octet-stream'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.27.0 Python/3.9.6 (macOS-15.6-arm64-arm-64bit)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '8d4dcb14-cf4c-11f0-b4ac-0e3386e78eb4'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+2025-12-02 12:30:15,229 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 201
+Response headers:
+    'Content-Length': '0'
+    'Content-MD5': 'REDACTED'
+    'Last-Modified': 'Tue, 02 Dec 2025 07:00:15 GMT'
+    'Etag': '"0x8DE317071F65E64"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '1ebc8904-601e-00eb-1e59-63a203000000'
+    'x-ms-client-request-id': '8d4dcb14-cf4c-11f0-b4ac-0e3386e78eb4'
+    'x-ms-version': 'REDACTED'
+    'x-ms-content-crc64': 'REDACTED'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'Date': 'Tue, 02 Dec 2025 07:00:14 GMT'
+2025-12-02 12:30:15,231 - root - INFO - Uploaded PNG blob: Dickinson_Template_basic/0_Dickinson_Template_basic_20251202115326.pdf to container: newfiles, blob url: https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Template_basic/0_Dickinson_Template_basic_20251202115326.pdf
+2025-12-02 12:30:15,234 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Template_basic/1_Dickinson_Template_basic_20251202115238.pdf'
+Request method: 'PUT'
+Request headers:
+    'Content-Length': '49370'
+    'x-ms-blob-type': 'REDACTED'
+    'x-ms-version': 'REDACTED'
+    'Content-Type': 'application/octet-stream'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.27.0 Python/3.9.6 (macOS-15.6-arm64-arm-64bit)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '8dd293da-cf4c-11f0-b4ac-0e3386e78eb4'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+2025-12-02 12:30:15,498 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 201
+Response headers:
+    'Content-Length': '0'
+    'Content-MD5': 'REDACTED'
+    'Last-Modified': 'Tue, 02 Dec 2025 07:00:15 GMT'
+    'Etag': '"0x8DE3170721E87F4"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '1ebc89d8-601e-00eb-4959-63a203000000'
+    'x-ms-client-request-id': '8dd293da-cf4c-11f0-b4ac-0e3386e78eb4'
+    'x-ms-version': 'REDACTED'
+    'x-ms-content-crc64': 'REDACTED'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'Date': 'Tue, 02 Dec 2025 07:00:14 GMT'
+2025-12-02 12:30:15,500 - root - INFO - Uploaded PNG blob: Dickinson_Template_basic/1_Dickinson_Template_basic_20251202115238.pdf to container: newfiles, blob url: https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Template_basic/1_Dickinson_Template_basic_20251202115238.pdf
+2025-12-02 12:30:15,505 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Template_basic/2_Dickinson_Template_basic_20251202123006.pdf'
+Request method: 'PUT'
+Request headers:
+    'Content-Length': '49370'
+    'x-ms-blob-type': 'REDACTED'
+    'x-ms-version': 'REDACTED'
+    'Content-Type': 'application/octet-stream'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.27.0 Python/3.9.6 (macOS-15.6-arm64-arm-64bit)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '8dfbd61e-cf4c-11f0-b4ac-0e3386e78eb4'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+2025-12-02 12:30:15,757 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 201
+Response headers:
+    'Content-Length': '0'
+    'Content-MD5': 'REDACTED'
+    'Last-Modified': 'Tue, 02 Dec 2025 07:00:15 GMT'
+    'Etag': '"0x8DE317072473A2C"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '1ebc8a3a-601e-00eb-2259-63a203000000'
+    'x-ms-client-request-id': '8dfbd61e-cf4c-11f0-b4ac-0e3386e78eb4'
+    'x-ms-version': 'REDACTED'
+    'x-ms-content-crc64': 'REDACTED'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'Date': 'Tue, 02 Dec 2025 07:00:14 GMT'
+2025-12-02 12:30:15,762 - root - INFO - Uploaded PNG blob: Dickinson_Template_basic/2_Dickinson_Template_basic_20251202123006.pdf to container: newfiles, blob url: https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Template_basic/2_Dickinson_Template_basic_20251202123006.pdf
+2025-12-02 12:30:15,763 - root - INFO - Uploaded - converted files to blob storage: [{'filename': 'Dickinson_Template_basic_20251202115326.pdf', 'blob_url': 'https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Template_basic/0_Dickinson_Template_basic_20251202115326.pdf'}, {'filename': 'Dickinson_Template_basic_20251202115238.pdf', 'blob_url': 'https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Template_basic/1_Dickinson_Template_basic_20251202115238.pdf'}, {'filename': 'Dickinson_Template_basic_20251202123006.pdf', 'blob_url': 'https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Template_basic/2_Dickinson_Template_basic_20251202123006.pdf'}]
+2025-12-02 12:30:15,764 - root - INFO - Removed local file: /Users/aravind/Documents/GitHub/assessment-bot/app/tempfiles/Dickinson_Template_basic/Dickinson_Template_basic_20251202123006.pptx
+2025-12-02 12:30:15,764 - root - INFO - Assessment processed successfully: {'message': 'Assessment processed for prompt: hi', 'upload_info': {'uploaded_files': [{'filename': 'Dickinson_Template_basic.pptx', 'blob_url': 'https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Template_basic.pptx', 'converted_file_uploads': [{'filename': 'Dickinson_Template_basic_20251202115326.pdf', 'blob_url': 'https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Template_basic/0_Dickinson_Template_basic_20251202115326.pdf'}, {'filename': 'Dickinson_Template_basic_20251202115238.pdf', 'blob_url': 'https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Template_basic/1_Dickinson_Template_basic_20251202115238.pdf'}, {'filename': 'Dickinson_Template_basic_20251202123006.pdf', 'blob_url': 'https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Template_basic/2_Dickinson_Template_basic_20251202123006.pdf'}]}], 'message': 'Files uploaded successfully'}}
+2025-12-02 12:30:15,856 - watchfiles.main - INFO - 2 changes detected
+2025-12-02 18:52:10,296 - watchfiles.main - INFO - 1 change detected
+2025-12-02 18:52:10,859 - watchfiles.main - INFO - 1 change detected
+2025-12-02 18:52:28,023 - watchfiles.main - INFO - 1 change detected
+2025-12-02 19:01:46,387 - watchfiles.main - INFO - 1 change detected
+2025-12-02 19:01:48,566 - watchfiles.main - INFO - 1 change detected
+2025-12-02 19:02:36,888 - watchfiles.main - INFO - 1 change detected
+2025-12-02 19:02:51,864 - watchfiles.main - INFO - 1 change detected
+2025-12-02 19:04:17,106 - root - INFO - Rate limiting check for client: 127.0.0.1
+2025-12-02 19:04:17,109 - root - ERROR - Redis error: Error 61 connecting to localhost:6379. Connection refused.
+2025-12-02 19:04:17,208 - root - INFO - Received assessment request: hi
+2025-12-02 19:04:17,209 - root - INFO - Assessment request received - prompt='hi'
+2025-12-02 19:04:17,260 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://stwu3mahaaya.blob.core.windows.net/newfiles?restype=REDACTED'
+Request method: 'PUT'
+Request headers:
+    'x-ms-version': 'REDACTED'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.27.0 Python/3.9.6 (macOS-15.6-arm64-arm-64bit)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '999177f4-cf83-11f0-8278-0e3386e78eb4'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+2025-12-02 19:04:18,360 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 409
+Response headers:
+    'Content-Length': '230'
+    'Content-Type': 'application/xml'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '28d70d8d-d01e-0035-7c90-63b6e5000000'
+    'x-ms-client-request-id': '999177f4-cf83-11f0-8278-0e3386e78eb4'
+    'x-ms-version': 'REDACTED'
+    'x-ms-error-code': 'ContainerAlreadyExists'
+    'Date': 'Tue, 02 Dec 2025 13:34:17 GMT'
+2025-12-02 19:04:18,366 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Template_basic.pptx'
+Request method: 'PUT'
+Request headers:
+    'Content-Length': '408137'
+    'x-ms-meta-content_type': 'REDACTED'
+    'x-ms-blob-type': 'REDACTED'
+    'x-ms-version': 'REDACTED'
+    'Content-Type': 'application/octet-stream'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.27.0 Python/3.9.6 (macOS-15.6-arm64-arm-64bit)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '9a3a4bfe-cf83-11f0-8278-0e3386e78eb4'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+2025-12-02 19:04:19,752 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 201
+Response headers:
+    'Content-Length': '0'
+    'Content-MD5': 'REDACTED'
+    'Last-Modified': 'Tue, 02 Dec 2025 13:34:19 GMT'
+    'Etag': '"0x8DE31A77F324FA4"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '28d70e2e-d01e-0035-0290-63b6e5000000'
+    'x-ms-client-request-id': '9a3a4bfe-cf83-11f0-8278-0e3386e78eb4'
+    'x-ms-version': 'REDACTED'
+    'x-ms-content-crc64': 'REDACTED'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'Date': 'Tue, 02 Dec 2025 13:34:19 GMT'
+2025-12-02 19:04:19,754 - root - INFO - Closing BlobServiceClient
+2025-12-02 19:04:19,754 - root - INFO - Downloading and processing file from blob url: https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Template_basic.pptx
+2025-12-02 19:04:19,754 - root - INFO - Processing file: Dickinson_Template_basic.pptx from blob url: https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Template_basic.pptx
+2025-12-02 19:04:19,756 - root - INFO - Downloading blob from https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Template_basic.pptx
+2025-12-02 19:04:19,758 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Template_basic.pptx'
+Request method: 'GET'
+Request headers:
+    'x-ms-range': 'REDACTED'
+    'x-ms-version': 'REDACTED'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.27.0 Python/3.9.6 (macOS-15.6-arm64-arm-64bit)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '9b0eb682-cf83-11f0-8278-0e3386e78eb4'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+2025-12-02 19:04:19,892 - watchfiles.main - INFO - 2 changes detected
+2025-12-02 19:04:20,812 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 206
+Response headers:
+    'Content-Length': '408137'
+    'Content-Type': 'application/octet-stream'
+    'Content-Range': 'REDACTED'
+    'Last-Modified': 'Tue, 02 Dec 2025 13:34:19 GMT'
+    'Accept-Ranges': 'REDACTED'
+    'Etag': '"0x8DE31A77F324FA4"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': 'ae4be8d9-301e-00ab-5490-63a53b000000'
+    'x-ms-client-request-id': '9b0eb682-cf83-11f0-8278-0e3386e78eb4'
+    'x-ms-version': 'REDACTED'
+    'x-ms-resource-type': 'REDACTED'
+    'x-ms-meta-content_type': 'REDACTED'
+    'x-ms-creation-time': 'REDACTED'
+    'x-ms-blob-content-md5': 'REDACTED'
+    'x-ms-lease-status': 'REDACTED'
+    'x-ms-lease-state': 'REDACTED'
+    'x-ms-blob-type': 'REDACTED'
+    'x-ms-server-encrypted': 'REDACTED'
+    'x-ms-owner': 'REDACTED'
+    'x-ms-group': 'REDACTED'
+    'x-ms-permissions': 'REDACTED'
+    'x-ms-acl': 'REDACTED'
+    'Date': 'Tue, 02 Dec 2025 13:34:20 GMT'
+2025-12-02 19:04:21,863 - root - INFO - Downloaded blob from https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Template_basic.pptx to local path /Users/aravind/Documents/GitHub/assessment-bot/app/tempfiles/Dickinson_Template_basic/Dickinson_Template_basic_20251202190419.pptx
+2025-12-02 19:04:21,864 - root - INFO - Closing BlobServiceClient
+2025-12-02 19:04:21,864 - root - INFO - Downloaded file to local path: /Users/aravind/Documents/GitHub/assessment-bot/app/tempfiles/Dickinson_Template_basic/Dickinson_Template_basic_20251202190419.pptx
+2025-12-02 19:04:21,865 - root - INFO - Removed local file: /Users/aravind/Documents/GitHub/assessment-bot/app/tempfiles/Dickinson_Template_basic/Dickinson_Template_basic_20251202190419.pptx
+2025-12-02 19:04:21,865 - root - INFO - Assessment processed successfully: {'message': 'Assessment processed for prompt: hi', 'upload_info': {'uploaded_files': [{'filename': 'Dickinson_Template_basic.pptx', 'blob_url': 'https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Template_basic.pptx'}], 'message': 'Files uploaded successfully'}}
+2025-12-02 19:04:21,942 - watchfiles.main - INFO - 2 changes detected
+2025-12-02 19:04:48,728 - watchfiles.main - INFO - 1 change detected
+2025-12-02 19:04:49,308 - watchfiles.main - INFO - 1 change detected
+2025-12-02 19:04:51,565 - watchfiles.main - INFO - 1 change detected
+2025-12-02 19:05:04,326 - watchfiles.main - INFO - 1 change detected
+2025-12-02 19:05:05,658 - watchfiles.main - INFO - 1 change detected
+2025-12-02 19:05:11,830 - root - INFO - Rate limiting check for client: 127.0.0.1
+2025-12-02 19:05:11,834 - root - ERROR - Redis error: Error 61 connecting to localhost:6379. Connection refused.
+2025-12-02 19:05:11,924 - root - INFO - Received assessment request: hi
+2025-12-02 19:05:11,924 - root - INFO - Assessment request received - prompt='hi'
+2025-12-02 19:05:11,957 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://stwu3mahaaya.blob.core.windows.net/newfiles?restype=REDACTED'
+Request method: 'PUT'
+Request headers:
+    'x-ms-version': 'REDACTED'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.27.0 Python/3.9.6 (macOS-15.6-arm64-arm-64bit)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': 'ba2ba296-cf83-11f0-a957-0e3386e78eb4'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+2025-12-02 19:05:13,047 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 409
+Response headers:
+    'Content-Length': '230'
+    'Content-Type': 'application/xml'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '9eda5433-601e-0099-4f90-63a54c000000'
+    'x-ms-client-request-id': 'ba2ba296-cf83-11f0-a957-0e3386e78eb4'
+    'x-ms-version': 'REDACTED'
+    'x-ms-error-code': 'ContainerAlreadyExists'
+    'Date': 'Tue, 02 Dec 2025 13:35:12 GMT'
+2025-12-02 19:05:13,051 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Template_basic.pptx'
+Request method: 'PUT'
+Request headers:
+    'Content-Length': '408137'
+    'x-ms-meta-content_type': 'REDACTED'
+    'x-ms-blob-type': 'REDACTED'
+    'x-ms-version': 'REDACTED'
+    'Content-Type': 'application/octet-stream'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.27.0 Python/3.9.6 (macOS-15.6-arm64-arm-64bit)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': 'bad2957e-cf83-11f0-a957-0e3386e78eb4'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+2025-12-02 19:05:14,260 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 201
+Response headers:
+    'Content-Length': '0'
+    'Content-MD5': 'REDACTED'
+    'Last-Modified': 'Tue, 02 Dec 2025 13:35:14 GMT'
+    'Etag': '"0x8DE31A79FAF2ED8"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '9eda551e-601e-0099-2290-63a54c000000'
+    'x-ms-client-request-id': 'bad2957e-cf83-11f0-a957-0e3386e78eb4'
+    'x-ms-version': 'REDACTED'
+    'x-ms-content-crc64': 'REDACTED'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'Date': 'Tue, 02 Dec 2025 13:35:13 GMT'
+2025-12-02 19:05:14,266 - root - INFO - Closing BlobServiceClient
+2025-12-02 19:05:14,266 - root - INFO - Downloading and processing file from blob url: https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Template_basic.pptx
+2025-12-02 19:05:14,267 - root - INFO - Processing file: Dickinson_Template_basic.pptx from blob url: https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Template_basic.pptx
+2025-12-02 19:05:14,269 - root - INFO - Downloading blob from https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Template_basic.pptx
+2025-12-02 19:05:14,273 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Template_basic.pptx'
+Request method: 'GET'
+Request headers:
+    'x-ms-range': 'REDACTED'
+    'x-ms-version': 'REDACTED'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.27.0 Python/3.9.6 (macOS-15.6-arm64-arm-64bit)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': 'bb8cec94-cf83-11f0-a957-0e3386e78eb4'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+2025-12-02 19:05:14,357 - watchfiles.main - INFO - 2 changes detected
+2025-12-02 19:05:15,356 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 206
+Response headers:
+    'Content-Length': '408137'
+    'Content-Type': 'application/octet-stream'
+    'Content-Range': 'REDACTED'
+    'Last-Modified': 'Tue, 02 Dec 2025 13:35:14 GMT'
+    'Accept-Ranges': 'REDACTED'
+    'Etag': '"0x8DE31A79FAF2ED8"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': 'c82e6c8e-401e-008e-3990-630c47000000'
+    'x-ms-client-request-id': 'bb8cec94-cf83-11f0-a957-0e3386e78eb4'
+    'x-ms-version': 'REDACTED'
+    'x-ms-resource-type': 'REDACTED'
+    'x-ms-meta-content_type': 'REDACTED'
+    'x-ms-creation-time': 'REDACTED'
+    'x-ms-blob-content-md5': 'REDACTED'
+    'x-ms-lease-status': 'REDACTED'
+    'x-ms-lease-state': 'REDACTED'
+    'x-ms-blob-type': 'REDACTED'
+    'x-ms-server-encrypted': 'REDACTED'
+    'x-ms-owner': 'REDACTED'
+    'x-ms-group': 'REDACTED'
+    'x-ms-permissions': 'REDACTED'
+    'x-ms-acl': 'REDACTED'
+    'Date': 'Tue, 02 Dec 2025 13:35:14 GMT'
+2025-12-02 19:05:16,272 - root - INFO - Downloaded blob from https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Template_basic.pptx to local path /Users/aravind/Documents/GitHub/assessment-bot/app/tempfiles/Dickinson_Template_basic/Dickinson_Template_basic_20251202190514.pptx
+2025-12-02 19:05:16,274 - root - INFO - Closing BlobServiceClient
+2025-12-02 19:05:16,277 - root - INFO - Downloaded file to local path: /Users/aravind/Documents/GitHub/assessment-bot/app/tempfiles/Dickinson_Template_basic/Dickinson_Template_basic_20251202190514.pptx
+2025-12-02 19:05:16,287 - root - INFO - Local ppt file path: /Users/aravind/Documents/GitHub/assessment-bot/app/tempfiles/Dickinson_Template_basic/Dickinson_Template_basic_20251202190514.pptx - Dickinson_Template_basic
+2025-12-02 19:05:16,287 - root - INFO - Output directory for PNGs: /Users/aravind/Documents/GitHub/assessment-bot/app/tempfiles/Dickinson_Template_basic/slides
+2025-12-02 19:05:16,288 - root - INFO - Running command: /Applications/LibreOffice.app/Contents/MacOS/soffice --headless --invisible --nologo --nodefault --nofirststartwizard --convert-to pdf --outdir /Users/aravind/Documents/GitHub/assessment-bot/app/tempfiles/Dickinson_Template_basic/slides /Users/aravind/Documents/GitHub/assessment-bot/app/tempfiles/Dickinson_Template_basic/Dickinson_Template_basic_20251202190514.pptx
+2025-12-02 19:05:16,391 - watchfiles.main - INFO - 2 changes detected
+2025-12-02 19:05:18,789 - watchfiles.main - INFO - 6 changes detected
+2025-12-02 19:05:20,801 - root - INFO - Converted PPT stored at: /Users/aravind/Documents/GitHub/assessment-bot/app/tempfiles/Dickinson_Template_basic/slides
+2025-12-02 19:05:20,805 - root - INFO - uploading pngs from directory: /Users/aravind/Documents/GitHub/assessment-bot/app/tempfiles/Dickinson_Template_basic/slides - under file: Dickinson_Template_basic
+2025-12-02 19:05:20,806 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://stwu3mahaaya.blob.core.windows.net/newfiles?restype=REDACTED'
+Request method: 'PUT'
+Request headers:
+    'x-ms-version': 'REDACTED'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.27.0 Python/3.9.6 (macOS-15.6-arm64-arm-64bit)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': 'bf71e134-cf83-11f0-a957-0e3386e78eb4'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+2025-12-02 19:05:21,802 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 409
+Response headers:
+    'Content-Length': '230'
+    'Content-Type': 'application/xml'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '6be814b3-001e-009f-6c90-6396f3000000'
+    'x-ms-client-request-id': 'bf71e134-cf83-11f0-a957-0e3386e78eb4'
+    'x-ms-version': 'REDACTED'
+    'x-ms-error-code': 'ContainerAlreadyExists'
+    'Date': 'Tue, 02 Dec 2025 13:35:21 GMT'
+2025-12-02 19:05:21,803 - root - INFO - Container newfiles may already exist: The specified container already exists.
+RequestId:6be814b3-001e-009f-6c90-6396f3000000
+Time:2025-12-02T13:35:21.7025398Z
+ErrorCode:ContainerAlreadyExists
+Content: <?xml version="1.0" encoding="utf-8"?><Error><Code>ContainerAlreadyExists</Code><Message>The specified container already exists.
+RequestId:6be814b3-001e-009f-6c90-6396f3000000
+Time:2025-12-02T13:35:21.7025398Z</Message></Error>
+2025-12-02 19:05:21,807 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Template_basic/0_Dickinson_Template_basic_20251202190514.pdf'
+Request method: 'PUT'
+Request headers:
+    'Content-Length': '49370'
+    'x-ms-blob-type': 'REDACTED'
+    'x-ms-version': 'REDACTED'
+    'Content-Type': 'application/octet-stream'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.27.0 Python/3.9.6 (macOS-15.6-arm64-arm-64bit)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': 'c00a8718-cf83-11f0-a957-0e3386e78eb4'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+2025-12-02 19:05:22,767 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 201
+Response headers:
+    'Content-Length': '0'
+    'Content-MD5': 'REDACTED'
+    'Last-Modified': 'Tue, 02 Dec 2025 13:35:22 GMT'
+    'Etag': '"0x8DE31A7A4B6EC7C"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '6be8154f-001e-009f-7390-6396f3000000'
+    'x-ms-client-request-id': 'c00a8718-cf83-11f0-a957-0e3386e78eb4'
+    'x-ms-version': 'REDACTED'
+    'x-ms-content-crc64': 'REDACTED'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'Date': 'Tue, 02 Dec 2025 13:35:22 GMT'
+2025-12-02 19:05:22,770 - root - INFO - Uploaded PNG blob: Dickinson_Template_basic/0_Dickinson_Template_basic_20251202190514.pdf to container: newfiles, blob url: https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Template_basic/0_Dickinson_Template_basic_20251202190514.pdf
+2025-12-02 19:05:22,771 - root - INFO - Uploaded - converted files to blob storage: [{'filename': 'Dickinson_Template_basic_20251202190514.pdf', 'blob_url': 'https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Template_basic/0_Dickinson_Template_basic_20251202190514.pdf'}]
+2025-12-02 19:05:22,772 - root - INFO - Removed local file: /Users/aravind/Documents/GitHub/assessment-bot/app/tempfiles/Dickinson_Template_basic/Dickinson_Template_basic_20251202190514.pptx
+2025-12-02 19:05:22,774 - root - INFO - Assessment processed successfully: {'message': 'Assessment processed for prompt: hi', 'upload_info': {'uploaded_files': [{'filename': 'Dickinson_Template_basic.pptx', 'blob_url': 'https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Template_basic.pptx', 'converted_file_uploads': [{'filename': 'Dickinson_Template_basic_20251202190514.pdf', 'blob_url': 'https://stwu3mahaaya.blob.core.windows.net/newfiles/Dickinson_Template_basic/0_Dickinson_Template_basic_20251202190514.pdf'}]}], 'message': 'Files uploaded successfully'}}
+2025-12-02 19:05:22,879 - watchfiles.main - INFO - 2 changes detected
+2025-12-02 19:09:32,203 - watchfiles.main - INFO - 4 changes detected
+2025-12-02 19:09:34,838 - watchfiles.main - INFO - 11 changes detected

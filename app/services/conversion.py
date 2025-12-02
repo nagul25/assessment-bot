@@ -3,11 +3,15 @@ import subprocess
 import os
 
 from app.log_config import logger
+from config import Config
+
+FILE_CONVERSION_FORMAT = Config.FILE_CONVERSION_FORMAT
 
 PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-def convert_ppt_to_png(local_file_path: str, file_name: str) -> str:
+def handle_convert_ppt(local_file_path: str, file_name: str) -> str:
     try:
+        print('FILE_CONVERSION_FORMAT: ', FILE_CONVERSION_FORMAT)
         logger.info(f"Local ppt file path: {local_file_path} - {file_name}")
         output_dir = os.path.join(PROJECT_ROOT, "tempfiles", file_name, "slides")
         logger.info(f"Output directory for PNGs: {output_dir}")
@@ -26,7 +30,7 @@ def convert_ppt_to_png(local_file_path: str, file_name: str) -> str:
             "--nodefault",
             "--nofirststartwizard",
             "--convert-to",
-            "png",
+            FILE_CONVERSION_FORMAT,
             "--outdir",
             output_dir,
             local_file_path

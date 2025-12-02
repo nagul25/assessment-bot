@@ -5,7 +5,7 @@ from fastapi import UploadFile
 from urllib.parse import urlparse
 from app.models.models import QueryPromptRequest
 from app.services.blobservice import download_blob_to_local, download_blob_to_local, upload_blob, upload_png_to_blob
-from app.services.conversion import convert_ppt_to_png
+from app.services.conversion import handle_convert_ppt
 from app.services.rag_system import RAGSystem
 from app.log_config import logger
 import os
@@ -70,18 +70,21 @@ class QueryProcessorService:
                     os.makedirs(os.path.dirname(local_path), exist_ok=True)
                     await download_blob_to_local(blob_url, local_path)
                     logger.info(f"Downloaded file to local path: {local_path}")
+
+                    print("File extension: ", ext)
                     
                     # 4. Convert ppt to png
-                    png_output_dir = convert_ppt_to_png(local_path, file_name=name)
-                    logger.info(f"Converted PPT to PNGs at: {png_output_dir}")
+                    file_output_dir = handle_convert_ppt(local_path, file_name=name)
+                    logger.info(f"Converted PPT stored at: {file_output_dir}")
 
                     # 5. Upload converted slides to blob as png under one folder for each ppt
-                    png_files = await upload_png_to_blob(png_output_dir, file_name=name)
-                    logger.info(f"Uploaded PNG files to blob storage: {png_files}")
+                    uploaded_files = await upload_png_to_blob(file_output_dir, file_name=name)
+                    logger.info(f"Uploaded - converted files to blob storage: {uploaded_files}")
 
-                    file["png_uploads"] = png_files
+                    file["converted_file_uploads"] = uploaded_files
                     # 6. remove the local file after processing
                     os.remove(local_path)
+                    # os.remove(file_output_dir)
                     logger.info(f"Removed local file: {local_path}")    
 
             # Placeholder for assessment logic
