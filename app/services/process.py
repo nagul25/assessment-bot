@@ -1,5 +1,6 @@
 from datetime import datetime
 import sys
+import glob
 from typing import List, Optional
 from fastapi import UploadFile
 from urllib.parse import urlparse
@@ -7,6 +8,7 @@ from app.models.models import QueryPromptRequest
 from app.services.blobservice import download_blob_to_local, download_blob_to_local, upload_blob, upload_png_to_blob
 from app.services.updated_conversion import convert_ppt_to_png as updated_convert_ppt_to_png
 from app.services.rag_system import RAGSystem
+from app.services.azure_assistant import run_assessment
 from app.log_config import logger
 import os
 
@@ -42,28 +44,36 @@ class QueryProcessorService:
             return {"error": "Failed to process query"}
         
     async def process_assessment(self, assessment: QueryPromptRequest, files: Optional[List[UploadFile]] = None):
+        """
+        Process an assessment request by:
+        1. Uploading files to blob storage
+        2. Converting PPT/PDF to PNG images
+        3. Running the Azure Assistant with the images for assessment
+        4. Returning the structured assessment result
+        """
         try:
-            # Implement your assessment processing logic here
             print(f"Processing assessment with prompt: ", assessment)
             prompt = assessment.prompt
+            file_uploaded_response = None
+            all_png_paths = []  # Collect all PNG paths for assistant analysis
 
             if files:
-                # 1. upload ppt to blob storage
+                # 1. Upload original files to blob storage (for backup/audit)
                 file_uploaded_response = await upload_blob(files)
 
-                # 2. iterate through each file and download it for processing
-                files = file_uploaded_response.get("uploaded_files", [])
+                # 2. Iterate through each file and download it for processing
+                uploaded_files = file_uploaded_response.get("uploaded_files", [])
                 
-                for file in files:
-                    blob_url = file.get("blob_url")
+                for file_info in uploaded_files:
+                    blob_url = file_info.get("blob_url")
                     logger.info(f"Downloading and processing file from blob url: {blob_url}")
                     
-                    # parse the url to get the file name
+                    # Parse the url to get the file name
                     parsed_url = urlparse(blob_url)
                     file_name = parsed_url.path.split("/")[-1]
                     logger.info(f"Processing file: {file_name} from blob url: {blob_url}")
 
-                    # 3. Download and write ppt slides into local path from azure
+                    # 3. Download and write ppt/pdf slides into local path from azure
                     name, ext = os.path.splitext(file_name)
                     timestamp = datetime.now().strftime("%Y%m%d%H%M%S")
                     local_path = os.path.join(PROJECT_ROOT, "tempfiles", name, f"{name}_{timestamp}{ext}")
@@ -72,24 +82,67 @@ class QueryProcessorService:
                     logger.info(f"Downloaded file to local path: {local_path}")
                     print("input file extension: ", ext)
                     
-                    # 4. Convert ppt to png
+                    # 4. Convert ppt/pdf to png
                     png_output_dir = updated_convert_ppt_to_png(local_path, file_name=name)
-                    logger.info(f"Converted PPT to PNGs at: {png_output_dir}")
+                    logger.info(f"Converted PPT/PDF to PNGs at: {png_output_dir}")
 
-                    # # 5. Upload converted slides to blob as png under one folder for each ppt
-                    png_files = await upload_png_to_blob(png_output_dir, file_name=name)
-                    logger.info(f"Uploaded PNG files to blob storage: {png_files}")
+                    # Collect PNG paths for assistant analysis
+                    png_files_in_dir = sorted(glob.glob(os.path.join(png_output_dir, "*.png")))
+                    all_png_paths.extend(png_files_in_dir)
+                    logger.info(f"Found {len(png_files_in_dir)} PNG files for assessment")
 
-                    file["png_uploads"] = png_files
-                    # 6. remove the local file after processing
-                    os.remove(local_path)
-                    logger.info(f"Removed local file: {local_path}")    
+                    # 5. Upload converted slides to blob as png (for backup/audit)
+                    png_blob_files = await upload_png_to_blob(png_output_dir, file_name=name)
+                    logger.info(f"Uploaded PNG files to blob storage: {png_blob_files}")
 
-            # Placeholder for assessment logic
-            assessment_result = f"Assessment processed for prompt: {prompt}"
-            print(f"Assessment result: ", assessment_result)
+                    file_info["png_uploads"] = png_blob_files
+                    
+                    # 6. Remove the local original file after processing
+                    if os.path.exists(local_path):
+                        os.remove(local_path)
+                        logger.info(f"Removed local file: {local_path}")
 
-            return {"message": assessment_result, "upload_info": file_uploaded_response if files else None}
+            # 7. Run Azure Assistant for assessment
+            logger.info(f"Running Azure Assistant assessment with {len(all_png_paths)} images")
+            
+            if all_png_paths:
+                # Run assessment with images
+                assessment_result = await run_assessment(
+                    prompt=prompt,
+                    png_paths=all_png_paths
+                )
+            else:
+                # Run assessment without images (text-only prompt)
+                assessment_result = await run_assessment(
+                    prompt=prompt,
+                    png_paths=[]
+                )
+            
+            logger.info(f"Assessment completed: success={assessment_result.get('success', False)}")
+
+            # 8. Clean up PNG files after assessment
+            for png_path in all_png_paths:
+                try:
+                    if os.path.exists(png_path):
+                        os.remove(png_path)
+                except Exception as cleanup_error:
+                    logger.warning(f"Failed to clean up PNG file {png_path}: {cleanup_error}")
+
+            # Build response
+            if assessment_result.get("success"):
+                return {
+                    "message": "Assessment completed successfully",
+                    "assessment": assessment_result.get("assessment"),
+                    "images_analyzed": assessment_result.get("images_analyzed", 0),
+                    "thread_id": assessment_result.get("thread_id"),
+                    "upload_info": file_uploaded_response
+                }
+            else:
+                return {
+                    "error": assessment_result.get("error", "Assessment failed"),
+                    "upload_info": file_uploaded_response
+                }
+
         except Exception as e:
             logger.error(f"Error processing assessment: {e}")
-            return {"error": "Failed to process assessment"}
+            return {"error": f"Failed to process assessment: {str(e)}"}

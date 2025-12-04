@@ -4003,3 +4003,534 @@ Response headers:
 2025-11-23 12:28:33,607 - watchfiles.main - INFO - 1 change detected
 2025-11-23 12:28:34,187 - watchfiles.main - INFO - 1 change detected
 2025-11-23 12:28:58,420 - watchfiles.main - INFO - 1 change detected
+2025-12-03 21:53:46,070 - root - INFO - Found 4 standard files in /Users/nagul/Desktop/numentica/assessment exp/backend/assessment-bot/files
+2025-12-03 21:53:46,070 - root - INFO -   - Experian-Cloud-Principles.pdf
+2025-12-03 21:53:46,070 - root - INFO -   - Experian-General-Knowledge.pdf
+2025-12-03 21:53:46,071 - root - INFO -   - EA-Assessment-Category.pdf
+2025-12-03 21:53:46,071 - root - INFO -   - Experian-EA-Principles.pdf
+2025-12-03 21:53:46,086 - root - INFO - Azure Assistant Client initialized successfully
+2025-12-03 21:53:47,529 - httpx - INFO - HTTP Request: POST https://aidoctest-resource.cognitiveservices.azure.com//openai/files?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-03 21:53:47,530 - root - INFO - Uploaded file /Users/nagul/Desktop/numentica/assessment exp/backend/assessment-bot/files/Experian-Cloud-Principles.pdf with ID: assistant-3WuEGtbxedjZxjc6rP9Adz
+2025-12-03 21:53:48,029 - httpx - INFO - HTTP Request: POST https://aidoctest-resource.cognitiveservices.azure.com//openai/files?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-03 21:53:48,032 - root - INFO - Uploaded file /Users/nagul/Desktop/numentica/assessment exp/backend/assessment-bot/files/Experian-General-Knowledge.pdf with ID: assistant-E3G3H6BNyh3YrQDRvTkokL
+2025-12-03 21:53:48,537 - httpx - INFO - HTTP Request: POST https://aidoctest-resource.cognitiveservices.azure.com//openai/files?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-03 21:53:48,539 - root - INFO - Uploaded file /Users/nagul/Desktop/numentica/assessment exp/backend/assessment-bot/files/EA-Assessment-Category.pdf with ID: assistant-5uSBHGWBNksNUURQh7cwoP
+2025-12-03 21:53:49,227 - httpx - INFO - HTTP Request: POST https://aidoctest-resource.cognitiveservices.azure.com//openai/files?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-03 21:53:49,230 - root - INFO - Uploaded file /Users/nagul/Desktop/numentica/assessment exp/backend/assessment-bot/files/Experian-EA-Principles.pdf with ID: assistant-E58yGv9gyFa5mEPfF8HdWA
+2025-12-03 21:53:49,230 - root - ERROR - Failed to create assistant: 'Beta' object has no attribute 'vector_stores'
+2025-12-03 21:53:50,371 - httpx - INFO - HTTP Request: DELETE https://aidoctest-resource.cognitiveservices.azure.com//openai/files/assistant-3WuEGtbxedjZxjc6rP9Adz?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-03 21:53:50,374 - root - INFO - Deleted file: assistant-3WuEGtbxedjZxjc6rP9Adz
+2025-12-03 21:53:51,600 - httpx - INFO - HTTP Request: DELETE https://aidoctest-resource.cognitiveservices.azure.com//openai/files/assistant-E3G3H6BNyh3YrQDRvTkokL?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-03 21:53:51,603 - root - INFO - Deleted file: assistant-E3G3H6BNyh3YrQDRvTkokL
+2025-12-03 21:53:52,573 - httpx - INFO - HTTP Request: DELETE https://aidoctest-resource.cognitiveservices.azure.com//openai/files/assistant-5uSBHGWBNksNUURQh7cwoP?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-03 21:53:52,575 - root - INFO - Deleted file: assistant-5uSBHGWBNksNUURQh7cwoP
+2025-12-03 21:53:53,648 - httpx - INFO - HTTP Request: DELETE https://aidoctest-resource.cognitiveservices.azure.com//openai/files/assistant-E58yGv9gyFa5mEPfF8HdWA?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-03 21:53:53,651 - root - INFO - Deleted file: assistant-E58yGv9gyFa5mEPfF8HdWA
+2025-12-03 21:57:15,315 - root - INFO - Found 4 standard files in /Users/nagul/Desktop/numentica/assessment exp/backend/assessment-bot/files
+2025-12-03 21:57:15,316 - root - INFO -   - Experian-Cloud-Principles.pdf
+2025-12-03 21:57:15,316 - root - INFO -   - Experian-General-Knowledge.pdf
+2025-12-03 21:57:15,317 - root - INFO -   - EA-Assessment-Category.pdf
+2025-12-03 21:57:15,317 - root - INFO -   - Experian-EA-Principles.pdf
+2025-12-03 21:57:15,330 - root - INFO - Azure Assistant Client initialized successfully
+2025-12-03 21:57:16,444 - httpx - INFO - HTTP Request: POST https://aidoctest-resource.cognitiveservices.azure.com/openai/files?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-03 21:57:16,449 - root - INFO - Uploaded file /Users/nagul/Desktop/numentica/assessment exp/backend/assessment-bot/files/Experian-Cloud-Principles.pdf with ID: assistant-7ytNMNw9migKerNSEiTcNy
+2025-12-03 21:57:16,999 - httpx - INFO - HTTP Request: POST https://aidoctest-resource.cognitiveservices.azure.com/openai/files?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-03 21:57:17,001 - root - INFO - Uploaded file /Users/nagul/Desktop/numentica/assessment exp/backend/assessment-bot/files/Experian-General-Knowledge.pdf with ID: assistant-C25VQwJBKyMpb63TCQkvdD
+2025-12-03 21:57:17,987 - httpx - INFO - HTTP Request: POST https://aidoctest-resource.cognitiveservices.azure.com/openai/files?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-03 21:57:17,991 - root - INFO - Uploaded file /Users/nagul/Desktop/numentica/assessment exp/backend/assessment-bot/files/EA-Assessment-Category.pdf with ID: assistant-NkTgBi8FxpeXmY5VZNCu4u
+2025-12-03 21:57:18,658 - httpx - INFO - HTTP Request: POST https://aidoctest-resource.cognitiveservices.azure.com/openai/files?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-03 21:57:18,660 - root - INFO - Uploaded file /Users/nagul/Desktop/numentica/assessment exp/backend/assessment-bot/files/Experian-EA-Principles.pdf with ID: assistant-WxuWgmLtt622A2HHNa6z96
+2025-12-03 21:57:18,661 - root - WARNING - Vector stores API not available, using direct file attachment
+2025-12-03 21:57:18,930 - httpx - INFO - HTTP Request: POST https://aidoctest-resource.cognitiveservices.azure.com/openai/assistants?api-version=2025-04-01-preview "HTTP/1.1 400 Bad Request"
+2025-12-03 21:57:18,934 - root - ERROR - Failed to create assistant: Error code: 400 - {'error': {'message': "Unknown parameter: 'tool_resources.file_search.file_ids'.", 'type': 'invalid_request_error', 'param': 'tool_resources.file_search.file_ids', 'code': 'unknown_parameter'}}
+2025-12-03 21:57:19,844 - httpx - INFO - HTTP Request: DELETE https://aidoctest-resource.cognitiveservices.azure.com/openai/files/assistant-7ytNMNw9migKerNSEiTcNy?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-03 21:57:19,845 - root - INFO - Deleted file: assistant-7ytNMNw9migKerNSEiTcNy
+2025-12-03 21:57:20,912 - httpx - INFO - HTTP Request: DELETE https://aidoctest-resource.cognitiveservices.azure.com/openai/files/assistant-C25VQwJBKyMpb63TCQkvdD?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-03 21:57:20,914 - root - INFO - Deleted file: assistant-C25VQwJBKyMpb63TCQkvdD
+2025-12-03 21:57:21,755 - httpx - INFO - HTTP Request: DELETE https://aidoctest-resource.cognitiveservices.azure.com/openai/files/assistant-NkTgBi8FxpeXmY5VZNCu4u?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-03 21:57:21,757 - root - INFO - Deleted file: assistant-NkTgBi8FxpeXmY5VZNCu4u
+2025-12-03 21:57:24,526 - httpx - INFO - HTTP Request: DELETE https://aidoctest-resource.cognitiveservices.azure.com/openai/files/assistant-WxuWgmLtt622A2HHNa6z96?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-03 21:57:24,526 - root - INFO - Deleted file: assistant-WxuWgmLtt622A2HHNa6z96
+2025-12-03 21:59:45,802 - root - INFO - Found 4 standard files in /Users/nagul/Desktop/numentica/assessment exp/backend/assessment-bot/files
+2025-12-03 21:59:45,802 - root - INFO -   - Experian-Cloud-Principles.pdf
+2025-12-03 21:59:45,802 - root - INFO -   - Experian-General-Knowledge.pdf
+2025-12-03 21:59:45,803 - root - INFO -   - EA-Assessment-Category.pdf
+2025-12-03 21:59:45,803 - root - INFO -   - Experian-EA-Principles.pdf
+2025-12-03 21:59:45,817 - root - INFO - Azure Assistant Client initialized successfully
+2025-12-03 21:59:46,784 - httpx - INFO - HTTP Request: POST https://aidoctest-resource.cognitiveservices.azure.com/openai/files?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-03 21:59:46,786 - root - INFO - Uploaded file /Users/nagul/Desktop/numentica/assessment exp/backend/assessment-bot/files/Experian-Cloud-Principles.pdf with ID: assistant-Fsf2owKHJ7FyVdp2jqT4Km
+2025-12-03 21:59:47,480 - httpx - INFO - HTTP Request: POST https://aidoctest-resource.cognitiveservices.azure.com/openai/files?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-03 21:59:47,483 - root - INFO - Uploaded file /Users/nagul/Desktop/numentica/assessment exp/backend/assessment-bot/files/Experian-General-Knowledge.pdf with ID: assistant-TXZxyVeWu8BJwWkPPK88Y5
+2025-12-03 21:59:48,061 - httpx - INFO - HTTP Request: POST https://aidoctest-resource.cognitiveservices.azure.com/openai/files?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-03 21:59:48,064 - root - INFO - Uploaded file /Users/nagul/Desktop/numentica/assessment exp/backend/assessment-bot/files/EA-Assessment-Category.pdf with ID: assistant-LPFtiCdWEjKdFBbXkEqGPB
+2025-12-03 21:59:48,637 - httpx - INFO - HTTP Request: POST https://aidoctest-resource.cognitiveservices.azure.com/openai/files?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-03 21:59:48,638 - root - INFO - Uploaded file /Users/nagul/Desktop/numentica/assessment exp/backend/assessment-bot/files/Experian-EA-Principles.pdf with ID: assistant-SS8fyEfhXVvcrhSq73bxS7
+2025-12-03 21:59:48,639 - root - INFO - Vector stores not available - files will be attached at thread level
+2025-12-03 21:59:48,974 - httpx - INFO - HTTP Request: POST https://aidoctest-resource.cognitiveservices.azure.com/openai/assistants?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-03 21:59:48,984 - root - INFO - Created assistant with ID: asst_MSw0vV2ylVj8atubJvWPXrlP
+2025-12-03 21:59:48,984 - root - INFO - Assistant asst_MSw0vV2ylVj8atubJvWPXrlP created - files will be attached per-thread
+2025-12-03 21:59:48,997 - root - INFO - Saved configuration to /Users/nagul/Desktop/numentica/assessment exp/backend/assessment-bot/standard_files.json
+2025-12-03 22:02:35,506 - watchfiles.main - INFO - 5 changes detected
+2025-12-03 22:02:37,701 - watchfiles.main - INFO - 8 changes detected
+2025-12-03 22:02:40,153 - watchfiles.main - INFO - 1 change detected
+2025-12-03 22:02:40,660 - watchfiles.main - INFO - 3 changes detected
+2025-12-03 22:02:42,760 - watchfiles.main - INFO - 1 change detected
+2025-12-03 22:02:44,717 - watchfiles.main - INFO - 1 change detected
+2025-12-03 22:32:17,707 - root - INFO - Rate limiting check for client: 127.0.0.1
+2025-12-03 22:32:17,711 - root - ERROR - Redis error: Error 61 connecting to localhost:6379. Connection refused.
+2025-12-03 22:32:17,726 - root - INFO - Received assessment request: Give me a assessment
+2025-12-03 22:32:17,729 - root - INFO - Assessment request received - prompt='Give me a assessment'
+2025-12-03 22:32:17,792 - root - ERROR - Error processing assessment: Connection string missing required connection details.
+2025-12-03 22:32:17,796 - root - INFO - Assessment processed successfully: {'error': 'Failed to process assessment: Connection string missing required connection details.'}
+2025-12-03 22:47:28,622 - root - INFO - Rate limiting check for client: 127.0.0.1
+2025-12-03 22:47:28,626 - root - ERROR - Redis error: Error 61 connecting to localhost:6379. Connection refused.
+2025-12-03 22:47:28,633 - root - INFO - Received assessment request: Give me assessment
+
+2025-12-03 22:47:28,634 - root - INFO - Assessment request received - prompt='Give me assessment\r\n'
+2025-12-03 22:47:28,686 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://stwu3mahaaya.blob.core.windows.net/experiantest?restype=REDACTED'
+Request method: 'PUT'
+Request headers:
+    'x-ms-version': 'REDACTED'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.27.0 Python/3.9.21 (macOS-15.3.2-arm64-arm-64bit)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '19c0266e-d0dd-11f0-9230-42603fc0563c'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+2025-12-03 22:47:28,870 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 409
+Response headers:
+    'Content-Length': '230'
+    'Content-Type': 'application/xml'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': 'fa6b1172-801e-00f3-3be9-647d64000000'
+    'x-ms-client-request-id': '19c0266e-d0dd-11f0-9230-42603fc0563c'
+    'x-ms-version': 'REDACTED'
+    'x-ms-error-code': 'ContainerAlreadyExists'
+    'Date': 'Thu, 04 Dec 2025 06:47:28 GMT'
+2025-12-03 22:47:28,874 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://stwu3mahaaya.blob.core.windows.net/experiantest/User-Architecture-Presentation.pptx'
+Request method: 'PUT'
+Request headers:
+    'Content-Length': '32777'
+    'x-ms-meta-content_type': 'REDACTED'
+    'x-ms-blob-type': 'REDACTED'
+    'x-ms-version': 'REDACTED'
+    'Content-Type': 'application/octet-stream'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.27.0 Python/3.9.21 (macOS-15.3.2-arm64-arm-64bit)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '19dceb82-d0dd-11f0-9230-42603fc0563c'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+2025-12-03 22:47:28,947 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 201
+Response headers:
+    'Content-Length': '0'
+    'Content-MD5': 'REDACTED'
+    'Last-Modified': 'Thu, 04 Dec 2025 06:47:28 GMT'
+    'Etag': '"0x8DE3300FE1DC6F4"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': 'fa6b1195-801e-00f3-57e9-647d64000000'
+    'x-ms-client-request-id': '19dceb82-d0dd-11f0-9230-42603fc0563c'
+    'x-ms-version': 'REDACTED'
+    'x-ms-content-crc64': 'REDACTED'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'Date': 'Thu, 04 Dec 2025 06:47:28 GMT'
+2025-12-03 22:47:28,951 - root - INFO - Closing BlobServiceClient
+2025-12-03 22:47:28,952 - root - INFO - Downloading and processing file from blob url: https://stwu3mahaaya.blob.core.windows.net/experiantest/User-Architecture-Presentation.pptx
+2025-12-03 22:47:28,953 - root - INFO - Processing file: User-Architecture-Presentation.pptx from blob url: https://stwu3mahaaya.blob.core.windows.net/experiantest/User-Architecture-Presentation.pptx
+2025-12-03 22:47:28,955 - root - INFO - Downloading blob from https://stwu3mahaaya.blob.core.windows.net/experiantest/User-Architecture-Presentation.pptx
+2025-12-03 22:47:28,958 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://stwu3mahaaya.blob.core.windows.net/experiantest/User-Architecture-Presentation.pptx'
+Request method: 'GET'
+Request headers:
+    'x-ms-range': 'REDACTED'
+    'x-ms-version': 'REDACTED'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.27.0 Python/3.9.21 (macOS-15.3.2-arm64-arm-64bit)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '19e99dd2-d0dd-11f0-9230-42603fc0563c'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+2025-12-03 22:47:29,057 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 206
+Response headers:
+    'Content-Length': '32777'
+    'Content-Type': 'application/octet-stream'
+    'Content-Range': 'REDACTED'
+    'Last-Modified': 'Thu, 04 Dec 2025 06:47:28 GMT'
+    'Accept-Ranges': 'REDACTED'
+    'Etag': '"0x8DE3300FE1DC6F4"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': 'fb41e8f8-401e-007a-70e9-64c7b1000000'
+    'x-ms-client-request-id': '19e99dd2-d0dd-11f0-9230-42603fc0563c'
+    'x-ms-version': 'REDACTED'
+    'x-ms-resource-type': 'REDACTED'
+    'x-ms-meta-content_type': 'REDACTED'
+    'x-ms-creation-time': 'REDACTED'
+    'x-ms-blob-content-md5': 'REDACTED'
+    'x-ms-lease-status': 'REDACTED'
+    'x-ms-lease-state': 'REDACTED'
+    'x-ms-blob-type': 'REDACTED'
+    'x-ms-server-encrypted': 'REDACTED'
+    'x-ms-owner': 'REDACTED'
+    'x-ms-group': 'REDACTED'
+    'x-ms-permissions': 'REDACTED'
+    'x-ms-acl': 'REDACTED'
+    'Date': 'Thu, 04 Dec 2025 06:47:28 GMT'
+2025-12-03 22:47:29,072 - root - INFO - Downloaded blob from https://stwu3mahaaya.blob.core.windows.net/experiantest/User-Architecture-Presentation.pptx to local path /Users/nagul/Desktop/numentica/assessment exp/backend/assessment-bot/app/tempfiles/User-Architecture-Presentation/User-Architecture-Presentation_20251203224728.pptx
+2025-12-03 22:47:29,071 - watchfiles.main - INFO - 3 changes detected
+2025-12-03 22:47:29,073 - root - INFO - Closing BlobServiceClient
+2025-12-03 22:47:29,073 - root - INFO - Downloaded file to local path: /Users/nagul/Desktop/numentica/assessment exp/backend/assessment-bot/app/tempfiles/User-Architecture-Presentation/User-Architecture-Presentation_20251203224728.pptx
+2025-12-03 22:47:29,073 - root - INFO - Local ppt file path: /Users/nagul/Desktop/numentica/assessment exp/backend/assessment-bot/app/tempfiles/User-Architecture-Presentation/User-Architecture-Presentation_20251203224728.pptx - User-Architecture-Presentation
+2025-12-03 22:47:29,073 - root - INFO - Output directory for PNGs: /Users/nagul/Desktop/numentica/assessment exp/backend/assessment-bot/app/tempfiles/User-Architecture-Presentation/slides
+2025-12-03 22:47:29,074 - root - INFO - Converting presentation to PDF using LibreOffice...
+2025-12-03 22:47:29,081 - root - ERROR - Conversion error: [Errno 2] No such file or directory: '/Applications/LibreOffice.app/Contents/MacOS/soffice'
+2025-12-03 22:47:29,085 - root - ERROR - Error processing assessment: [Errno 2] No such file or directory: '/Applications/LibreOffice.app/Contents/MacOS/soffice'
+2025-12-03 22:47:29,093 - root - INFO - Assessment processed successfully: {'error': "Failed to process assessment: [Errno 2] No such file or directory: '/Applications/LibreOffice.app/Contents/MacOS/soffice'"}
+2025-12-03 22:47:29,431 - watchfiles.main - INFO - 2 changes detected
+2025-12-03 22:47:30,490 - watchfiles.main - INFO - 1 change detected
+2025-12-03 22:47:31,451 - watchfiles.main - INFO - 2 changes detected
+2025-12-03 22:47:32,929 - watchfiles.main - INFO - 3 changes detected
+2025-12-03 22:47:37,396 - watchfiles.main - INFO - 5 changes detected
+2025-12-03 22:52:21,665 - watchfiles.main - INFO - 1 change detected
+2025-12-03 22:52:47,034 - root - INFO - Rate limiting check for client: 127.0.0.1
+2025-12-03 22:52:47,037 - root - ERROR - Redis error: Error 61 connecting to localhost:6379. Connection refused.
+2025-12-03 22:52:47,043 - root - INFO - Received assessment request: Provide me assessment
+2025-12-03 22:52:47,044 - root - INFO - Assessment request received - prompt='Provide me assessment'
+2025-12-03 22:52:47,100 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://stwu3mahaaya.blob.core.windows.net/experiantest?restype=REDACTED'
+Request method: 'PUT'
+Request headers:
+    'x-ms-version': 'REDACTED'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.27.0 Python/3.9.21 (macOS-15.3.2-arm64-arm-64bit)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': 'd78a6682-d0dd-11f0-9916-42603fc0563c'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+2025-12-03 22:52:47,265 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 409
+Response headers:
+    'Content-Length': '230'
+    'Content-Type': 'application/xml'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': 'facc9fb6-201e-006c-3aea-643166000000'
+    'x-ms-client-request-id': 'd78a6682-d0dd-11f0-9916-42603fc0563c'
+    'x-ms-version': 'REDACTED'
+    'x-ms-error-code': 'ContainerAlreadyExists'
+    'Date': 'Thu, 04 Dec 2025 06:52:47 GMT'
+2025-12-03 22:52:47,269 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://stwu3mahaaya.blob.core.windows.net/experiantest/User-Architecture-Presentation.pptx'
+Request method: 'PUT'
+Request headers:
+    'Content-Length': '32777'
+    'x-ms-meta-content_type': 'REDACTED'
+    'x-ms-blob-type': 'REDACTED'
+    'x-ms-version': 'REDACTED'
+    'Content-Type': 'application/octet-stream'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.27.0 Python/3.9.21 (macOS-15.3.2-arm64-arm-64bit)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': 'd7a40cd6-d0dd-11f0-9916-42603fc0563c'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+2025-12-03 22:52:47,324 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 201
+Response headers:
+    'Content-Length': '0'
+    'Content-MD5': 'REDACTED'
+    'Last-Modified': 'Thu, 04 Dec 2025 06:52:47 GMT'
+    'Etag': '"0x8DE3301BBE2A7C8"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': 'facc9ff4-201e-006c-5bea-643166000000'
+    'x-ms-client-request-id': 'd7a40cd6-d0dd-11f0-9916-42603fc0563c'
+    'x-ms-version': 'REDACTED'
+    'x-ms-content-crc64': 'REDACTED'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'Date': 'Thu, 04 Dec 2025 06:52:47 GMT'
+2025-12-03 22:52:47,325 - root - INFO - Closing BlobServiceClient
+2025-12-03 22:52:47,326 - root - INFO - Downloading and processing file from blob url: https://stwu3mahaaya.blob.core.windows.net/experiantest/User-Architecture-Presentation.pptx
+2025-12-03 22:52:47,326 - root - INFO - Processing file: User-Architecture-Presentation.pptx from blob url: https://stwu3mahaaya.blob.core.windows.net/experiantest/User-Architecture-Presentation.pptx
+2025-12-03 22:52:47,326 - root - INFO - Downloading blob from https://stwu3mahaaya.blob.core.windows.net/experiantest/User-Architecture-Presentation.pptx
+2025-12-03 22:52:47,327 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://stwu3mahaaya.blob.core.windows.net/experiantest/User-Architecture-Presentation.pptx'
+Request method: 'GET'
+Request headers:
+    'x-ms-range': 'REDACTED'
+    'x-ms-version': 'REDACTED'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.27.0 Python/3.9.21 (macOS-15.3.2-arm64-arm-64bit)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': 'd7ad09bc-d0dd-11f0-9916-42603fc0563c'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+2025-12-03 22:52:47,403 - watchfiles.main - INFO - 1 change detected
+2025-12-03 22:52:47,421 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 206
+Response headers:
+    'Content-Length': '32777'
+    'Content-Type': 'application/octet-stream'
+    'Content-Range': 'REDACTED'
+    'Last-Modified': 'Thu, 04 Dec 2025 06:52:47 GMT'
+    'Accept-Ranges': 'REDACTED'
+    'Etag': '"0x8DE3301BBE2A7C8"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '4719dc7c-501e-00bd-6aea-6453ec000000'
+    'x-ms-client-request-id': 'd7ad09bc-d0dd-11f0-9916-42603fc0563c'
+    'x-ms-version': 'REDACTED'
+    'x-ms-resource-type': 'REDACTED'
+    'x-ms-meta-content_type': 'REDACTED'
+    'x-ms-creation-time': 'REDACTED'
+    'x-ms-blob-content-md5': 'REDACTED'
+    'x-ms-lease-status': 'REDACTED'
+    'x-ms-lease-state': 'REDACTED'
+    'x-ms-blob-type': 'REDACTED'
+    'x-ms-server-encrypted': 'REDACTED'
+    'x-ms-owner': 'REDACTED'
+    'x-ms-group': 'REDACTED'
+    'x-ms-permissions': 'REDACTED'
+    'x-ms-acl': 'REDACTED'
+    'Date': 'Thu, 04 Dec 2025 06:52:47 GMT'
+2025-12-03 22:52:47,438 - root - INFO - Downloaded blob from https://stwu3mahaaya.blob.core.windows.net/experiantest/User-Architecture-Presentation.pptx to local path /Users/nagul/Desktop/numentica/assessment exp/backend/assessment-bot/app/tempfiles/User-Architecture-Presentation/User-Architecture-Presentation_20251203225247.pptx
+2025-12-03 22:52:47,439 - root - INFO - Closing BlobServiceClient
+2025-12-03 22:52:47,439 - root - INFO - Downloaded file to local path: /Users/nagul/Desktop/numentica/assessment exp/backend/assessment-bot/app/tempfiles/User-Architecture-Presentation/User-Architecture-Presentation_20251203225247.pptx
+2025-12-03 22:52:47,439 - root - INFO - Local ppt file path: /Users/nagul/Desktop/numentica/assessment exp/backend/assessment-bot/app/tempfiles/User-Architecture-Presentation/User-Architecture-Presentation_20251203225247.pptx - User-Architecture-Presentation
+2025-12-03 22:52:47,439 - root - INFO - Output directory for PNGs: /Users/nagul/Desktop/numentica/assessment exp/backend/assessment-bot/app/tempfiles/User-Architecture-Presentation/slides
+2025-12-03 22:52:47,439 - root - INFO - Converting presentation to PDF using LibreOffice...
+2025-12-03 22:52:47,789 - watchfiles.main - INFO - 1 change detected
+2025-12-03 22:52:54,361 - watchfiles.main - INFO - 5 changes detected
+2025-12-03 22:52:55,810 - watchfiles.main - INFO - 5 changes detected
+2025-12-03 22:52:55,859 - root - INFO - Converting PDF to PNG using pdftoppm...
+2025-12-03 22:52:56,170 - watchfiles.main - INFO - 3 changes detected
+2025-12-03 22:52:56,582 - root - INFO - Created 6 PNG files in /Users/nagul/Desktop/numentica/assessment exp/backend/assessment-bot/app/tempfiles/User-Architecture-Presentation/slides
+2025-12-03 22:52:56,582 - root - INFO - Converted PPT/PDF to PNGs at: /Users/nagul/Desktop/numentica/assessment exp/backend/assessment-bot/app/tempfiles/User-Architecture-Presentation/slides
+2025-12-03 22:52:56,582 - root - INFO - Found 6 PNG files for assessment
+2025-12-03 22:52:56,584 - root - INFO - uploading pngs from directory: /Users/nagul/Desktop/numentica/assessment exp/backend/assessment-bot/app/tempfiles/User-Architecture-Presentation/slides - under file: User-Architecture-Presentation
+2025-12-03 22:52:56,585 - watchfiles.main - INFO - 6 changes detected
+2025-12-03 22:52:56,585 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://stwu3mahaaya.blob.core.windows.net/experiantest?restype=REDACTED'
+Request method: 'PUT'
+Request headers:
+    'x-ms-version': 'REDACTED'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.27.0 Python/3.9.21 (macOS-15.3.2-arm64-arm-64bit)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': 'dd31a212-d0dd-11f0-9916-42603fc0563c'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+2025-12-03 22:52:56,864 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 409
+Response headers:
+    'Content-Length': '230'
+    'Content-Type': 'application/xml'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '72f8680b-a01e-00db-1dea-641ccc000000'
+    'x-ms-client-request-id': 'dd31a212-d0dd-11f0-9916-42603fc0563c'
+    'x-ms-version': 'REDACTED'
+    'x-ms-error-code': 'ContainerAlreadyExists'
+    'Date': 'Thu, 04 Dec 2025 06:52:56 GMT'
+2025-12-03 22:52:56,866 - root - INFO - Container experiantest may already exist: The specified container already exists.
+RequestId:72f8680b-a01e-00db-1dea-641ccc000000
+Time:2025-12-04T06:52:56.8713618Z
+ErrorCode:ContainerAlreadyExists
+Content: <?xml version="1.0" encoding="utf-8"?><Error><Code>ContainerAlreadyExists</Code><Message>The specified container already exists.
+RequestId:72f8680b-a01e-00db-1dea-641ccc000000
+Time:2025-12-04T06:52:56.8713618Z</Message></Error>
+2025-12-03 22:52:56,868 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://stwu3mahaaya.blob.core.windows.net/experiantest/User-Architecture-Presentation/0_slide-2.png'
+Request method: 'PUT'
+Request headers:
+    'Content-Length': '46418'
+    'x-ms-blob-type': 'REDACTED'
+    'x-ms-version': 'REDACTED'
+    'Content-Type': 'application/octet-stream'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.27.0 Python/3.9.21 (macOS-15.3.2-arm64-arm-64bit)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': 'dd5cda5e-d0dd-11f0-9916-42603fc0563c'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+2025-12-03 22:52:56,950 - watchfiles.main - INFO - 2 changes detected
+2025-12-03 22:52:57,074 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 201
+Response headers:
+    'Content-Length': '0'
+    'Content-MD5': 'REDACTED'
+    'Last-Modified': 'Thu, 04 Dec 2025 06:52:57 GMT'
+    'Etag': '"0x8DE3301C1AED550"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '72f8684b-a01e-00db-56ea-641ccc000000'
+    'x-ms-client-request-id': 'dd5cda5e-d0dd-11f0-9916-42603fc0563c'
+    'x-ms-version': 'REDACTED'
+    'x-ms-content-crc64': 'REDACTED'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'Date': 'Thu, 04 Dec 2025 06:52:56 GMT'
+2025-12-03 22:52:57,076 - root - INFO - Uploaded PNG blob: User-Architecture-Presentation/0_slide-2.png to container: experiantest, blob url: https://stwu3mahaaya.blob.core.windows.net/experiantest/User-Architecture-Presentation/0_slide-2.png
+2025-12-03 22:52:57,078 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://stwu3mahaaya.blob.core.windows.net/experiantest/User-Architecture-Presentation/2_slide-3.png'
+Request method: 'PUT'
+Request headers:
+    'Content-Length': '42040'
+    'x-ms-blob-type': 'REDACTED'
+    'x-ms-version': 'REDACTED'
+    'Content-Type': 'application/octet-stream'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.27.0 Python/3.9.21 (macOS-15.3.2-arm64-arm-64bit)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': 'dd7ccd3c-d0dd-11f0-9916-42603fc0563c'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+2025-12-03 22:52:57,170 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 201
+Response headers:
+    'Content-Length': '0'
+    'Content-MD5': 'REDACTED'
+    'Last-Modified': 'Thu, 04 Dec 2025 06:52:57 GMT'
+    'Etag': '"0x8DE3301C1BFEBAC"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '72f8688a-a01e-00db-12ea-641ccc000000'
+    'x-ms-client-request-id': 'dd7ccd3c-d0dd-11f0-9916-42603fc0563c'
+    'x-ms-version': 'REDACTED'
+    'x-ms-content-crc64': 'REDACTED'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'Date': 'Thu, 04 Dec 2025 06:52:57 GMT'
+2025-12-03 22:52:57,171 - root - INFO - Uploaded PNG blob: User-Architecture-Presentation/2_slide-3.png to container: experiantest, blob url: https://stwu3mahaaya.blob.core.windows.net/experiantest/User-Architecture-Presentation/2_slide-3.png
+2025-12-03 22:52:57,172 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://stwu3mahaaya.blob.core.windows.net/experiantest/User-Architecture-Presentation/3_slide-1.png'
+Request method: 'PUT'
+Request headers:
+    'Content-Length': '45901'
+    'x-ms-blob-type': 'REDACTED'
+    'x-ms-version': 'REDACTED'
+    'Content-Type': 'application/octet-stream'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.27.0 Python/3.9.21 (macOS-15.3.2-arm64-arm-64bit)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': 'dd8b3eb2-d0dd-11f0-9916-42603fc0563c'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+2025-12-03 22:52:57,415 - watchfiles.main - INFO - 1 change detected
+2025-12-03 22:52:57,512 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 201
+Response headers:
+    'Content-Length': '0'
+    'Content-MD5': 'REDACTED'
+    'Last-Modified': 'Thu, 04 Dec 2025 06:52:57 GMT'
+    'Etag': '"0x8DE3301C1F2B164"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '72f868cf-a01e-00db-54ea-641ccc000000'
+    'x-ms-client-request-id': 'dd8b3eb2-d0dd-11f0-9916-42603fc0563c'
+    'x-ms-version': 'REDACTED'
+    'x-ms-content-crc64': 'REDACTED'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'Date': 'Thu, 04 Dec 2025 06:52:57 GMT'
+2025-12-03 22:52:57,512 - root - INFO - Uploaded PNG blob: User-Architecture-Presentation/3_slide-1.png to container: experiantest, blob url: https://stwu3mahaaya.blob.core.windows.net/experiantest/User-Architecture-Presentation/3_slide-1.png
+2025-12-03 22:52:57,514 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://stwu3mahaaya.blob.core.windows.net/experiantest/User-Architecture-Presentation/4_slide-4.png'
+Request method: 'PUT'
+Request headers:
+    'Content-Length': '46150'
+    'x-ms-blob-type': 'REDACTED'
+    'x-ms-version': 'REDACTED'
+    'Content-Type': 'application/octet-stream'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.27.0 Python/3.9.21 (macOS-15.3.2-arm64-arm-64bit)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': 'ddbf5116-d0dd-11f0-9916-42603fc0563c'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+2025-12-03 22:52:57,646 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 201
+Response headers:
+    'Content-Length': '0'
+    'Content-MD5': 'REDACTED'
+    'Last-Modified': 'Thu, 04 Dec 2025 06:52:57 GMT'
+    'Etag': '"0x8DE3301C208764C"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '72f86934-a01e-00db-37ea-641ccc000000'
+    'x-ms-client-request-id': 'ddbf5116-d0dd-11f0-9916-42603fc0563c'
+    'x-ms-version': 'REDACTED'
+    'x-ms-content-crc64': 'REDACTED'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'Date': 'Thu, 04 Dec 2025 06:52:57 GMT'
+2025-12-03 22:52:57,647 - root - INFO - Uploaded PNG blob: User-Architecture-Presentation/4_slide-4.png to container: experiantest, blob url: https://stwu3mahaaya.blob.core.windows.net/experiantest/User-Architecture-Presentation/4_slide-4.png
+2025-12-03 22:52:57,648 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://stwu3mahaaya.blob.core.windows.net/experiantest/User-Architecture-Presentation/5_slide-5.png'
+Request method: 'PUT'
+Request headers:
+    'Content-Length': '43120'
+    'x-ms-blob-type': 'REDACTED'
+    'x-ms-version': 'REDACTED'
+    'Content-Type': 'application/octet-stream'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.27.0 Python/3.9.21 (macOS-15.3.2-arm64-arm-64bit)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': 'ddd3d532-d0dd-11f0-9916-42603fc0563c'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+2025-12-03 22:52:57,742 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 201
+Response headers:
+    'Content-Length': '0'
+    'Content-MD5': 'REDACTED'
+    'Last-Modified': 'Thu, 04 Dec 2025 06:52:57 GMT'
+    'Etag': '"0x8DE3301C2161638"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '72f86969-a01e-00db-65ea-641ccc000000'
+    'x-ms-client-request-id': 'ddd3d532-d0dd-11f0-9916-42603fc0563c'
+    'x-ms-version': 'REDACTED'
+    'x-ms-content-crc64': 'REDACTED'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'Date': 'Thu, 04 Dec 2025 06:52:57 GMT'
+2025-12-03 22:52:57,743 - root - INFO - Uploaded PNG blob: User-Architecture-Presentation/5_slide-5.png to container: experiantest, blob url: https://stwu3mahaaya.blob.core.windows.net/experiantest/User-Architecture-Presentation/5_slide-5.png
+2025-12-03 22:52:57,745 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://stwu3mahaaya.blob.core.windows.net/experiantest/User-Architecture-Presentation/6_slide-6.png'
+Request method: 'PUT'
+Request headers:
+    'Content-Length': '43260'
+    'x-ms-blob-type': 'REDACTED'
+    'x-ms-version': 'REDACTED'
+    'Content-Type': 'application/octet-stream'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.27.0 Python/3.9.21 (macOS-15.3.2-arm64-arm-64bit)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': 'dde29ec8-d0dd-11f0-9916-42603fc0563c'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+2025-12-03 22:52:57,948 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 201
+Response headers:
+    'Content-Length': '0'
+    'Content-MD5': 'REDACTED'
+    'Last-Modified': 'Thu, 04 Dec 2025 06:52:57 GMT'
+    'Etag': '"0x8DE3301C235BFC4"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '72f869b6-a01e-00db-2aea-641ccc000000'
+    'x-ms-client-request-id': 'dde29ec8-d0dd-11f0-9916-42603fc0563c'
+    'x-ms-version': 'REDACTED'
+    'x-ms-content-crc64': 'REDACTED'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'Date': 'Thu, 04 Dec 2025 06:52:57 GMT'
+2025-12-03 22:52:57,950 - root - INFO - Uploaded PNG blob: User-Architecture-Presentation/6_slide-6.png to container: experiantest, blob url: https://stwu3mahaaya.blob.core.windows.net/experiantest/User-Architecture-Presentation/6_slide-6.png
+2025-12-03 22:52:57,953 - root - INFO - Removed temporary PNG directory: /Users/nagul/Desktop/numentica/assessment exp/backend/assessment-bot/app/tempfiles/User-Architecture-Presentation/slides
+2025-12-03 22:52:57,953 - root - INFO - Closing BlobServiceClient and cleaned up temporary PNG directory
+2025-12-03 22:52:57,954 - root - INFO - Uploaded PNG files to blob storage: [{'filename': 'slide-2.png', 'blob_url': 'https://stwu3mahaaya.blob.core.windows.net/experiantest/User-Architecture-Presentation/0_slide-2.png'}, {'filename': 'slide-3.png', 'blob_url': 'https://stwu3mahaaya.blob.core.windows.net/experiantest/User-Architecture-Presentation/2_slide-3.png'}, {'filename': 'slide-1.png', 'blob_url': 'https://stwu3mahaaya.blob.core.windows.net/experiantest/User-Architecture-Presentation/3_slide-1.png'}, {'filename': 'slide-4.png', 'blob_url': 'https://stwu3mahaaya.blob.core.windows.net/experiantest/User-Architecture-Presentation/4_slide-4.png'}, {'filename': 'slide-5.png', 'blob_url': 'https://stwu3mahaaya.blob.core.windows.net/experiantest/User-Architecture-Presentation/5_slide-5.png'}, {'filename': 'slide-6.png', 'blob_url': 'https://stwu3mahaaya.blob.core.windows.net/experiantest/User-Architecture-Presentation/6_slide-6.png'}]
+2025-12-03 22:52:57,955 - root - INFO - Removed local file: /Users/nagul/Desktop/numentica/assessment exp/backend/assessment-bot/app/tempfiles/User-Architecture-Presentation/User-Architecture-Presentation_20251203225247.pptx
+2025-12-03 22:52:57,955 - root - INFO - Running Azure Assistant assessment with 6 images
+2025-12-03 22:52:57,971 - root - INFO - Azure Assistant Client initialized successfully
+2025-12-03 22:52:57,971 - root - INFO - Uploading 6 PNG files for assessment
+2025-12-03 22:52:57,971 - root - WARNING - PNG file not found: /Users/nagul/Desktop/numentica/assessment exp/backend/assessment-bot/app/tempfiles/User-Architecture-Presentation/slides/slide-1.png
+2025-12-03 22:52:57,971 - root - WARNING - PNG file not found: /Users/nagul/Desktop/numentica/assessment exp/backend/assessment-bot/app/tempfiles/User-Architecture-Presentation/slides/slide-2.png
+2025-12-03 22:52:57,971 - root - WARNING - PNG file not found: /Users/nagul/Desktop/numentica/assessment exp/backend/assessment-bot/app/tempfiles/User-Architecture-Presentation/slides/slide-3.png
+2025-12-03 22:52:57,972 - root - WARNING - PNG file not found: /Users/nagul/Desktop/numentica/assessment exp/backend/assessment-bot/app/tempfiles/User-Architecture-Presentation/slides/slide-4.png
+2025-12-03 22:52:57,972 - root - WARNING - PNG file not found: /Users/nagul/Desktop/numentica/assessment exp/backend/assessment-bot/app/tempfiles/User-Architecture-Presentation/slides/slide-5.png
+2025-12-03 22:52:57,972 - root - WARNING - PNG file not found: /Users/nagul/Desktop/numentica/assessment exp/backend/assessment-bot/app/tempfiles/User-Architecture-Presentation/slides/slide-6.png
+2025-12-03 22:52:57,972 - root - WARNING - No PNG files were uploaded for assessment
+2025-12-03 22:52:57,972 - root - INFO - Loaded 4 standard file IDs from config
+2025-12-03 22:52:57,973 - root - INFO - Attaching 4 standard files for file_search
+2025-12-03 22:52:58,036 - watchfiles.main - INFO - 16 changes detected
+2025-12-03 22:52:59,010 - httpx - INFO - HTTP Request: POST https://aidoctest-resource.cognitiveservices.azure.com/openai/threads?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-03 22:52:59,016 - root - INFO - Created thread with ID: thread_Ijz1lML9c4Eeu3Xz8ynGMDwm
+2025-12-03 22:52:59,618 - httpx - INFO - HTTP Request: POST https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_Ijz1lML9c4Eeu3Xz8ynGMDwm/runs?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-03 22:52:59,636 - root - INFO - Created run with ID: run_MGsDHf5EkpBEkpD9kSfoqlo1
+2025-12-03 22:52:59,645 - watchfiles.main - INFO - 4 changes detected
+2025-12-03 22:52:59,851 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_Ijz1lML9c4Eeu3Xz8ynGMDwm/runs/run_MGsDHf5EkpBEkpD9kSfoqlo1?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-03 22:53:01,239 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_Ijz1lML9c4Eeu3Xz8ynGMDwm/runs/run_MGsDHf5EkpBEkpD9kSfoqlo1?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-03 22:53:01,502 - watchfiles.main - INFO - 4 changes detected
+2025-12-03 22:53:02,597 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_Ijz1lML9c4Eeu3Xz8ynGMDwm/runs/run_MGsDHf5EkpBEkpD9kSfoqlo1?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-03 22:53:03,120 - watchfiles.main - INFO - 4 changes detected
+2025-12-03 22:53:03,931 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_Ijz1lML9c4Eeu3Xz8ynGMDwm/runs/run_MGsDHf5EkpBEkpD9kSfoqlo1?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-03 22:53:05,120 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_Ijz1lML9c4Eeu3Xz8ynGMDwm/runs/run_MGsDHf5EkpBEkpD9kSfoqlo1?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-03 22:53:06,321 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_Ijz1lML9c4Eeu3Xz8ynGMDwm/runs/run_MGsDHf5EkpBEkpD9kSfoqlo1?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-03 22:53:07,547 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_Ijz1lML9c4Eeu3Xz8ynGMDwm/runs/run_MGsDHf5EkpBEkpD9kSfoqlo1?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-03 22:53:09,085 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_Ijz1lML9c4Eeu3Xz8ynGMDwm/runs/run_MGsDHf5EkpBEkpD9kSfoqlo1?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-03 22:53:10,352 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_Ijz1lML9c4Eeu3Xz8ynGMDwm/runs/run_MGsDHf5EkpBEkpD9kSfoqlo1?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-03 22:53:11,720 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_Ijz1lML9c4Eeu3Xz8ynGMDwm/runs/run_MGsDHf5EkpBEkpD9kSfoqlo1?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-03 22:53:12,931 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_Ijz1lML9c4Eeu3Xz8ynGMDwm/runs/run_MGsDHf5EkpBEkpD9kSfoqlo1?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-03 22:53:14,165 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_Ijz1lML9c4Eeu3Xz8ynGMDwm/runs/run_MGsDHf5EkpBEkpD9kSfoqlo1?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-03 22:53:15,304 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_Ijz1lML9c4Eeu3Xz8ynGMDwm/runs/run_MGsDHf5EkpBEkpD9kSfoqlo1?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-03 22:53:16,460 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_Ijz1lML9c4Eeu3Xz8ynGMDwm/runs/run_MGsDHf5EkpBEkpD9kSfoqlo1?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-03 22:53:17,653 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_Ijz1lML9c4Eeu3Xz8ynGMDwm/runs/run_MGsDHf5EkpBEkpD9kSfoqlo1?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-03 22:53:18,866 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_Ijz1lML9c4Eeu3Xz8ynGMDwm/runs/run_MGsDHf5EkpBEkpD9kSfoqlo1?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-03 22:53:20,052 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_Ijz1lML9c4Eeu3Xz8ynGMDwm/runs/run_MGsDHf5EkpBEkpD9kSfoqlo1?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-03 22:53:20,056 - root - INFO - Run run_MGsDHf5EkpBEkpD9kSfoqlo1 completed successfully
+2025-12-03 22:53:20,222 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_Ijz1lML9c4Eeu3Xz8ynGMDwm/messages?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-03 22:53:20,237 - root - INFO - Assessment completed: success=True
+2025-12-03 22:53:20,243 - root - INFO - Assessment processed successfully: {'message': 'Assessment completed successfully', 'assessment': 'Thanks — I can do a full EA + Cloud principles assessment, but I don’t see which architecture diagram(s) you want reviewed. Before I start, two quick clarifying questions so I assess the right artifacts and produce actionable results:\n\n1) Which files/diagrams should I assess? (Give the filenames you uploaded or re-upload the diagram(s) if needed.)\n2) Scope — do you want a full EA review (security, cloud guardrails, ops, data, cost) or a focused review (e.g., security only, resiliency only)?\n\nWhat I’ll deliver once you confirm (example deliverables)\n- Executive summary (overall compliance level and top 3 risks)\n- Gap summary mapped to Experian standards (EA Principles, Cloud Principles and General Knowledge) with citation-backed findings\n- Risk rating per gap (Low / Medium / High / Critical) using Experian assessment categories\n- Concrete remediation actions, priorities and estimated effort\n- Artefacts checklist (missing controls, required tests/documentation) to close each gap\n\nStandards I’ll use (so you know the evaluation criteria)\n- Experian Cloud Principles — identity, network security, standardization, DR/backups, observability, approved cloud patterns and cost accountability 【4:2†Experian-Cloud-Principles.pdf】\n- Experian Enterprise Architecture Principles — security by design, standardization & reusability, scalability, observability, compliance & auditability, cost optimization, HA & resilience 【4:2†Experian-EA-Principles.pdf】\n- Experian General Knowledge & Governance — technology standards, security foundations (encryption, tokenization, penetration testing), cloud reference architectures, data handling (classification, PII masking), and governance processes 【4:2†Experian-General-Knowledge.pdf】\n- EA Assessment Categories and scoring rubric I’ll use to rate findings (security, architecture quality, cloud compliance, operational readiness, data management, technology alignment, compliance & risk scoring) 【4:2†EA-Assessment-Category.pdf】\n\nTypical checklist I will run (examples mapped to the standards)\n- Identity & Access: centralized IAM, least privilege roles, MFA, service account lifecycle, secrets management (Cloud Principles + EA Principles) 【4:2†Experian-EA-Principles.pdf】【4:2†Experian-Cloud-Principles.pdf】\n- Network & Perimeter: private subnets, security groups/NSGs, service endpoints, zero-trust segmentation, egress controls (Cloud Principles) 【4:2†Experian-Cloud-Principles.pdf】\n- Data protection: encryption at rest/in transit, PII classification/masking, data residency controls, retention & lineage (General Knowledge + EA Principles) 【4:2†Experian-EA-Principles.pdf】【4:2†Experian-General-Knowledge.pdf】\n- Resilience & DR: multi-AZ / cross-region strategies, backups, RTO/RPO evidence and tested runbooks (Cloud Principles + EA Principles) 【4:2†Experian-EA-Principles.pdf】【4:2†Experian-Cloud-Principles.pdf】\n- Observability & Ops: centralized logging, metrics, tracing, alert routing, runbooks, on-call and CI/CD promotion gates (EA Principles + EA Assessment Categories) 【4:2†EA-Assessment-Category.pdf】【4:2†Experian-EA-Principles.pdf】\n- Resource standardization & cost: approved blueprints, naming and tagging, budgets and cost dashboards (Cloud Principles + General Knowledge) 【4:2†Experian-General-Knowledge.pdf】【4:2†Experian-Cloud-Principles.pdf】\n- Approved patterns & technology alignment: containerization/serverless patterns, approved managed services, check for unsupported/shadow tech (Cloud Principles + General Knowledge) 【4:2†Experian-General-Knowledge.pdf】【4:2†Experian-Cloud-Principles.pdf】\n\nIf you want me to start now\n- Reply with the filename(s) to assess (or re-upload the diagrams), and confirm the cloud provider(s) (AWS/Azure/GCP/hybrid). Also tell me whether you want a formal risk scoring and remediation plan — I’ll then run the evaluation and return the report (summary + prioritized actions).\n\nIf you’d like, paste one diagram here and I’ll do an immediate quick review (high-level compliance gaps + 3 prioritized recommendations).', 'images_analyzed': 0, 'thread_id': 'thread_Ijz1lML9c4Eeu3Xz8ynGMDwm', 'upload_info': {'uploaded_files': [{'filename': 'User-Architecture-Presentation.pptx', 'blob_url': 'https://stwu3mahaaya.blob.core.windows.net/experiantest/User-Architecture-Presentation.pptx', 'png_uploads': [{'filename': 'slide-2.png', 'blob_url': 'https://stwu3mahaaya.blob.core.windows.net/experiantest/User-Architecture-Presentation/0_slide-2.png'}, {'filename': 'slide-3.png', 'blob_url': 'https://stwu3mahaaya.blob.core.windows.net/experiantest/User-Architecture-Presentation/2_slide-3.png'}, {'filename': 'slide-1.png', 'blob_url': 'https://stwu3mahaaya.blob.core.windows.net/experiantest/User-Architecture-Presentation/3_slide-1.png'}, {'filename': 'slide-4.png', 'blob_url': 'https://stwu3mahaaya.blob.core.windows.net/experiantest/User-Architecture-Presentation/4_slide-4.png'}, {'filename': 'slide-5.png', 'blob_url': 'https://stwu3mahaaya.blob.core.windows.net/experiantest/User-Architecture-Presentation/5_slide-5.png'}, {'filename': 'slide-6.png', 'blob_url': 'https://stwu3mahaaya.blob.core.windows.net/experiantest/User-Architecture-Presentation/6_slide-6.png'}]}], 'message': 'Files uploaded successfully'}}
