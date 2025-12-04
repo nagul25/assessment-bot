@@ -1,6 +1,7 @@
 from datetime import datetime
 import sys
 import glob
+import shutil
 from typing import List, Optional
 from fastapi import UploadFile
 from urllib.parse import urlparse
@@ -120,18 +121,35 @@ class QueryProcessorService:
             
             logger.info(f"Assessment completed: success={assessment_result.get('success', False)}")
 
-            # 8. Clean up PNG files after assessment
+            # 8. Clean up PNG files and directories after assessment
+            cleaned_dirs = set()
             for png_path in all_png_paths:
                 try:
                     if os.path.exists(png_path):
                         os.remove(png_path)
+                        # Track parent directory for cleanup
+                        cleaned_dirs.add(os.path.dirname(png_path))
                 except Exception as cleanup_error:
                     logger.warning(f"Failed to clean up PNG file {png_path}: {cleanup_error}")
+            
+            # Clean up empty directories (slides dir and parent temp dir)
+            for dir_path in cleaned_dirs:
+                try:
+                    if os.path.isdir(dir_path) and not os.listdir(dir_path):
+                        shutil.rmtree(dir_path)
+                        logger.info(f"Removed temporary PNG directory: {dir_path}")
+                        # Also try to remove parent if empty
+                        parent_dir = os.path.dirname(dir_path)
+                        if os.path.isdir(parent_dir) and not os.listdir(parent_dir):
+                            shutil.rmtree(parent_dir)
+                            logger.info(f"Removed temporary parent directory: {parent_dir}")
+                except Exception as dir_cleanup_error:
+                    logger.warning(f"Failed to clean up directory {dir_path}: {dir_cleanup_error}")
 
             # Build response
             if assessment_result.get("success"):
                 return {
-                    "message": "Assessment completed successfully",
+                    "message": assessment_result.get("assessment"),
                     "assessment": assessment_result.get("assessment"),
                     "images_analyzed": assessment_result.get("images_analyzed", 0),
                     "thread_id": assessment_result.get("thread_id"),

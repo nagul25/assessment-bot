@@ -1,6 +1,4 @@
 import os
-import shutil
-import asyncio
 from typing import List, Optional
 from azure.storage.blob.aio import BlobServiceClient
 from fastapi import UploadFile
@@ -85,17 +83,7 @@ async def upload_png_to_blob(png_directory: str, file_name: str):
             await blob_service_client.close()
         except Exception as close_err:
             logger.warning(f"Error closing BlobServiceClient: {close_err}")
-
-        # remove directory (may contain files). Use a thread to avoid blocking the event loop.
-        if os.path.isdir(png_directory):
-            try:
-                await asyncio.to_thread(shutil.rmtree, png_directory)
-                logger.info(f"Removed temporary PNG directory: {png_directory}")
-            except Exception as rm_err:
-                logger.error(f"Failed to remove temporary PNG directory {png_directory}: {rm_err}")
-        else:
-            logger.debug(f"PNG directory not found or already removed: {png_directory}")
-        logger.info("Closing BlobServiceClient and cleaned up temporary PNG directory")
+        logger.info("Closing BlobServiceClient")
 
 
 async def download_blob_to_local(blob_url: str, local_path: str):
