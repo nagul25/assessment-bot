@@ -51,10 +51,13 @@ class QueryProcessorService:
         2. Converting PPT/PDF to PNG images
         3. Running the Azure Assistant with the images for assessment
         4. Returning the structured assessment result
+        
+        For follow-up questions, pass thread_id from previous response to maintain conversation history.
         """
         try:
             print(f"Processing assessment with prompt: ", assessment)
             prompt = assessment.prompt
+            thread_id = assessment.thread_id  # For conversation continuity
             file_uploaded_response = None
             all_png_paths = []  # Collect all PNG paths for assistant analysis
 
@@ -110,13 +113,15 @@ class QueryProcessorService:
                 # Run assessment with images
                 assessment_result = await run_assessment(
                     prompt=prompt,
-                    png_paths=all_png_paths
+                    png_paths=all_png_paths,
+                    thread_id=thread_id
                 )
             else:
                 # Run assessment without images (text-only prompt)
                 assessment_result = await run_assessment(
                     prompt=prompt,
-                    png_paths=[]
+                    png_paths=[],
+                    thread_id=thread_id
                 )
             
             logger.info(f"Assessment completed: success={assessment_result.get('success', False)}")

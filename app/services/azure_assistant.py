@@ -9,6 +9,7 @@ images (Vision capability).
 import os
 import json
 import time
+import asyncio
 from typing import List, Optional, Dict, Any
 from openai import AzureOpenAI
 from app.log_config import logger
@@ -274,7 +275,72 @@ class AzureAssistantClient:
             logger.error(f"Failed to create thread: {e}")
             raise
     
-    def run_assistant(
+    def add_message_to_thread(
+        self,
+        thread_id: str,
+        user_prompt: str,
+        image_file_ids: Optional[List[str]] = None,
+        standard_file_ids: Optional[List[str]] = None
+    ) -> None:
+        """
+        Add a new user message to an existing thread for conversation continuity.
+        
+        Args:
+            thread_id: The existing thread ID to add the message to
+            user_prompt: The user's prompt/question
+            image_file_ids: List of file IDs for image attachments (for vision)
+            standard_file_ids: List of file IDs for standard docs (for file_search)
+        """
+        try:
+            # Build message content
+            content = []
+            
+            # Add text content
+            content.append({
+                "type": "text",
+                "text": user_prompt
+            })
+            
+            # Add image attachments if provided (for vision capability)
+            if image_file_ids:
+                for file_id in image_file_ids:
+                    content.append({
+                        "type": "image_file",
+                        "image_file": {"file_id": file_id}
+                    })
+            
+            # Build attachments for file_search (standard documents)
+            attachments = []
+            if standard_file_ids:
+                for file_id in standard_file_ids:
+                    attachments.append({
+                        "file_id": file_id,
+                        "tools": [{"type": "file_search"}]
+                    })
+                logger.info(f"Attaching {len(standard_file_ids)} standard files for file_search")
+            
+            # Create the message params
+            message_params = {
+                "role": "user",
+                "content": content
+            }
+            
+            # Add attachments if we have standard files
+            if attachments:
+                message_params["attachments"] = attachments
+            
+            # Add message to existing thread
+            self.client.beta.threads.messages.create(
+                thread_id=thread_id,
+                **message_params
+            )
+            logger.info(f"Added message to existing thread: {thread_id}")
+            
+        except Exception as e:
+            logger.error(f"Failed to add message to thread {thread_id}: {e}")
+            raise
+    
+    async def run_assistant(
         self,
         thread_id: str,
         assistant_id: Optional[str] = None,
@@ -308,7 +374,8 @@ class AzureAssistantClient:
             # Poll for completion
             start_time = time.time()
             while True:
-                if time.time() - start_time > timeout:
+                elapsed = time.time() - start_time
+                if elapsed > timeout:
                     raise TimeoutError(f"Assistant run timed out after {timeout} seconds")
                 
                 run_status = self.client.beta.threads.runs.retrieve(
@@ -329,8 +396,8 @@ class AzureAssistantClient:
                     logger.warning(f"Run {run.id} requires action - not implemented")
                     raise NotImplementedError("Tool calls requiring action not implemented")
                 
-                logger.debug(f"Run status: {run_status.status}, waiting...")
-                time.sleep(poll_interval)
+                logger.info(f"Run status: {run_status.status}, elapsed: {elapsed:.1f}s, waiting...")
+                await asyncio.sleep(poll_interval)
             
             # Get the response
             messages = self.client.beta.threads.messages.list(thread_id=thread_id)
@@ -414,7 +481,8 @@ def load_standard_file_ids() -> List[str]:
 async def run_assessment(
     prompt: str,
     png_paths: List[str],
-    assistant_id: Optional[str] = None
+    assistant_id: Optional[str] = None,
+    thread_id: Optional[str] = None
 ) -> Dict[str, Any]:
     """
     Run a complete assessment flow using the Azure Assistant.
@@ -422,7 +490,7 @@ async def run_assessment(
     This is the main entry point for processing assessments. It:
     1. Uploads user PNG images to Azure
     2. Loads standard file IDs from config
-    3. Creates a thread with the prompt, images, and standard file attachments
+    3. Creates a new thread OR adds message to existing thread for conversation continuity
     4. Runs the assistant
     5. Cleans up uploaded user files
     6. Returns the assessment result
@@ -431,6 +499,7 @@ async def run_assessment(
         prompt: The user's assessment prompt
         png_paths: List of paths to PNG images to analyze
         assistant_id: Optional assistant ID (uses env var if not provided)
+        thread_id: Optional thread ID for conversation continuity (reuses existing thread if provided)
         
     Returns:
         Dictionary containing the assessment result and metadata
@@ -448,21 +517,32 @@ async def run_assessment(
             else:
                 logger.warning(f"PNG file not found: {png_path}")
         
-        if not uploaded_file_ids:
+        if not uploaded_file_ids and png_paths:
             logger.warning("No PNG files were uploaded for assessment")
         
         # Load standard file IDs for file_search
         standard_file_ids = load_standard_file_ids()
         
-        # Create thread with user message, image attachments, and standard files
-        thread_id = client.create_thread_with_message(
-            user_prompt=prompt,
-            image_file_ids=uploaded_file_ids,
-            standard_file_ids=standard_file_ids
-        )
+        # Either reuse existing thread or create a new one
+        if thread_id:
+            # Add message to existing thread for conversation continuity
+            logger.info(f"Adding message to existing thread: {thread_id}")
+            client.add_message_to_thread(
+                thread_id=thread_id,
+                user_prompt=prompt,
+                image_file_ids=uploaded_file_ids,
+                standard_file_ids=standard_file_ids
+            )
+        else:
+            # Create new thread with user message, image attachments, and standard files
+            thread_id = client.create_thread_with_message(
+                user_prompt=prompt,
+                image_file_ids=uploaded_file_ids,
+                standard_file_ids=standard_file_ids
+            )
         
         # Run the assistant and get response
-        response_text = client.run_assistant(
+        response_text = await client.run_assistant(
             thread_id=thread_id,
             assistant_id=assistant_id
         )
@@ -480,7 +560,8 @@ async def run_assessment(
         return {
             "success": False,
             "error": str(e),
-            "images_analyzed": len(uploaded_file_ids)
+            "images_analyzed": len(uploaded_file_ids),
+            "thread_id": thread_id  # Return thread_id even on failure for debugging
         }
     
     finally:

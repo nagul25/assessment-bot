@@ -19,10 +19,11 @@ def health_check():
 @router.post("/analyse", tags=["Assessment analyser"])
 async def handle_assessment(
     prompt: str = Form(..., description="The assessment prompt string"),
+    thread_id: Optional[str] = Form(None, description="Thread ID for conversation continuity"),
     files: Optional[List[UploadFile]] = File(None, description="Optional list of uploaded files")):
-    logger.info(f"Received assessment request: {prompt}")
+    logger.info(f"Received assessment request: {prompt}, thread_id: {thread_id}")
     try:
-        request_data = QueryPromptRequest(prompt=prompt)
+        request_data = QueryPromptRequest(prompt=prompt, thread_id=thread_id)
         logger.info(f"Assessment request received - {request_data}")
         response = await QueryProcessorService().process_assessment(request_data, files=files)
         logger.info(f"Assessment processed successfully: {response}")

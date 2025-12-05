@@ -5255,3 +5255,887 @@ Response headers:
 2025-12-04 01:34:01,202 - watchfiles.main - INFO - 6 changes detected
 2025-12-04 01:34:05,608 - watchfiles.main - INFO - 5 changes detected
 2025-12-04 01:34:07,167 - watchfiles.main - INFO - 5 changes detected
+2025-12-04 21:43:19,452 - watchfiles.main - INFO - 5 changes detected
+2025-12-04 21:43:22,663 - watchfiles.main - INFO - 14 changes detected
+2025-12-04 21:44:27,038 - root - INFO - Rate limiting check for client: 127.0.0.1
+2025-12-04 21:44:27,050 - root - ERROR - Redis error: Error 61 connecting to localhost:6379. Connection refused.
+2025-12-04 21:44:27,064 - root - INFO - Received assessment request: Give me assessment of the file, thread_id: None
+2025-12-04 21:44:27,068 - root - INFO - Assessment request received - prompt='Give me assessment of the file' thread_id=None
+2025-12-04 21:44:27,127 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://stwu3mahaaya.blob.core.windows.net/newfiles?restype=REDACTED'
+Request method: 'PUT'
+Request headers:
+    'x-ms-version': 'REDACTED'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.27.0 Python/3.9.21 (macOS-15.3.2-arm64-arm-64bit)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '762dc940-d19d-11f0-942c-42603fc0563c'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+2025-12-04 21:44:27,285 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 409
+Response headers:
+    'Content-Length': '230'
+    'Content-Type': 'application/xml'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '0486d2bc-001e-008f-21aa-65539b000000'
+    'x-ms-client-request-id': '762dc940-d19d-11f0-942c-42603fc0563c'
+    'x-ms-version': 'REDACTED'
+    'x-ms-error-code': 'ContainerAlreadyExists'
+    'Date': 'Fri, 05 Dec 2025 05:44:26 GMT'
+2025-12-04 21:44:27,289 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://stwu3mahaaya.blob.core.windows.net/newfiles/User-Architecture-Presentation.pptx'
+Request method: 'PUT'
+Request headers:
+    'Content-Length': '32777'
+    'x-ms-meta-content_type': 'REDACTED'
+    'x-ms-blob-type': 'REDACTED'
+    'x-ms-version': 'REDACTED'
+    'Content-Type': 'application/octet-stream'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.27.0 Python/3.9.21 (macOS-15.3.2-arm64-arm-64bit)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '764685ca-d19d-11f0-942c-42603fc0563c'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+2025-12-04 21:44:27,352 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 201
+Response headers:
+    'Content-Length': '0'
+    'Content-MD5': 'REDACTED'
+    'Last-Modified': 'Fri, 05 Dec 2025 05:44:27 GMT'
+    'Etag': '"0x8DE33C15A87B574"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '0486d2f2-001e-008f-4eaa-65539b000000'
+    'x-ms-client-request-id': '764685ca-d19d-11f0-942c-42603fc0563c'
+    'x-ms-version': 'REDACTED'
+    'x-ms-content-crc64': 'REDACTED'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'Date': 'Fri, 05 Dec 2025 05:44:27 GMT'
+2025-12-04 21:44:27,353 - root - INFO - Closing BlobServiceClient
+2025-12-04 21:44:27,354 - root - INFO - Downloading and processing file from blob url: https://stwu3mahaaya.blob.core.windows.net/newfiles/User-Architecture-Presentation.pptx
+2025-12-04 21:44:27,354 - root - INFO - Processing file: User-Architecture-Presentation.pptx from blob url: https://stwu3mahaaya.blob.core.windows.net/newfiles/User-Architecture-Presentation.pptx
+2025-12-04 21:44:27,354 - root - INFO - Downloading blob from https://stwu3mahaaya.blob.core.windows.net/newfiles/User-Architecture-Presentation.pptx
+2025-12-04 21:44:27,356 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://stwu3mahaaya.blob.core.windows.net/newfiles/User-Architecture-Presentation.pptx'
+Request method: 'GET'
+Request headers:
+    'x-ms-range': 'REDACTED'
+    'x-ms-version': 'REDACTED'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.27.0 Python/3.9.21 (macOS-15.3.2-arm64-arm-64bit)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '7650c03a-d19d-11f0-942c-42603fc0563c'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+2025-12-04 21:44:27,445 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 206
+Response headers:
+    'Content-Length': '32777'
+    'Content-Type': 'application/octet-stream'
+    'Content-Range': 'REDACTED'
+    'Last-Modified': 'Fri, 05 Dec 2025 05:44:27 GMT'
+    'Accept-Ranges': 'REDACTED'
+    'Etag': '"0x8DE33C15A87B574"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '6ab74a99-301e-00bb-40aa-656053000000'
+    'x-ms-client-request-id': '7650c03a-d19d-11f0-942c-42603fc0563c'
+    'x-ms-version': 'REDACTED'
+    'x-ms-resource-type': 'REDACTED'
+    'x-ms-meta-content_type': 'REDACTED'
+    'x-ms-creation-time': 'REDACTED'
+    'x-ms-blob-content-md5': 'REDACTED'
+    'x-ms-lease-status': 'REDACTED'
+    'x-ms-lease-state': 'REDACTED'
+    'x-ms-blob-type': 'REDACTED'
+    'x-ms-server-encrypted': 'REDACTED'
+    'x-ms-owner': 'REDACTED'
+    'x-ms-group': 'REDACTED'
+    'x-ms-permissions': 'REDACTED'
+    'x-ms-acl': 'REDACTED'
+    'Date': 'Fri, 05 Dec 2025 05:44:26 GMT'
+2025-12-04 21:44:27,454 - watchfiles.main - INFO - 1 change detected
+2025-12-04 21:44:27,462 - root - INFO - Downloaded blob from https://stwu3mahaaya.blob.core.windows.net/newfiles/User-Architecture-Presentation.pptx to local path /Users/nagul/Desktop/numentica/assessment exp/backend/assessment-bot/app/tempfiles/User-Architecture-Presentation/User-Architecture-Presentation_20251204214427.pptx
+2025-12-04 21:44:27,463 - root - INFO - Closing BlobServiceClient
+2025-12-04 21:44:27,464 - root - INFO - Downloaded file to local path: /Users/nagul/Desktop/numentica/assessment exp/backend/assessment-bot/app/tempfiles/User-Architecture-Presentation/User-Architecture-Presentation_20251204214427.pptx
+2025-12-04 21:44:27,464 - root - INFO - Local ppt file path: /Users/nagul/Desktop/numentica/assessment exp/backend/assessment-bot/app/tempfiles/User-Architecture-Presentation/User-Architecture-Presentation_20251204214427.pptx - User-Architecture-Presentation
+2025-12-04 21:44:27,464 - root - INFO - Output directory for PNGs: /Users/nagul/Desktop/numentica/assessment exp/backend/assessment-bot/app/tempfiles/User-Architecture-Presentation/slides
+2025-12-04 21:44:27,465 - root - INFO - Converting presentation to PDF using LibreOffice...
+2025-12-04 21:44:27,819 - watchfiles.main - INFO - 1 change detected
+2025-12-04 21:44:28,183 - watchfiles.main - INFO - 1 change detected
+2025-12-04 21:44:29,795 - watchfiles.main - INFO - 5 changes detected
+2025-12-04 21:44:29,823 - root - INFO - Converting PDF to PNG using pdftoppm...
+2025-12-04 21:44:30,160 - watchfiles.main - INFO - 3 changes detected
+2025-12-04 21:44:30,521 - watchfiles.main - INFO - 5 changes detected
+2025-12-04 21:44:30,640 - root - INFO - Created 6 PNG files in /Users/nagul/Desktop/numentica/assessment exp/backend/assessment-bot/app/tempfiles/User-Architecture-Presentation/slides
+2025-12-04 21:44:30,640 - root - INFO - Converted PPT/PDF to PNGs at: /Users/nagul/Desktop/numentica/assessment exp/backend/assessment-bot/app/tempfiles/User-Architecture-Presentation/slides
+2025-12-04 21:44:30,641 - root - INFO - Found 6 PNG files for assessment
+2025-12-04 21:44:30,641 - root - INFO - uploading pngs from directory: /Users/nagul/Desktop/numentica/assessment exp/backend/assessment-bot/app/tempfiles/User-Architecture-Presentation/slides - under file: User-Architecture-Presentation
+2025-12-04 21:44:30,642 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://stwu3mahaaya.blob.core.windows.net/newfiles?restype=REDACTED'
+Request method: 'PUT'
+Request headers:
+    'x-ms-version': 'REDACTED'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.27.0 Python/3.9.21 (macOS-15.3.2-arm64-arm-64bit)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '78462e84-d19d-11f0-942c-42603fc0563c'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+2025-12-04 21:44:30,737 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 409
+Response headers:
+    'Content-Length': '230'
+    'Content-Type': 'application/xml'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': 'c7251194-201e-00ea-55aa-65fddf000000'
+    'x-ms-client-request-id': '78462e84-d19d-11f0-942c-42603fc0563c'
+    'x-ms-version': 'REDACTED'
+    'x-ms-error-code': 'ContainerAlreadyExists'
+    'Date': 'Fri, 05 Dec 2025 05:44:30 GMT'
+2025-12-04 21:44:30,739 - root - INFO - Container newfiles may already exist: The specified container already exists.
+RequestId:c7251194-201e-00ea-55aa-65fddf000000
+Time:2025-12-05T05:44:30.7670602Z
+ErrorCode:ContainerAlreadyExists
+Content: <?xml version="1.0" encoding="utf-8"?><Error><Code>ContainerAlreadyExists</Code><Message>The specified container already exists.
+RequestId:c7251194-201e-00ea-55aa-65fddf000000
+Time:2025-12-05T05:44:30.7670602Z</Message></Error>
+2025-12-04 21:44:30,741 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://stwu3mahaaya.blob.core.windows.net/newfiles/User-Architecture-Presentation/1_slide-2.png'
+Request method: 'PUT'
+Request headers:
+    'Content-Length': '46418'
+    'x-ms-blob-type': 'REDACTED'
+    'x-ms-version': 'REDACTED'
+    'Content-Type': 'application/octet-stream'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.27.0 Python/3.9.21 (macOS-15.3.2-arm64-arm-64bit)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '78555012-d19d-11f0-942c-42603fc0563c'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+2025-12-04 21:44:30,810 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 201
+Response headers:
+    'Content-Length': '0'
+    'Content-MD5': 'REDACTED'
+    'Last-Modified': 'Fri, 05 Dec 2025 05:44:30 GMT'
+    'Etag': '"0x8DE33C15C97BFA4"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': 'c72511b0-201e-00ea-6daa-65fddf000000'
+    'x-ms-client-request-id': '78555012-d19d-11f0-942c-42603fc0563c'
+    'x-ms-version': 'REDACTED'
+    'x-ms-content-crc64': 'REDACTED'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'Date': 'Fri, 05 Dec 2025 05:44:30 GMT'
+2025-12-04 21:44:30,826 - root - INFO - Uploaded PNG blob: User-Architecture-Presentation/1_slide-2.png to container: newfiles, blob url: https://stwu3mahaaya.blob.core.windows.net/newfiles/User-Architecture-Presentation/1_slide-2.png
+2025-12-04 21:44:30,827 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://stwu3mahaaya.blob.core.windows.net/newfiles/User-Architecture-Presentation/3_slide-3.png'
+Request method: 'PUT'
+Request headers:
+    'Content-Length': '42040'
+    'x-ms-blob-type': 'REDACTED'
+    'x-ms-version': 'REDACTED'
+    'Content-Type': 'application/octet-stream'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.27.0 Python/3.9.21 (macOS-15.3.2-arm64-arm-64bit)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '78626ee6-d19d-11f0-942c-42603fc0563c'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+2025-12-04 21:44:30,878 - watchfiles.main - INFO - 2 changes detected
+2025-12-04 21:44:30,923 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 201
+Response headers:
+    'Content-Length': '0'
+    'Content-MD5': 'REDACTED'
+    'Last-Modified': 'Fri, 05 Dec 2025 05:44:30 GMT'
+    'Etag': '"0x8DE33C15CA2123C"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': 'c72511da-201e-00ea-11aa-65fddf000000'
+    'x-ms-client-request-id': '78626ee6-d19d-11f0-942c-42603fc0563c'
+    'x-ms-version': 'REDACTED'
+    'x-ms-content-crc64': 'REDACTED'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'Date': 'Fri, 05 Dec 2025 05:44:30 GMT'
+2025-12-04 21:44:30,923 - root - INFO - Uploaded PNG blob: User-Architecture-Presentation/3_slide-3.png to container: newfiles, blob url: https://stwu3mahaaya.blob.core.windows.net/newfiles/User-Architecture-Presentation/3_slide-3.png
+2025-12-04 21:44:30,924 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://stwu3mahaaya.blob.core.windows.net/newfiles/User-Architecture-Presentation/4_slide-1.png'
+Request method: 'PUT'
+Request headers:
+    'Content-Length': '45901'
+    'x-ms-blob-type': 'REDACTED'
+    'x-ms-version': 'REDACTED'
+    'Content-Type': 'application/octet-stream'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.27.0 Python/3.9.21 (macOS-15.3.2-arm64-arm-64bit)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '78714934-d19d-11f0-942c-42603fc0563c'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+2025-12-04 21:44:30,993 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 201
+Response headers:
+    'Content-Length': '0'
+    'Content-MD5': 'REDACTED'
+    'Last-Modified': 'Fri, 05 Dec 2025 05:44:31 GMT'
+    'Etag': '"0x8DE33C15CB3C978"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': 'c72511fb-201e-00ea-31aa-65fddf000000'
+    'x-ms-client-request-id': '78714934-d19d-11f0-942c-42603fc0563c'
+    'x-ms-version': 'REDACTED'
+    'x-ms-content-crc64': 'REDACTED'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'Date': 'Fri, 05 Dec 2025 05:44:30 GMT'
+2025-12-04 21:44:30,994 - root - INFO - Uploaded PNG blob: User-Architecture-Presentation/4_slide-1.png to container: newfiles, blob url: https://stwu3mahaaya.blob.core.windows.net/newfiles/User-Architecture-Presentation/4_slide-1.png
+2025-12-04 21:44:30,994 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://stwu3mahaaya.blob.core.windows.net/newfiles/User-Architecture-Presentation/5_slide-4.png'
+Request method: 'PUT'
+Request headers:
+    'Content-Length': '46150'
+    'x-ms-blob-type': 'REDACTED'
+    'x-ms-version': 'REDACTED'
+    'Content-Type': 'application/octet-stream'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.27.0 Python/3.9.21 (macOS-15.3.2-arm64-arm-64bit)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '787bfb40-d19d-11f0-942c-42603fc0563c'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+2025-12-04 21:44:31,035 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 201
+Response headers:
+    'Content-Length': '0'
+    'Content-MD5': 'REDACTED'
+    'Last-Modified': 'Fri, 05 Dec 2025 05:44:31 GMT'
+    'Etag': '"0x8DE33C15CBA20E0"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': 'c7251218-201e-00ea-4aaa-65fddf000000'
+    'x-ms-client-request-id': '787bfb40-d19d-11f0-942c-42603fc0563c'
+    'x-ms-version': 'REDACTED'
+    'x-ms-content-crc64': 'REDACTED'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'Date': 'Fri, 05 Dec 2025 05:44:30 GMT'
+2025-12-04 21:44:31,044 - root - INFO - Uploaded PNG blob: User-Architecture-Presentation/5_slide-4.png to container: newfiles, blob url: https://stwu3mahaaya.blob.core.windows.net/newfiles/User-Architecture-Presentation/5_slide-4.png
+2025-12-04 21:44:31,045 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://stwu3mahaaya.blob.core.windows.net/newfiles/User-Architecture-Presentation/6_slide-5.png'
+Request method: 'PUT'
+Request headers:
+    'Content-Length': '43120'
+    'x-ms-blob-type': 'REDACTED'
+    'x-ms-version': 'REDACTED'
+    'Content-Type': 'application/octet-stream'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.27.0 Python/3.9.21 (macOS-15.3.2-arm64-arm-64bit)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '7883b952-d19d-11f0-942c-42603fc0563c'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+2025-12-04 21:44:31,088 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 201
+Response headers:
+    'Content-Length': '0'
+    'Content-MD5': 'REDACTED'
+    'Last-Modified': 'Fri, 05 Dec 2025 05:44:31 GMT'
+    'Etag': '"0x8DE33C15CC22FD8"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': 'c7251231-201e-00ea-61aa-65fddf000000'
+    'x-ms-client-request-id': '7883b952-d19d-11f0-942c-42603fc0563c'
+    'x-ms-version': 'REDACTED'
+    'x-ms-content-crc64': 'REDACTED'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'Date': 'Fri, 05 Dec 2025 05:44:30 GMT'
+2025-12-04 21:44:31,089 - root - INFO - Uploaded PNG blob: User-Architecture-Presentation/6_slide-5.png to container: newfiles, blob url: https://stwu3mahaaya.blob.core.windows.net/newfiles/User-Architecture-Presentation/6_slide-5.png
+2025-12-04 21:44:31,092 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://stwu3mahaaya.blob.core.windows.net/newfiles/User-Architecture-Presentation/7_slide-6.png'
+Request method: 'PUT'
+Request headers:
+    'Content-Length': '43260'
+    'x-ms-blob-type': 'REDACTED'
+    'x-ms-version': 'REDACTED'
+    'Content-Type': 'application/octet-stream'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.27.0 Python/3.9.21 (macOS-15.3.2-arm64-arm-64bit)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '788acc7e-d19d-11f0-942c-42603fc0563c'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+2025-12-04 21:44:31,139 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 201
+Response headers:
+    'Content-Length': '0'
+    'Content-MD5': 'REDACTED'
+    'Last-Modified': 'Fri, 05 Dec 2025 05:44:31 GMT'
+    'Etag': '"0x8DE33C15CC9F74C"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': 'c7251245-201e-00ea-75aa-65fddf000000'
+    'x-ms-client-request-id': '788acc7e-d19d-11f0-942c-42603fc0563c'
+    'x-ms-version': 'REDACTED'
+    'x-ms-content-crc64': 'REDACTED'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'Date': 'Fri, 05 Dec 2025 05:44:30 GMT'
+2025-12-04 21:44:31,139 - root - INFO - Uploaded PNG blob: User-Architecture-Presentation/7_slide-6.png to container: newfiles, blob url: https://stwu3mahaaya.blob.core.windows.net/newfiles/User-Architecture-Presentation/7_slide-6.png
+2025-12-04 21:44:31,140 - root - INFO - Closing BlobServiceClient
+2025-12-04 21:44:31,140 - root - INFO - Uploaded PNG files to blob storage: [{'filename': 'slide-2.png', 'blob_url': 'https://stwu3mahaaya.blob.core.windows.net/newfiles/User-Architecture-Presentation/1_slide-2.png'}, {'filename': 'slide-3.png', 'blob_url': 'https://stwu3mahaaya.blob.core.windows.net/newfiles/User-Architecture-Presentation/3_slide-3.png'}, {'filename': 'slide-1.png', 'blob_url': 'https://stwu3mahaaya.blob.core.windows.net/newfiles/User-Architecture-Presentation/4_slide-1.png'}, {'filename': 'slide-4.png', 'blob_url': 'https://stwu3mahaaya.blob.core.windows.net/newfiles/User-Architecture-Presentation/5_slide-4.png'}, {'filename': 'slide-5.png', 'blob_url': 'https://stwu3mahaaya.blob.core.windows.net/newfiles/User-Architecture-Presentation/6_slide-5.png'}, {'filename': 'slide-6.png', 'blob_url': 'https://stwu3mahaaya.blob.core.windows.net/newfiles/User-Architecture-Presentation/7_slide-6.png'}]
+2025-12-04 21:44:31,140 - root - INFO - Removed local file: /Users/nagul/Desktop/numentica/assessment exp/backend/assessment-bot/app/tempfiles/User-Architecture-Presentation/User-Architecture-Presentation_20251204214427.pptx
+2025-12-04 21:44:31,141 - root - INFO - Running Azure Assistant assessment with 6 images
+2025-12-04 21:44:31,148 - root - INFO - Azure Assistant Client initialized successfully
+2025-12-04 21:44:31,149 - root - INFO - Uploading 6 PNG files for assessment
+2025-12-04 21:44:31,244 - watchfiles.main - INFO - 2 changes detected
+2025-12-04 21:44:32,366 - httpx - INFO - HTTP Request: POST https://aidoctest-resource.cognitiveservices.azure.com/openai/files?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:44:32,370 - root - INFO - Uploaded file /Users/nagul/Desktop/numentica/assessment exp/backend/assessment-bot/app/tempfiles/User-Architecture-Presentation/slides/slide-1.png with ID: assistant-UyQhmc66sHZwCqFGQRwdxm
+2025-12-04 21:44:32,905 - httpx - INFO - HTTP Request: POST https://aidoctest-resource.cognitiveservices.azure.com/openai/files?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:44:32,908 - root - INFO - Uploaded file /Users/nagul/Desktop/numentica/assessment exp/backend/assessment-bot/app/tempfiles/User-Architecture-Presentation/slides/slide-2.png with ID: assistant-HCU1xVPCMS9xTQgmyYXysq
+2025-12-04 21:44:33,451 - httpx - INFO - HTTP Request: POST https://aidoctest-resource.cognitiveservices.azure.com/openai/files?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:44:33,453 - root - INFO - Uploaded file /Users/nagul/Desktop/numentica/assessment exp/backend/assessment-bot/app/tempfiles/User-Architecture-Presentation/slides/slide-3.png with ID: assistant-Aa3kJNSP5xtrp63Y1RuCX7
+2025-12-04 21:44:33,669 - watchfiles.main - INFO - 4 changes detected
+2025-12-04 21:44:33,966 - httpx - INFO - HTTP Request: POST https://aidoctest-resource.cognitiveservices.azure.com/openai/files?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:44:33,968 - root - INFO - Uploaded file /Users/nagul/Desktop/numentica/assessment exp/backend/assessment-bot/app/tempfiles/User-Architecture-Presentation/slides/slide-4.png with ID: assistant-4Es9H1QMgcXHUqYR6CxPps
+2025-12-04 21:44:34,565 - httpx - INFO - HTTP Request: POST https://aidoctest-resource.cognitiveservices.azure.com/openai/files?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:44:34,567 - root - INFO - Uploaded file /Users/nagul/Desktop/numentica/assessment exp/backend/assessment-bot/app/tempfiles/User-Architecture-Presentation/slides/slide-5.png with ID: assistant-RpC5o4bCzKCmA8tgxn1ATc
+2025-12-04 21:44:35,045 - httpx - INFO - HTTP Request: POST https://aidoctest-resource.cognitiveservices.azure.com/openai/files?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:44:35,046 - root - INFO - Uploaded file /Users/nagul/Desktop/numentica/assessment exp/backend/assessment-bot/app/tempfiles/User-Architecture-Presentation/slides/slide-6.png with ID: assistant-62b2LnmnhvTS84uftoNxon
+2025-12-04 21:44:35,047 - root - INFO - Loaded 4 standard file IDs from config
+2025-12-04 21:44:35,048 - root - INFO - Attaching 4 standard files for file_search
+2025-12-04 21:44:35,770 - watchfiles.main - INFO - 11 changes detected
+2025-12-04 21:44:35,785 - httpx - INFO - HTTP Request: POST https://aidoctest-resource.cognitiveservices.azure.com/openai/threads?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:44:35,867 - root - INFO - Created thread with ID: thread_xkF0PaozUm4Ic6cWCiSKFakP
+2025-12-04 21:44:36,171 - httpx - INFO - HTTP Request: POST https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_xkF0PaozUm4Ic6cWCiSKFakP/runs?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:44:36,178 - root - INFO - Created run with ID: run_C7H5wR9fip3wfsPLBY70MQ03
+2025-12-04 21:44:36,358 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_xkF0PaozUm4Ic6cWCiSKFakP/runs/run_C7H5wR9fip3wfsPLBY70MQ03?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:44:37,543 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_xkF0PaozUm4Ic6cWCiSKFakP/runs/run_C7H5wR9fip3wfsPLBY70MQ03?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:44:38,766 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_xkF0PaozUm4Ic6cWCiSKFakP/runs/run_C7H5wR9fip3wfsPLBY70MQ03?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:44:39,966 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_xkF0PaozUm4Ic6cWCiSKFakP/runs/run_C7H5wR9fip3wfsPLBY70MQ03?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:44:41,164 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_xkF0PaozUm4Ic6cWCiSKFakP/runs/run_C7H5wR9fip3wfsPLBY70MQ03?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:44:42,492 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_xkF0PaozUm4Ic6cWCiSKFakP/runs/run_C7H5wR9fip3wfsPLBY70MQ03?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:44:43,674 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_xkF0PaozUm4Ic6cWCiSKFakP/runs/run_C7H5wR9fip3wfsPLBY70MQ03?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:44:44,860 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_xkF0PaozUm4Ic6cWCiSKFakP/runs/run_C7H5wR9fip3wfsPLBY70MQ03?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:44:46,052 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_xkF0PaozUm4Ic6cWCiSKFakP/runs/run_C7H5wR9fip3wfsPLBY70MQ03?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:44:47,674 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_xkF0PaozUm4Ic6cWCiSKFakP/runs/run_C7H5wR9fip3wfsPLBY70MQ03?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:44:48,942 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_xkF0PaozUm4Ic6cWCiSKFakP/runs/run_C7H5wR9fip3wfsPLBY70MQ03?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:44:50,499 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_xkF0PaozUm4Ic6cWCiSKFakP/runs/run_C7H5wR9fip3wfsPLBY70MQ03?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:44:51,644 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_xkF0PaozUm4Ic6cWCiSKFakP/runs/run_C7H5wR9fip3wfsPLBY70MQ03?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:44:52,792 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_xkF0PaozUm4Ic6cWCiSKFakP/runs/run_C7H5wR9fip3wfsPLBY70MQ03?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:44:53,934 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_xkF0PaozUm4Ic6cWCiSKFakP/runs/run_C7H5wR9fip3wfsPLBY70MQ03?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:44:55,074 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_xkF0PaozUm4Ic6cWCiSKFakP/runs/run_C7H5wR9fip3wfsPLBY70MQ03?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:44:56,217 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_xkF0PaozUm4Ic6cWCiSKFakP/runs/run_C7H5wR9fip3wfsPLBY70MQ03?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:44:57,379 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_xkF0PaozUm4Ic6cWCiSKFakP/runs/run_C7H5wR9fip3wfsPLBY70MQ03?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:44:58,526 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_xkF0PaozUm4Ic6cWCiSKFakP/runs/run_C7H5wR9fip3wfsPLBY70MQ03?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:44:59,665 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_xkF0PaozUm4Ic6cWCiSKFakP/runs/run_C7H5wR9fip3wfsPLBY70MQ03?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:45:01,180 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_xkF0PaozUm4Ic6cWCiSKFakP/runs/run_C7H5wR9fip3wfsPLBY70MQ03?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:45:02,339 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_xkF0PaozUm4Ic6cWCiSKFakP/runs/run_C7H5wR9fip3wfsPLBY70MQ03?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:45:03,886 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_xkF0PaozUm4Ic6cWCiSKFakP/runs/run_C7H5wR9fip3wfsPLBY70MQ03?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:45:05,031 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_xkF0PaozUm4Ic6cWCiSKFakP/runs/run_C7H5wR9fip3wfsPLBY70MQ03?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:45:06,172 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_xkF0PaozUm4Ic6cWCiSKFakP/runs/run_C7H5wR9fip3wfsPLBY70MQ03?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:45:07,379 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_xkF0PaozUm4Ic6cWCiSKFakP/runs/run_C7H5wR9fip3wfsPLBY70MQ03?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:45:09,178 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_xkF0PaozUm4Ic6cWCiSKFakP/runs/run_C7H5wR9fip3wfsPLBY70MQ03?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:45:10,368 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_xkF0PaozUm4Ic6cWCiSKFakP/runs/run_C7H5wR9fip3wfsPLBY70MQ03?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:45:11,505 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_xkF0PaozUm4Ic6cWCiSKFakP/runs/run_C7H5wR9fip3wfsPLBY70MQ03?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:45:12,649 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_xkF0PaozUm4Ic6cWCiSKFakP/runs/run_C7H5wR9fip3wfsPLBY70MQ03?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:45:13,807 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_xkF0PaozUm4Ic6cWCiSKFakP/runs/run_C7H5wR9fip3wfsPLBY70MQ03?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:45:15,526 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_xkF0PaozUm4Ic6cWCiSKFakP/runs/run_C7H5wR9fip3wfsPLBY70MQ03?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:45:16,793 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_xkF0PaozUm4Ic6cWCiSKFakP/runs/run_C7H5wR9fip3wfsPLBY70MQ03?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:45:17,985 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_xkF0PaozUm4Ic6cWCiSKFakP/runs/run_C7H5wR9fip3wfsPLBY70MQ03?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:45:19,128 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_xkF0PaozUm4Ic6cWCiSKFakP/runs/run_C7H5wR9fip3wfsPLBY70MQ03?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:45:20,286 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_xkF0PaozUm4Ic6cWCiSKFakP/runs/run_C7H5wR9fip3wfsPLBY70MQ03?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:45:21,437 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_xkF0PaozUm4Ic6cWCiSKFakP/runs/run_C7H5wR9fip3wfsPLBY70MQ03?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:45:22,597 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_xkF0PaozUm4Ic6cWCiSKFakP/runs/run_C7H5wR9fip3wfsPLBY70MQ03?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:45:23,785 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_xkF0PaozUm4Ic6cWCiSKFakP/runs/run_C7H5wR9fip3wfsPLBY70MQ03?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:45:24,934 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_xkF0PaozUm4Ic6cWCiSKFakP/runs/run_C7H5wR9fip3wfsPLBY70MQ03?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:45:26,085 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_xkF0PaozUm4Ic6cWCiSKFakP/runs/run_C7H5wR9fip3wfsPLBY70MQ03?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:45:27,231 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_xkF0PaozUm4Ic6cWCiSKFakP/runs/run_C7H5wR9fip3wfsPLBY70MQ03?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:45:28,424 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_xkF0PaozUm4Ic6cWCiSKFakP/runs/run_C7H5wR9fip3wfsPLBY70MQ03?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:45:29,582 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_xkF0PaozUm4Ic6cWCiSKFakP/runs/run_C7H5wR9fip3wfsPLBY70MQ03?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:45:30,754 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_xkF0PaozUm4Ic6cWCiSKFakP/runs/run_C7H5wR9fip3wfsPLBY70MQ03?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:45:31,901 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_xkF0PaozUm4Ic6cWCiSKFakP/runs/run_C7H5wR9fip3wfsPLBY70MQ03?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:45:33,066 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_xkF0PaozUm4Ic6cWCiSKFakP/runs/run_C7H5wR9fip3wfsPLBY70MQ03?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:45:34,218 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_xkF0PaozUm4Ic6cWCiSKFakP/runs/run_C7H5wR9fip3wfsPLBY70MQ03?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:45:35,354 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_xkF0PaozUm4Ic6cWCiSKFakP/runs/run_C7H5wR9fip3wfsPLBY70MQ03?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:45:36,559 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_xkF0PaozUm4Ic6cWCiSKFakP/runs/run_C7H5wR9fip3wfsPLBY70MQ03?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:45:37,765 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_xkF0PaozUm4Ic6cWCiSKFakP/runs/run_C7H5wR9fip3wfsPLBY70MQ03?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:45:38,953 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_xkF0PaozUm4Ic6cWCiSKFakP/runs/run_C7H5wR9fip3wfsPLBY70MQ03?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:45:40,146 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_xkF0PaozUm4Ic6cWCiSKFakP/runs/run_C7H5wR9fip3wfsPLBY70MQ03?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:45:41,288 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_xkF0PaozUm4Ic6cWCiSKFakP/runs/run_C7H5wR9fip3wfsPLBY70MQ03?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:45:42,424 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_xkF0PaozUm4Ic6cWCiSKFakP/runs/run_C7H5wR9fip3wfsPLBY70MQ03?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:45:43,618 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_xkF0PaozUm4Ic6cWCiSKFakP/runs/run_C7H5wR9fip3wfsPLBY70MQ03?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:45:44,755 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_xkF0PaozUm4Ic6cWCiSKFakP/runs/run_C7H5wR9fip3wfsPLBY70MQ03?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:45:45,953 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_xkF0PaozUm4Ic6cWCiSKFakP/runs/run_C7H5wR9fip3wfsPLBY70MQ03?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:45:47,144 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_xkF0PaozUm4Ic6cWCiSKFakP/runs/run_C7H5wR9fip3wfsPLBY70MQ03?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:45:48,289 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_xkF0PaozUm4Ic6cWCiSKFakP/runs/run_C7H5wR9fip3wfsPLBY70MQ03?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:45:49,578 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_xkF0PaozUm4Ic6cWCiSKFakP/runs/run_C7H5wR9fip3wfsPLBY70MQ03?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:45:50,756 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_xkF0PaozUm4Ic6cWCiSKFakP/runs/run_C7H5wR9fip3wfsPLBY70MQ03?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:45:52,131 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_xkF0PaozUm4Ic6cWCiSKFakP/runs/run_C7H5wR9fip3wfsPLBY70MQ03?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:45:53,284 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_xkF0PaozUm4Ic6cWCiSKFakP/runs/run_C7H5wR9fip3wfsPLBY70MQ03?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:45:54,475 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_xkF0PaozUm4Ic6cWCiSKFakP/runs/run_C7H5wR9fip3wfsPLBY70MQ03?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:45:55,648 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_xkF0PaozUm4Ic6cWCiSKFakP/runs/run_C7H5wR9fip3wfsPLBY70MQ03?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:45:56,805 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_xkF0PaozUm4Ic6cWCiSKFakP/runs/run_C7H5wR9fip3wfsPLBY70MQ03?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:45:57,954 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_xkF0PaozUm4Ic6cWCiSKFakP/runs/run_C7H5wR9fip3wfsPLBY70MQ03?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:45:59,100 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_xkF0PaozUm4Ic6cWCiSKFakP/runs/run_C7H5wR9fip3wfsPLBY70MQ03?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:46:00,244 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_xkF0PaozUm4Ic6cWCiSKFakP/runs/run_C7H5wR9fip3wfsPLBY70MQ03?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:46:01,413 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_xkF0PaozUm4Ic6cWCiSKFakP/runs/run_C7H5wR9fip3wfsPLBY70MQ03?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:46:02,592 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_xkF0PaozUm4Ic6cWCiSKFakP/runs/run_C7H5wR9fip3wfsPLBY70MQ03?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:46:03,729 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_xkF0PaozUm4Ic6cWCiSKFakP/runs/run_C7H5wR9fip3wfsPLBY70MQ03?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:46:04,871 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_xkF0PaozUm4Ic6cWCiSKFakP/runs/run_C7H5wR9fip3wfsPLBY70MQ03?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:46:06,019 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_xkF0PaozUm4Ic6cWCiSKFakP/runs/run_C7H5wR9fip3wfsPLBY70MQ03?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:46:07,169 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_xkF0PaozUm4Ic6cWCiSKFakP/runs/run_C7H5wR9fip3wfsPLBY70MQ03?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:46:08,386 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_xkF0PaozUm4Ic6cWCiSKFakP/runs/run_C7H5wR9fip3wfsPLBY70MQ03?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:46:09,597 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_xkF0PaozUm4Ic6cWCiSKFakP/runs/run_C7H5wR9fip3wfsPLBY70MQ03?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:46:10,730 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_xkF0PaozUm4Ic6cWCiSKFakP/runs/run_C7H5wR9fip3wfsPLBY70MQ03?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:46:11,921 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_xkF0PaozUm4Ic6cWCiSKFakP/runs/run_C7H5wR9fip3wfsPLBY70MQ03?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:46:13,058 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_xkF0PaozUm4Ic6cWCiSKFakP/runs/run_C7H5wR9fip3wfsPLBY70MQ03?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:46:14,197 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_xkF0PaozUm4Ic6cWCiSKFakP/runs/run_C7H5wR9fip3wfsPLBY70MQ03?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:46:15,339 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_xkF0PaozUm4Ic6cWCiSKFakP/runs/run_C7H5wR9fip3wfsPLBY70MQ03?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:46:16,484 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_xkF0PaozUm4Ic6cWCiSKFakP/runs/run_C7H5wR9fip3wfsPLBY70MQ03?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:46:17,633 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_xkF0PaozUm4Ic6cWCiSKFakP/runs/run_C7H5wR9fip3wfsPLBY70MQ03?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:46:18,772 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_xkF0PaozUm4Ic6cWCiSKFakP/runs/run_C7H5wR9fip3wfsPLBY70MQ03?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:46:19,671 - watchfiles.main - INFO - 1 change detected
+2025-12-04 21:46:19,912 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_xkF0PaozUm4Ic6cWCiSKFakP/runs/run_C7H5wR9fip3wfsPLBY70MQ03?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:46:21,049 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_xkF0PaozUm4Ic6cWCiSKFakP/runs/run_C7H5wR9fip3wfsPLBY70MQ03?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:46:22,193 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_xkF0PaozUm4Ic6cWCiSKFakP/runs/run_C7H5wR9fip3wfsPLBY70MQ03?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:46:23,329 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_xkF0PaozUm4Ic6cWCiSKFakP/runs/run_C7H5wR9fip3wfsPLBY70MQ03?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:46:24,471 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_xkF0PaozUm4Ic6cWCiSKFakP/runs/run_C7H5wR9fip3wfsPLBY70MQ03?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:46:25,618 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_xkF0PaozUm4Ic6cWCiSKFakP/runs/run_C7H5wR9fip3wfsPLBY70MQ03?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:46:26,783 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_xkF0PaozUm4Ic6cWCiSKFakP/runs/run_C7H5wR9fip3wfsPLBY70MQ03?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:46:27,927 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_xkF0PaozUm4Ic6cWCiSKFakP/runs/run_C7H5wR9fip3wfsPLBY70MQ03?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:46:29,076 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_xkF0PaozUm4Ic6cWCiSKFakP/runs/run_C7H5wR9fip3wfsPLBY70MQ03?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:46:30,214 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_xkF0PaozUm4Ic6cWCiSKFakP/runs/run_C7H5wR9fip3wfsPLBY70MQ03?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:46:31,380 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_xkF0PaozUm4Ic6cWCiSKFakP/runs/run_C7H5wR9fip3wfsPLBY70MQ03?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:46:32,519 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_xkF0PaozUm4Ic6cWCiSKFakP/runs/run_C7H5wR9fip3wfsPLBY70MQ03?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:46:33,670 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_xkF0PaozUm4Ic6cWCiSKFakP/runs/run_C7H5wR9fip3wfsPLBY70MQ03?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:46:34,814 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_xkF0PaozUm4Ic6cWCiSKFakP/runs/run_C7H5wR9fip3wfsPLBY70MQ03?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:46:35,976 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_xkF0PaozUm4Ic6cWCiSKFakP/runs/run_C7H5wR9fip3wfsPLBY70MQ03?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:46:37,118 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_xkF0PaozUm4Ic6cWCiSKFakP/runs/run_C7H5wR9fip3wfsPLBY70MQ03?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:46:38,261 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_xkF0PaozUm4Ic6cWCiSKFakP/runs/run_C7H5wR9fip3wfsPLBY70MQ03?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:46:39,406 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_xkF0PaozUm4Ic6cWCiSKFakP/runs/run_C7H5wR9fip3wfsPLBY70MQ03?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:46:40,673 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_xkF0PaozUm4Ic6cWCiSKFakP/runs/run_C7H5wR9fip3wfsPLBY70MQ03?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:46:41,971 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_xkF0PaozUm4Ic6cWCiSKFakP/runs/run_C7H5wR9fip3wfsPLBY70MQ03?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:46:43,166 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_xkF0PaozUm4Ic6cWCiSKFakP/runs/run_C7H5wR9fip3wfsPLBY70MQ03?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:46:44,306 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_xkF0PaozUm4Ic6cWCiSKFakP/runs/run_C7H5wR9fip3wfsPLBY70MQ03?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:46:45,453 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_xkF0PaozUm4Ic6cWCiSKFakP/runs/run_C7H5wR9fip3wfsPLBY70MQ03?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:46:46,648 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_xkF0PaozUm4Ic6cWCiSKFakP/runs/run_C7H5wR9fip3wfsPLBY70MQ03?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:46:47,785 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_xkF0PaozUm4Ic6cWCiSKFakP/runs/run_C7H5wR9fip3wfsPLBY70MQ03?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:46:48,928 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_xkF0PaozUm4Ic6cWCiSKFakP/runs/run_C7H5wR9fip3wfsPLBY70MQ03?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:46:50,093 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_xkF0PaozUm4Ic6cWCiSKFakP/runs/run_C7H5wR9fip3wfsPLBY70MQ03?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:46:51,363 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_xkF0PaozUm4Ic6cWCiSKFakP/runs/run_C7H5wR9fip3wfsPLBY70MQ03?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:46:52,512 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_xkF0PaozUm4Ic6cWCiSKFakP/runs/run_C7H5wR9fip3wfsPLBY70MQ03?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:46:53,650 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_xkF0PaozUm4Ic6cWCiSKFakP/runs/run_C7H5wR9fip3wfsPLBY70MQ03?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:46:54,786 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_xkF0PaozUm4Ic6cWCiSKFakP/runs/run_C7H5wR9fip3wfsPLBY70MQ03?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:46:55,931 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_xkF0PaozUm4Ic6cWCiSKFakP/runs/run_C7H5wR9fip3wfsPLBY70MQ03?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:46:57,113 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_xkF0PaozUm4Ic6cWCiSKFakP/runs/run_C7H5wR9fip3wfsPLBY70MQ03?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:46:58,255 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_xkF0PaozUm4Ic6cWCiSKFakP/runs/run_C7H5wR9fip3wfsPLBY70MQ03?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:46:59,492 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_xkF0PaozUm4Ic6cWCiSKFakP/runs/run_C7H5wR9fip3wfsPLBY70MQ03?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:47:00,996 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_xkF0PaozUm4Ic6cWCiSKFakP/runs/run_C7H5wR9fip3wfsPLBY70MQ03?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:47:02,478 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_xkF0PaozUm4Ic6cWCiSKFakP/runs/run_C7H5wR9fip3wfsPLBY70MQ03?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:47:03,739 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_xkF0PaozUm4Ic6cWCiSKFakP/runs/run_C7H5wR9fip3wfsPLBY70MQ03?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:47:04,879 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_xkF0PaozUm4Ic6cWCiSKFakP/runs/run_C7H5wR9fip3wfsPLBY70MQ03?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:47:06,064 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_xkF0PaozUm4Ic6cWCiSKFakP/runs/run_C7H5wR9fip3wfsPLBY70MQ03?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:47:07,213 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_xkF0PaozUm4Ic6cWCiSKFakP/runs/run_C7H5wR9fip3wfsPLBY70MQ03?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:47:08,408 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_xkF0PaozUm4Ic6cWCiSKFakP/runs/run_C7H5wR9fip3wfsPLBY70MQ03?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:47:09,948 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_xkF0PaozUm4Ic6cWCiSKFakP/runs/run_C7H5wR9fip3wfsPLBY70MQ03?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:47:11,447 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_xkF0PaozUm4Ic6cWCiSKFakP/runs/run_C7H5wR9fip3wfsPLBY70MQ03?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:47:12,637 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_xkF0PaozUm4Ic6cWCiSKFakP/runs/run_C7H5wR9fip3wfsPLBY70MQ03?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:47:13,837 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_xkF0PaozUm4Ic6cWCiSKFakP/runs/run_C7H5wR9fip3wfsPLBY70MQ03?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:47:14,990 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_xkF0PaozUm4Ic6cWCiSKFakP/runs/run_C7H5wR9fip3wfsPLBY70MQ03?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:47:16,766 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_xkF0PaozUm4Ic6cWCiSKFakP/runs/run_C7H5wR9fip3wfsPLBY70MQ03?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:47:17,916 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_xkF0PaozUm4Ic6cWCiSKFakP/runs/run_C7H5wR9fip3wfsPLBY70MQ03?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:47:19,065 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_xkF0PaozUm4Ic6cWCiSKFakP/runs/run_C7H5wR9fip3wfsPLBY70MQ03?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:47:20,597 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_xkF0PaozUm4Ic6cWCiSKFakP/runs/run_C7H5wR9fip3wfsPLBY70MQ03?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:47:21,747 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_xkF0PaozUm4Ic6cWCiSKFakP/runs/run_C7H5wR9fip3wfsPLBY70MQ03?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:47:22,891 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_xkF0PaozUm4Ic6cWCiSKFakP/runs/run_C7H5wR9fip3wfsPLBY70MQ03?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:47:24,027 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_xkF0PaozUm4Ic6cWCiSKFakP/runs/run_C7H5wR9fip3wfsPLBY70MQ03?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:47:25,175 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_xkF0PaozUm4Ic6cWCiSKFakP/runs/run_C7H5wR9fip3wfsPLBY70MQ03?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:47:26,322 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_xkF0PaozUm4Ic6cWCiSKFakP/runs/run_C7H5wR9fip3wfsPLBY70MQ03?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:47:27,510 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_xkF0PaozUm4Ic6cWCiSKFakP/runs/run_C7H5wR9fip3wfsPLBY70MQ03?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:47:28,671 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_xkF0PaozUm4Ic6cWCiSKFakP/runs/run_C7H5wR9fip3wfsPLBY70MQ03?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:47:30,186 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_xkF0PaozUm4Ic6cWCiSKFakP/runs/run_C7H5wR9fip3wfsPLBY70MQ03?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:47:31,387 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_xkF0PaozUm4Ic6cWCiSKFakP/runs/run_C7H5wR9fip3wfsPLBY70MQ03?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:47:32,635 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_xkF0PaozUm4Ic6cWCiSKFakP/runs/run_C7H5wR9fip3wfsPLBY70MQ03?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:57:18,993 - watchfiles.main - INFO - 1 change detected
+2025-12-04 21:57:20,654 - watchfiles.main - INFO - 6 changes detected
+2025-12-04 21:58:00,946 - root - INFO - Rate limiting check for client: 127.0.0.1
+2025-12-04 21:58:00,949 - root - ERROR - Redis error: Error 61 connecting to localhost:6379. Connection refused.
+2025-12-04 21:58:00,958 - root - INFO - Received assessment request: Give me assessment of the file, thread_id: None
+2025-12-04 21:58:00,958 - root - INFO - Assessment request received - prompt='Give me assessment of the file' thread_id=None
+2025-12-04 21:58:01,018 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://stwu3mahaaya.blob.core.windows.net/newfiles?restype=REDACTED'
+Request method: 'PUT'
+Request headers:
+    'x-ms-version': 'REDACTED'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.27.0 Python/3.9.21 (macOS-15.3.2-arm64-arm-64bit)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '5b4bce7c-d19f-11f0-b999-42603fc0563c'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+2025-12-04 21:58:01,202 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 409
+Response headers:
+    'Content-Length': '230'
+    'Content-Type': 'application/xml'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '9346361c-d01e-00c1-34ac-657d13000000'
+    'x-ms-client-request-id': '5b4bce7c-d19f-11f0-b999-42603fc0563c'
+    'x-ms-version': 'REDACTED'
+    'x-ms-error-code': 'ContainerAlreadyExists'
+    'Date': 'Fri, 05 Dec 2025 05:58:00 GMT'
+2025-12-04 21:58:01,205 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://stwu3mahaaya.blob.core.windows.net/newfiles/User-Architecture-Presentation.pptx'
+Request method: 'PUT'
+Request headers:
+    'Content-Length': '32777'
+    'x-ms-meta-content_type': 'REDACTED'
+    'x-ms-blob-type': 'REDACTED'
+    'x-ms-version': 'REDACTED'
+    'Content-Type': 'application/octet-stream'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.27.0 Python/3.9.21 (macOS-15.3.2-arm64-arm-64bit)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '5b684818-d19f-11f0-b999-42603fc0563c'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+2025-12-04 21:58:01,262 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 201
+Response headers:
+    'Content-Length': '0'
+    'Content-MD5': 'REDACTED'
+    'Last-Modified': 'Fri, 05 Dec 2025 05:58:01 GMT'
+    'Etag': '"0x8DE33C33FAC758C"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '93463638-d01e-00c1-49ac-657d13000000'
+    'x-ms-client-request-id': '5b684818-d19f-11f0-b999-42603fc0563c'
+    'x-ms-version': 'REDACTED'
+    'x-ms-content-crc64': 'REDACTED'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'Date': 'Fri, 05 Dec 2025 05:58:00 GMT'
+2025-12-04 21:58:01,265 - root - INFO - Closing BlobServiceClient
+2025-12-04 21:58:01,265 - root - INFO - Downloading and processing file from blob url: https://stwu3mahaaya.blob.core.windows.net/newfiles/User-Architecture-Presentation.pptx
+2025-12-04 21:58:01,265 - root - INFO - Processing file: User-Architecture-Presentation.pptx from blob url: https://stwu3mahaaya.blob.core.windows.net/newfiles/User-Architecture-Presentation.pptx
+2025-12-04 21:58:01,265 - root - INFO - Downloading blob from https://stwu3mahaaya.blob.core.windows.net/newfiles/User-Architecture-Presentation.pptx
+2025-12-04 21:58:01,267 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://stwu3mahaaya.blob.core.windows.net/newfiles/User-Architecture-Presentation.pptx'
+Request method: 'GET'
+Request headers:
+    'x-ms-range': 'REDACTED'
+    'x-ms-version': 'REDACTED'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.27.0 Python/3.9.21 (macOS-15.3.2-arm64-arm-64bit)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '5b71bb6e-d19f-11f0-b999-42603fc0563c'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+2025-12-04 21:58:01,350 - watchfiles.main - INFO - 1 change detected
+2025-12-04 21:58:01,373 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 206
+Response headers:
+    'Content-Length': '32777'
+    'Content-Type': 'application/octet-stream'
+    'Content-Range': 'REDACTED'
+    'Last-Modified': 'Fri, 05 Dec 2025 05:58:01 GMT'
+    'Accept-Ranges': 'REDACTED'
+    'Etag': '"0x8DE33C33FAC758C"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': 'be8b51d3-d01e-00ee-0eac-6570d8000000'
+    'x-ms-client-request-id': '5b71bb6e-d19f-11f0-b999-42603fc0563c'
+    'x-ms-version': 'REDACTED'
+    'x-ms-resource-type': 'REDACTED'
+    'x-ms-meta-content_type': 'REDACTED'
+    'x-ms-creation-time': 'REDACTED'
+    'x-ms-blob-content-md5': 'REDACTED'
+    'x-ms-lease-status': 'REDACTED'
+    'x-ms-lease-state': 'REDACTED'
+    'x-ms-blob-type': 'REDACTED'
+    'x-ms-server-encrypted': 'REDACTED'
+    'x-ms-owner': 'REDACTED'
+    'x-ms-group': 'REDACTED'
+    'x-ms-permissions': 'REDACTED'
+    'x-ms-acl': 'REDACTED'
+    'Date': 'Fri, 05 Dec 2025 05:58:01 GMT'
+2025-12-04 21:58:01,393 - root - INFO - Downloaded blob from https://stwu3mahaaya.blob.core.windows.net/newfiles/User-Architecture-Presentation.pptx to local path /Users/nagul/Desktop/numentica/assessment exp/backend/assessment-bot/app/tempfiles/User-Architecture-Presentation/User-Architecture-Presentation_20251204215801.pptx
+2025-12-04 21:58:01,394 - root - INFO - Closing BlobServiceClient
+2025-12-04 21:58:01,395 - root - INFO - Downloaded file to local path: /Users/nagul/Desktop/numentica/assessment exp/backend/assessment-bot/app/tempfiles/User-Architecture-Presentation/User-Architecture-Presentation_20251204215801.pptx
+2025-12-04 21:58:01,395 - root - INFO - Local ppt file path: /Users/nagul/Desktop/numentica/assessment exp/backend/assessment-bot/app/tempfiles/User-Architecture-Presentation/User-Architecture-Presentation_20251204215801.pptx - User-Architecture-Presentation
+2025-12-04 21:58:01,395 - root - INFO - Output directory for PNGs: /Users/nagul/Desktop/numentica/assessment exp/backend/assessment-bot/app/tempfiles/User-Architecture-Presentation/slides
+2025-12-04 21:58:01,395 - root - INFO - Converting presentation to PDF using LibreOffice...
+2025-12-04 21:58:01,715 - watchfiles.main - INFO - 1 change detected
+2025-12-04 21:58:02,081 - watchfiles.main - INFO - 1 change detected
+2025-12-04 21:58:03,686 - watchfiles.main - INFO - 5 changes detected
+2025-12-04 21:58:03,713 - root - INFO - Converting PDF to PNG using pdftoppm...
+2025-12-04 21:58:04,105 - watchfiles.main - INFO - 3 changes detected
+2025-12-04 21:58:04,485 - watchfiles.main - INFO - 4 changes detected
+2025-12-04 21:58:04,573 - root - INFO - Created 6 PNG files in /Users/nagul/Desktop/numentica/assessment exp/backend/assessment-bot/app/tempfiles/User-Architecture-Presentation/slides
+2025-12-04 21:58:04,574 - root - INFO - Converted PPT/PDF to PNGs at: /Users/nagul/Desktop/numentica/assessment exp/backend/assessment-bot/app/tempfiles/User-Architecture-Presentation/slides
+2025-12-04 21:58:04,574 - root - INFO - Found 6 PNG files for assessment
+2025-12-04 21:58:04,575 - root - INFO - uploading pngs from directory: /Users/nagul/Desktop/numentica/assessment exp/backend/assessment-bot/app/tempfiles/User-Architecture-Presentation/slides - under file: User-Architecture-Presentation
+2025-12-04 21:58:04,576 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://stwu3mahaaya.blob.core.windows.net/newfiles?restype=REDACTED'
+Request method: 'PUT'
+Request headers:
+    'x-ms-version': 'REDACTED'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.27.0 Python/3.9.21 (macOS-15.3.2-arm64-arm-64bit)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '5d6aa200-d19f-11f0-b999-42603fc0563c'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+2025-12-04 21:58:04,677 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 409
+Response headers:
+    'Content-Length': '230'
+    'Content-Type': 'application/xml'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '386deacc-901e-0079-1dac-6526d5000000'
+    'x-ms-client-request-id': '5d6aa200-d19f-11f0-b999-42603fc0563c'
+    'x-ms-version': 'REDACTED'
+    'x-ms-error-code': 'ContainerAlreadyExists'
+    'Date': 'Fri, 05 Dec 2025 05:58:04 GMT'
+2025-12-04 21:58:04,678 - root - INFO - Container newfiles may already exist: The specified container already exists.
+RequestId:386deacc-901e-0079-1dac-6526d5000000
+Time:2025-12-05T05:58:04.7297414Z
+ErrorCode:ContainerAlreadyExists
+Content: <?xml version="1.0" encoding="utf-8"?><Error><Code>ContainerAlreadyExists</Code><Message>The specified container already exists.
+RequestId:386deacc-901e-0079-1dac-6526d5000000
+Time:2025-12-05T05:58:04.7297414Z</Message></Error>
+2025-12-04 21:58:04,679 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://stwu3mahaaya.blob.core.windows.net/newfiles/User-Architecture-Presentation/2_slide-2.png'
+Request method: 'PUT'
+Request headers:
+    'Content-Length': '46418'
+    'x-ms-blob-type': 'REDACTED'
+    'x-ms-version': 'REDACTED'
+    'Content-Type': 'application/octet-stream'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.27.0 Python/3.9.21 (macOS-15.3.2-arm64-arm-64bit)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '5d7a5fec-d19f-11f0-b999-42603fc0563c'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+2025-12-04 21:58:04,743 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 201
+Response headers:
+    'Content-Length': '0'
+    'Content-MD5': 'REDACTED'
+    'Last-Modified': 'Fri, 05 Dec 2025 05:58:04 GMT'
+    'Etag': '"0x8DE33C341C041E8"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '386dead3-901e-0079-21ac-6526d5000000'
+    'x-ms-client-request-id': '5d7a5fec-d19f-11f0-b999-42603fc0563c'
+    'x-ms-version': 'REDACTED'
+    'x-ms-content-crc64': 'REDACTED'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'Date': 'Fri, 05 Dec 2025 05:58:04 GMT'
+2025-12-04 21:58:04,744 - root - INFO - Uploaded PNG blob: User-Architecture-Presentation/2_slide-2.png to container: newfiles, blob url: https://stwu3mahaaya.blob.core.windows.net/newfiles/User-Architecture-Presentation/2_slide-2.png
+2025-12-04 21:58:04,745 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://stwu3mahaaya.blob.core.windows.net/newfiles/User-Architecture-Presentation/4_slide-3.png'
+Request method: 'PUT'
+Request headers:
+    'Content-Length': '42040'
+    'x-ms-blob-type': 'REDACTED'
+    'x-ms-version': 'REDACTED'
+    'Content-Type': 'application/octet-stream'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.27.0 Python/3.9.21 (macOS-15.3.2-arm64-arm-64bit)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '5d8467d0-d19f-11f0-b999-42603fc0563c'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+2025-12-04 21:58:04,797 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 201
+Response headers:
+    'Content-Length': '0'
+    'Content-MD5': 'REDACTED'
+    'Last-Modified': 'Fri, 05 Dec 2025 05:58:04 GMT'
+    'Etag': '"0x8DE33C341C88070"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '386deadb-901e-0079-28ac-6526d5000000'
+    'x-ms-client-request-id': '5d8467d0-d19f-11f0-b999-42603fc0563c'
+    'x-ms-version': 'REDACTED'
+    'x-ms-content-crc64': 'REDACTED'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'Date': 'Fri, 05 Dec 2025 05:58:04 GMT'
+2025-12-04 21:58:04,798 - root - INFO - Uploaded PNG blob: User-Architecture-Presentation/4_slide-3.png to container: newfiles, blob url: https://stwu3mahaaya.blob.core.windows.net/newfiles/User-Architecture-Presentation/4_slide-3.png
+2025-12-04 21:58:04,798 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://stwu3mahaaya.blob.core.windows.net/newfiles/User-Architecture-Presentation/5_slide-1.png'
+Request method: 'PUT'
+Request headers:
+    'Content-Length': '45901'
+    'x-ms-blob-type': 'REDACTED'
+    'x-ms-version': 'REDACTED'
+    'Content-Type': 'application/octet-stream'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.27.0 Python/3.9.21 (macOS-15.3.2-arm64-arm-64bit)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '5d8ca1f2-d19f-11f0-b999-42603fc0563c'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+2025-12-04 21:58:04,835 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 201
+Response headers:
+    'Content-Length': '0'
+    'Content-MD5': 'REDACTED'
+    'Last-Modified': 'Fri, 05 Dec 2025 05:58:04 GMT'
+    'Etag': '"0x8DE33C341CE38C4"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '386deadf-901e-0079-2cac-6526d5000000'
+    'x-ms-client-request-id': '5d8ca1f2-d19f-11f0-b999-42603fc0563c'
+    'x-ms-version': 'REDACTED'
+    'x-ms-content-crc64': 'REDACTED'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'Date': 'Fri, 05 Dec 2025 05:58:04 GMT'
+2025-12-04 21:58:04,836 - root - INFO - Uploaded PNG blob: User-Architecture-Presentation/5_slide-1.png to container: newfiles, blob url: https://stwu3mahaaya.blob.core.windows.net/newfiles/User-Architecture-Presentation/5_slide-1.png
+2025-12-04 21:58:04,837 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://stwu3mahaaya.blob.core.windows.net/newfiles/User-Architecture-Presentation/6_slide-4.png'
+Request method: 'PUT'
+Request headers:
+    'Content-Length': '46150'
+    'x-ms-blob-type': 'REDACTED'
+    'x-ms-version': 'REDACTED'
+    'Content-Type': 'application/octet-stream'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.27.0 Python/3.9.21 (macOS-15.3.2-arm64-arm-64bit)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '5d928266-d19f-11f0-b999-42603fc0563c'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+2025-12-04 21:58:04,847 - watchfiles.main - INFO - 1 change detected
+2025-12-04 21:58:04,877 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 201
+Response headers:
+    'Content-Length': '0'
+    'Content-MD5': 'REDACTED'
+    'Last-Modified': 'Fri, 05 Dec 2025 05:58:04 GMT'
+    'Etag': '"0x8DE33C341D3F234"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '386deaed-901e-0079-36ac-6526d5000000'
+    'x-ms-client-request-id': '5d928266-d19f-11f0-b999-42603fc0563c'
+    'x-ms-version': 'REDACTED'
+    'x-ms-content-crc64': 'REDACTED'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'Date': 'Fri, 05 Dec 2025 05:58:04 GMT'
+2025-12-04 21:58:04,877 - root - INFO - Uploaded PNG blob: User-Architecture-Presentation/6_slide-4.png to container: newfiles, blob url: https://stwu3mahaaya.blob.core.windows.net/newfiles/User-Architecture-Presentation/6_slide-4.png
+2025-12-04 21:58:04,878 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://stwu3mahaaya.blob.core.windows.net/newfiles/User-Architecture-Presentation/7_slide-5.png'
+Request method: 'PUT'
+Request headers:
+    'Content-Length': '43120'
+    'x-ms-blob-type': 'REDACTED'
+    'x-ms-version': 'REDACTED'
+    'Content-Type': 'application/octet-stream'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.27.0 Python/3.9.21 (macOS-15.3.2-arm64-arm-64bit)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '5d98bd52-d19f-11f0-b999-42603fc0563c'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+2025-12-04 21:58:04,911 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 201
+Response headers:
+    'Content-Length': '0'
+    'Content-MD5': 'REDACTED'
+    'Last-Modified': 'Fri, 05 Dec 2025 05:58:04 GMT'
+    'Etag': '"0x8DE33C341D9EA78"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '386deaf8-901e-0079-41ac-6526d5000000'
+    'x-ms-client-request-id': '5d98bd52-d19f-11f0-b999-42603fc0563c'
+    'x-ms-version': 'REDACTED'
+    'x-ms-content-crc64': 'REDACTED'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'Date': 'Fri, 05 Dec 2025 05:58:04 GMT'
+2025-12-04 21:58:04,911 - root - INFO - Uploaded PNG blob: User-Architecture-Presentation/7_slide-5.png to container: newfiles, blob url: https://stwu3mahaaya.blob.core.windows.net/newfiles/User-Architecture-Presentation/7_slide-5.png
+2025-12-04 21:58:04,912 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://stwu3mahaaya.blob.core.windows.net/newfiles/User-Architecture-Presentation/8_slide-6.png'
+Request method: 'PUT'
+Request headers:
+    'Content-Length': '43260'
+    'x-ms-blob-type': 'REDACTED'
+    'x-ms-version': 'REDACTED'
+    'Content-Type': 'application/octet-stream'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.27.0 Python/3.9.21 (macOS-15.3.2-arm64-arm-64bit)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '5d9debb0-d19f-11f0-b999-42603fc0563c'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+2025-12-04 21:58:04,944 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 201
+Response headers:
+    'Content-Length': '0'
+    'Content-MD5': 'REDACTED'
+    'Last-Modified': 'Fri, 05 Dec 2025 05:58:04 GMT'
+    'Etag': '"0x8DE33C341DEDA38"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '386deb00-901e-0079-49ac-6526d5000000'
+    'x-ms-client-request-id': '5d9debb0-d19f-11f0-b999-42603fc0563c'
+    'x-ms-version': 'REDACTED'
+    'x-ms-content-crc64': 'REDACTED'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'Date': 'Fri, 05 Dec 2025 05:58:04 GMT'
+2025-12-04 21:58:04,944 - root - INFO - Uploaded PNG blob: User-Architecture-Presentation/8_slide-6.png to container: newfiles, blob url: https://stwu3mahaaya.blob.core.windows.net/newfiles/User-Architecture-Presentation/8_slide-6.png
+2025-12-04 21:58:04,945 - root - INFO - Closing BlobServiceClient
+2025-12-04 21:58:04,945 - root - INFO - Uploaded PNG files to blob storage: [{'filename': 'slide-2.png', 'blob_url': 'https://stwu3mahaaya.blob.core.windows.net/newfiles/User-Architecture-Presentation/2_slide-2.png'}, {'filename': 'slide-3.png', 'blob_url': 'https://stwu3mahaaya.blob.core.windows.net/newfiles/User-Architecture-Presentation/4_slide-3.png'}, {'filename': 'slide-1.png', 'blob_url': 'https://stwu3mahaaya.blob.core.windows.net/newfiles/User-Architecture-Presentation/5_slide-1.png'}, {'filename': 'slide-4.png', 'blob_url': 'https://stwu3mahaaya.blob.core.windows.net/newfiles/User-Architecture-Presentation/6_slide-4.png'}, {'filename': 'slide-5.png', 'blob_url': 'https://stwu3mahaaya.blob.core.windows.net/newfiles/User-Architecture-Presentation/7_slide-5.png'}, {'filename': 'slide-6.png', 'blob_url': 'https://stwu3mahaaya.blob.core.windows.net/newfiles/User-Architecture-Presentation/8_slide-6.png'}]
+2025-12-04 21:58:04,945 - root - INFO - Removed local file: /Users/nagul/Desktop/numentica/assessment exp/backend/assessment-bot/app/tempfiles/User-Architecture-Presentation/User-Architecture-Presentation_20251204215801.pptx
+2025-12-04 21:58:04,945 - root - INFO - Running Azure Assistant assessment with 6 images
+2025-12-04 21:58:04,952 - root - INFO - Azure Assistant Client initialized successfully
+2025-12-04 21:58:04,953 - root - INFO - Uploading 6 PNG files for assessment
+2025-12-04 21:58:05,213 - watchfiles.main - INFO - 2 changes detected
+2025-12-04 21:58:05,582 - watchfiles.main - INFO - 3 changes detected
+2025-12-04 21:58:05,914 - httpx - INFO - HTTP Request: POST https://aidoctest-resource.cognitiveservices.azure.com/openai/files?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:58:05,916 - root - INFO - Uploaded file /Users/nagul/Desktop/numentica/assessment exp/backend/assessment-bot/app/tempfiles/User-Architecture-Presentation/slides/slide-1.png with ID: assistant-SFQRFcB8MaB95TBzRv4fb6
+2025-12-04 21:58:06,521 - httpx - INFO - HTTP Request: POST https://aidoctest-resource.cognitiveservices.azure.com/openai/files?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:58:06,522 - root - INFO - Uploaded file /Users/nagul/Desktop/numentica/assessment exp/backend/assessment-bot/app/tempfiles/User-Architecture-Presentation/slides/slide-2.png with ID: assistant-ThQU6b25voTAtYy6Wm7nTd
+2025-12-04 21:58:06,987 - httpx - INFO - HTTP Request: POST https://aidoctest-resource.cognitiveservices.azure.com/openai/files?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:58:06,988 - root - INFO - Uploaded file /Users/nagul/Desktop/numentica/assessment exp/backend/assessment-bot/app/tempfiles/User-Architecture-Presentation/slides/slide-3.png with ID: assistant-Tb16Q992Hnp1bpZHVei3MU
+2025-12-04 21:58:07,454 - httpx - INFO - HTTP Request: POST https://aidoctest-resource.cognitiveservices.azure.com/openai/files?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:58:07,455 - root - INFO - Uploaded file /Users/nagul/Desktop/numentica/assessment exp/backend/assessment-bot/app/tempfiles/User-Architecture-Presentation/slides/slide-4.png with ID: assistant-WtpL9o7UzLf8fCm5Kqk3pU
+2025-12-04 21:58:07,630 - watchfiles.main - INFO - 9 changes detected
+2025-12-04 21:58:07,928 - httpx - INFO - HTTP Request: POST https://aidoctest-resource.cognitiveservices.azure.com/openai/files?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:58:07,930 - root - INFO - Uploaded file /Users/nagul/Desktop/numentica/assessment exp/backend/assessment-bot/app/tempfiles/User-Architecture-Presentation/slides/slide-5.png with ID: assistant-FztUxTwNGm2vw6RfhW7SNA
+2025-12-04 21:58:08,409 - httpx - INFO - HTTP Request: POST https://aidoctest-resource.cognitiveservices.azure.com/openai/files?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:58:08,411 - root - INFO - Uploaded file /Users/nagul/Desktop/numentica/assessment exp/backend/assessment-bot/app/tempfiles/User-Architecture-Presentation/slides/slide-6.png with ID: assistant-XTNe3V1faL3hvoeBqU2oSS
+2025-12-04 21:58:08,413 - root - INFO - Loaded 4 standard file IDs from config
+2025-12-04 21:58:08,413 - root - INFO - Attaching 4 standard files for file_search
+2025-12-04 21:58:09,295 - watchfiles.main - INFO - 7 changes detected
+2025-12-04 21:58:09,484 - httpx - INFO - HTTP Request: POST https://aidoctest-resource.cognitiveservices.azure.com/openai/threads?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:58:09,567 - root - INFO - Created thread with ID: thread_aAeqNHpgpiYbzYSVZlhuQjWK
+2025-12-04 21:58:10,051 - watchfiles.main - INFO - 1 change detected
+2025-12-04 21:58:10,209 - httpx - INFO - HTTP Request: POST https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_aAeqNHpgpiYbzYSVZlhuQjWK/runs?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:58:10,224 - root - INFO - Created run with ID: run_P4nx7OJoyoXhwAQIIoXG5S59
+2025-12-04 21:58:10,705 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_aAeqNHpgpiYbzYSVZlhuQjWK/runs/run_P4nx7OJoyoXhwAQIIoXG5S59?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:58:10,709 - root - INFO - Run status: in_progress, elapsed: 0.0s, waiting...
+2025-12-04 21:58:12,134 - watchfiles.main - INFO - 6 changes detected
+2025-12-04 21:58:12,256 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_aAeqNHpgpiYbzYSVZlhuQjWK/runs/run_P4nx7OJoyoXhwAQIIoXG5S59?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:58:12,258 - root - INFO - Run status: in_progress, elapsed: 1.5s, waiting...
+2025-12-04 21:58:13,552 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_aAeqNHpgpiYbzYSVZlhuQjWK/runs/run_P4nx7OJoyoXhwAQIIoXG5S59?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:58:13,554 - root - INFO - Run status: in_progress, elapsed: 3.0s, waiting...
+2025-12-04 21:58:14,838 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_aAeqNHpgpiYbzYSVZlhuQjWK/runs/run_P4nx7OJoyoXhwAQIIoXG5S59?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:58:14,842 - root - INFO - Run status: in_progress, elapsed: 4.3s, waiting...
+2025-12-04 21:58:16,347 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_aAeqNHpgpiYbzYSVZlhuQjWK/runs/run_P4nx7OJoyoXhwAQIIoXG5S59?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:58:16,351 - root - INFO - Run status: in_progress, elapsed: 5.6s, waiting...
+2025-12-04 21:58:17,823 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_aAeqNHpgpiYbzYSVZlhuQjWK/runs/run_P4nx7OJoyoXhwAQIIoXG5S59?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:58:17,826 - root - INFO - Run status: in_progress, elapsed: 7.1s, waiting...
+2025-12-04 21:58:19,023 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_aAeqNHpgpiYbzYSVZlhuQjWK/runs/run_P4nx7OJoyoXhwAQIIoXG5S59?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:58:19,026 - root - INFO - Run status: in_progress, elapsed: 8.6s, waiting...
+2025-12-04 21:58:20,227 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_aAeqNHpgpiYbzYSVZlhuQjWK/runs/run_P4nx7OJoyoXhwAQIIoXG5S59?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:58:20,230 - root - INFO - Run status: in_progress, elapsed: 9.8s, waiting...
+2025-12-04 21:58:21,506 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_aAeqNHpgpiYbzYSVZlhuQjWK/runs/run_P4nx7OJoyoXhwAQIIoXG5S59?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:58:21,508 - root - INFO - Run status: in_progress, elapsed: 11.0s, waiting...
+2025-12-04 21:58:22,696 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_aAeqNHpgpiYbzYSVZlhuQjWK/runs/run_P4nx7OJoyoXhwAQIIoXG5S59?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:58:22,702 - root - INFO - Run status: in_progress, elapsed: 12.3s, waiting...
+2025-12-04 21:58:23,890 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_aAeqNHpgpiYbzYSVZlhuQjWK/runs/run_P4nx7OJoyoXhwAQIIoXG5S59?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:58:23,894 - root - INFO - Run status: in_progress, elapsed: 13.5s, waiting...
+2025-12-04 21:58:25,079 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_aAeqNHpgpiYbzYSVZlhuQjWK/runs/run_P4nx7OJoyoXhwAQIIoXG5S59?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:58:25,082 - root - INFO - Run status: in_progress, elapsed: 14.7s, waiting...
+2025-12-04 21:58:26,213 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_aAeqNHpgpiYbzYSVZlhuQjWK/runs/run_P4nx7OJoyoXhwAQIIoXG5S59?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:58:26,215 - root - INFO - Run status: in_progress, elapsed: 15.9s, waiting...
+2025-12-04 21:58:27,411 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_aAeqNHpgpiYbzYSVZlhuQjWK/runs/run_P4nx7OJoyoXhwAQIIoXG5S59?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:58:27,414 - root - INFO - Run status: in_progress, elapsed: 17.0s, waiting...
+2025-12-04 21:58:28,555 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_aAeqNHpgpiYbzYSVZlhuQjWK/runs/run_P4nx7OJoyoXhwAQIIoXG5S59?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:58:28,559 - root - INFO - Run status: in_progress, elapsed: 18.2s, waiting...
+2025-12-04 21:58:29,734 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_aAeqNHpgpiYbzYSVZlhuQjWK/runs/run_P4nx7OJoyoXhwAQIIoXG5S59?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:58:29,736 - root - INFO - Run status: in_progress, elapsed: 19.3s, waiting...
+2025-12-04 21:58:30,917 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_aAeqNHpgpiYbzYSVZlhuQjWK/runs/run_P4nx7OJoyoXhwAQIIoXG5S59?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:58:30,918 - root - INFO - Run status: in_progress, elapsed: 20.5s, waiting...
+2025-12-04 21:58:32,057 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_aAeqNHpgpiYbzYSVZlhuQjWK/runs/run_P4nx7OJoyoXhwAQIIoXG5S59?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:58:32,058 - root - INFO - Run status: in_progress, elapsed: 21.7s, waiting...
+2025-12-04 21:58:33,194 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_aAeqNHpgpiYbzYSVZlhuQjWK/runs/run_P4nx7OJoyoXhwAQIIoXG5S59?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:58:33,197 - root - INFO - Run status: in_progress, elapsed: 22.8s, waiting...
+2025-12-04 21:58:34,337 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_aAeqNHpgpiYbzYSVZlhuQjWK/runs/run_P4nx7OJoyoXhwAQIIoXG5S59?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:58:34,351 - root - INFO - Run status: in_progress, elapsed: 24.0s, waiting...
+2025-12-04 21:58:35,645 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_aAeqNHpgpiYbzYSVZlhuQjWK/runs/run_P4nx7OJoyoXhwAQIIoXG5S59?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:58:35,646 - root - INFO - Run status: in_progress, elapsed: 25.1s, waiting...
+2025-12-04 21:58:36,830 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_aAeqNHpgpiYbzYSVZlhuQjWK/runs/run_P4nx7OJoyoXhwAQIIoXG5S59?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:58:36,832 - root - INFO - Run status: in_progress, elapsed: 26.4s, waiting...
+2025-12-04 21:58:38,011 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_aAeqNHpgpiYbzYSVZlhuQjWK/runs/run_P4nx7OJoyoXhwAQIIoXG5S59?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:58:38,013 - root - INFO - Run status: in_progress, elapsed: 27.6s, waiting...
+2025-12-04 21:58:39,208 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_aAeqNHpgpiYbzYSVZlhuQjWK/runs/run_P4nx7OJoyoXhwAQIIoXG5S59?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:58:39,211 - root - INFO - Run status: in_progress, elapsed: 28.8s, waiting...
+2025-12-04 21:58:40,352 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_aAeqNHpgpiYbzYSVZlhuQjWK/runs/run_P4nx7OJoyoXhwAQIIoXG5S59?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:58:40,355 - root - INFO - Run status: in_progress, elapsed: 30.0s, waiting...
+2025-12-04 21:58:41,558 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_aAeqNHpgpiYbzYSVZlhuQjWK/runs/run_P4nx7OJoyoXhwAQIIoXG5S59?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:58:41,561 - root - INFO - Run status: in_progress, elapsed: 31.1s, waiting...
+2025-12-04 21:58:42,754 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_aAeqNHpgpiYbzYSVZlhuQjWK/runs/run_P4nx7OJoyoXhwAQIIoXG5S59?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:58:42,757 - root - INFO - Run status: in_progress, elapsed: 32.3s, waiting...
+2025-12-04 21:58:43,944 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_aAeqNHpgpiYbzYSVZlhuQjWK/runs/run_P4nx7OJoyoXhwAQIIoXG5S59?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:58:43,947 - root - INFO - Run status: in_progress, elapsed: 33.5s, waiting...
+2025-12-04 21:58:45,155 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_aAeqNHpgpiYbzYSVZlhuQjWK/runs/run_P4nx7OJoyoXhwAQIIoXG5S59?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:58:45,158 - root - INFO - Run status: in_progress, elapsed: 34.7s, waiting...
+2025-12-04 21:58:46,665 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_aAeqNHpgpiYbzYSVZlhuQjWK/runs/run_P4nx7OJoyoXhwAQIIoXG5S59?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:58:46,669 - root - INFO - Run run_P4nx7OJoyoXhwAQIIoXG5S59 completed successfully
+2025-12-04 21:58:47,199 - httpx - INFO - HTTP Request: GET https://aidoctest-resource.cognitiveservices.azure.com/openai/threads/thread_aAeqNHpgpiYbzYSVZlhuQjWK/messages?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:58:47,215 - root - INFO - Cleaning up 6 uploaded user files
+2025-12-04 21:58:48,356 - httpx - INFO - HTTP Request: DELETE https://aidoctest-resource.cognitiveservices.azure.com/openai/files/assistant-SFQRFcB8MaB95TBzRv4fb6?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:58:48,357 - root - INFO - Deleted file: assistant-SFQRFcB8MaB95TBzRv4fb6
+2025-12-04 21:58:49,381 - httpx - INFO - HTTP Request: DELETE https://aidoctest-resource.cognitiveservices.azure.com/openai/files/assistant-ThQU6b25voTAtYy6Wm7nTd?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:58:49,383 - root - INFO - Deleted file: assistant-ThQU6b25voTAtYy6Wm7nTd
+2025-12-04 21:58:49,791 - httpx - INFO - HTTP Request: DELETE https://aidoctest-resource.cognitiveservices.azure.com/openai/files/assistant-Tb16Q992Hnp1bpZHVei3MU?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:58:49,796 - root - INFO - Deleted file: assistant-Tb16Q992Hnp1bpZHVei3MU
+2025-12-04 21:58:50,821 - httpx - INFO - HTTP Request: DELETE https://aidoctest-resource.cognitiveservices.azure.com/openai/files/assistant-WtpL9o7UzLf8fCm5Kqk3pU?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:58:50,823 - root - INFO - Deleted file: assistant-WtpL9o7UzLf8fCm5Kqk3pU
+2025-12-04 21:58:51,223 - httpx - INFO - HTTP Request: DELETE https://aidoctest-resource.cognitiveservices.azure.com/openai/files/assistant-FztUxTwNGm2vw6RfhW7SNA?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:58:51,224 - root - INFO - Deleted file: assistant-FztUxTwNGm2vw6RfhW7SNA
+2025-12-04 21:58:53,677 - httpx - INFO - HTTP Request: DELETE https://aidoctest-resource.cognitiveservices.azure.com/openai/files/assistant-XTNe3V1faL3hvoeBqU2oSS?api-version=2025-04-01-preview "HTTP/1.1 200 OK"
+2025-12-04 21:58:53,680 - root - INFO - Deleted file: assistant-XTNe3V1faL3hvoeBqU2oSS
+2025-12-04 21:58:53,681 - root - INFO - Assessment completed: success=True
+2025-12-04 21:58:53,690 - root - INFO - Assessment processed successfully: {'message': 'Summary\n- The uploaded file is a high-level slide deck with section headings (Project Architecture Overview, System Context Diagram, Application Architecture, Cloud Deployment Model, Security Architecture, Observability & Operations) but no concrete architecture content, diagrams, or implementation details. Because of that it does not yet provide the evidence needed for an Experian EA review and contains multiple gaps against Experian EA and Cloud Principles and the EA assessment categories.  \n\nHigh-level gap statement\n- Missing concrete artefacts: there are no diagrams showing actors, systems, data flows, component boundaries, cloud topology, network zones, or IAM boundaries. This prevents evaluation of security, compliance, resiliency, scalability, and operations.  \n- As a result the submission cannot be scored against Experian EA Principles (Security by Design, Observability, Scalability, etc.) or Cloud Principles until the requested details are added. See the EA principles and cloud principles referenced below for required areas to cover. 【4:2†Experian-EA-Principles.pdf】 【4:2†Experian-Cloud-Principles.pdf】\n\nKey missing items mapped to Experian standards\n- Security by Design: no IAM model, no encryption details (in transit / at rest), no secrets management, no network segmentation / firewall rules or zero-trust controls described (required by Experian EA Principles). 【4:2†Experian-EA-Principles.pdf】  \n- Cloud guardrails & deployment model: no cloud regions, VPC/VNet layout, subnets, NAT/GW/load balancer placement, or HA/DR strategy; no resource naming/tagging or blueprint compliance evidence. These are required by Experian Cloud Principles. 【4:2†Experian-Cloud-Principles.pdf】  \n- Observability & Ops: no logging retention policy, no metrics/traces defined, no dashboards or alerting thresholds, no runbooks or on-call/operational readiness evidence (Experian requires observability and operational readiness). 【4:2†Experian-EA-Principles.pdf】 【4:2†Experian-Cloud-Principles.pdf】  \n- Data handling & compliance: no data classification, PII handling, masking/tokenization, residency or audit logging described — required by Experian General Knowledge guidance. 【4:2†Experian-General-Knowledge.pdf】  \n- Architecture quality & resilience: no scalability, failover zones, backup/restore, RTO/RPO, or autoscaling policies specified. 【4:2†EA-Assessment-Category.pdf】\n\nRisks and likely impact if unchanged\n- High — Security & Compliance: absence of IAM/encryption/segmentation details risks unauthorized access, data exposure, and non-compliance with GDPR/PCI/SOX. 【4:2†Experian-EA-Principles.pdf】 【4:2†Experian-General-Knowledge.pdf】  \n- High — Availability & Resilience: lack of DR/HA design increases outage risk and missed SLAs. 【4:2†Experian-EA-Principles.pdf】  \n- Medium — Operability: no monitoring/alerting/runbooks means slower incident detection and recovery. 【4:2†EA-Assessment-Category.pdf】  \n- Medium — Cost & Governance: no tagging or cost controls increases risk of uncontrolled cloud spend. 【4:2†Experian-Cloud-Principles.pdf】\n\nConcrete, prioritized recommendations (what to add/change)\n1. Provide a System Context Diagram (urgent)\n   - Show all external actors (users, 3rd-party systems), interfaces and data flows, and trust boundaries. Include data sensitivity classification on flows. This addresses the “context” requirement in the EA review. 【4:2†EA-Assessment-Category.pdf】\n\n2. Provide an Application Architecture diagram (urgent)\n   - Identify components (frontend, API gateway, backend services, databases, caches, queues), protocols, authentication/authorization points, and which components handle PII. Indicate synchronous vs asynchronous flows. Map each component to approved technology stacks (or document exception requests). 【4:2†Experian-General-Knowledge.pdf】\n\n3. Produce a Cloud Deployment Model diagram (urgent)\n   - Show cloud provider, region(s), VPC/VNet, subnets (public/private), security groups / NACLS, gateways, load balancers, and where managed services live. Show multi-AZ/region redundancy and backup/replication paths. Include tagging & naming scheme compliance. 【4:2†Experian-Cloud-Principles.pdf】\n\n4. Complete Security Architecture details (critical)\n   - Define IAM model (roles, groups, least privilege), MFA, service principals, and automated provisioning.  \n   - Specify encryption: algorithms and KMS use for data at rest and TLS requirements for in-transit.  \n   - Secrets management approach (e.g., Vault / Cloud Secrets Manager), vulnerability scanning, and pentest plan.  \n   - Network segmentation and firewall rule examples plus zero-trust enforcement points. 【4:2†Experian-EA-Principles.pdf】 【4:2†Experian-General-Knowledge.pdf】\n\n5. Observability & Operations (high)\n   - Define logging sinks, log retention/rotation, who can access logs (audit), metrics to collect, tracing strategy (distributed tracing), alerting thresholds, escalation and runbooks, SLOs/SLIs and dashboards. Show how alerts route to on-call and incident runbook. 【4:2†Experian-EA-Principles.pdf】 【4:2†EA-Assessment-Category.pdf】\n\n6. Resiliency, DR & Backup (high)\n   - Add RTO/RPO targets, backup schedules, cross-region replication where required, failover/runbook steps, and results of DR test plans. 【4:2†Experian-Cloud-Principles.pdf】\n\n7. Compliance & Data Management (high)\n   - Show data classification per dataset, PII handling (masking/tokenization), retention policy, GDPR/data residency considerations, and audit logging. Attach compliance checklist for PCI/SOX/GDPR as applicable. 【4:2†Experian-General-Knowledge.pdf】\n\n8. Cost & Resource Governance (medium)\n   - Provide tagging plan, budget dashboards, autoscaling/cost-control policies and where cost alerts are configured. 【4:2†Experian-Cloud-Principles.pdf】\n\n9. Technology alignment & approval (medium)\n   - Map each proposed technology to Experian’s Technology Standards List or document formal exception requests for non-approved tech. 【4:2†Experian-General-Knowledge.pdf】\n\nSuggested checklist / artifacts to attach for the next submission\n- Annotated system context diagram with data classification\n- Component diagram with APIs, auth flow, and data stores\n- Cloud topology diagram (VPC/subnets/security groups/load balancers)\n- IAM matrix (roles, permissions, MFA)\n- Encryption & secrets approach (KMS, secrets store)\n- DR/backup plan, RTO/RPO, and recent DR test results\n- Monitoring plan: metrics/traces/logs, retention, alerting, runbooks\n- Compliance mapping (GDPR/PCI/SOX) and dataflow showing PII handling\n- Cost forecast and tagging policy\n- List of approved technologies and any exceptions requested\n\nHow this maps to the EA Assessment Categories\n- Security Assessment: missing IAM, encryption, segmentation. Add detailed controls to move from “High risk” to acceptable. 【4:2†EA-Assessment-Category.pdf】 【4:2†Experian-EA-Principles.pdf】  \n- Architecture Quality: need scalability/resilience details to evaluate. 【4:2†EA-Assessment-Category.pdf】  \n- Cloud Compliance: add blueprint, naming, and tagging evidence to meet cloud guardrails. 【4:2†Experian-Cloud-Principles.pdf】  \n- Operational Readiness: supply monitoring, runbooks, and on-call evidence. 【4:2†EA-Assessment-Category.pdf】\n\nNext steps I can help with\n- Review a revised set of diagrams and the checklist items above and produce a gap-by-gap EA review with risk scoring and remediation steps.  \n- Provide templates for the system context and cloud topology diagrams that align with Experian standards.  \n- Help draft the IAM matrix, encryption decisions, and an observability checklist.\n\nIf you’d like, upload the next version of the diagrams (recommended formats: PNG/PDF/Visio/Draw.io) and I will run a targeted review against the Experian EA and Cloud Principles and return a prioritized remediation plan.', 'assessment': 'Summary\n- The uploaded file is a high-level slide deck with section headings (Project Architecture Overview, System Context Diagram, Application Architecture, Cloud Deployment Model, Security Architecture, Observability & Operations) but no concrete architecture content, diagrams, or implementation details. Because of that it does not yet provide the evidence needed for an Experian EA review and contains multiple gaps against Experian EA and Cloud Principles and the EA assessment categories.  \n\nHigh-level gap statement\n- Missing concrete artefacts: there are no diagrams showing actors, systems, data flows, component boundaries, cloud topology, network zones, or IAM boundaries. This prevents evaluation of security, compliance, resiliency, scalability, and operations.  \n- As a result the submission cannot be scored against Experian EA Principles (Security by Design, Observability, Scalability, etc.) or Cloud Principles until the requested details are added. See the EA principles and cloud principles referenced below for required areas to cover. 【4:2†Experian-EA-Principles.pdf】 【4:2†Experian-Cloud-Principles.pdf】\n\nKey missing items mapped to Experian standards\n- Security by Design: no IAM model, no encryption details (in transit / at rest), no secrets management, no network segmentation / firewall rules or zero-trust controls described (required by Experian EA Principles). 【4:2†Experian-EA-Principles.pdf】  \n- Cloud guardrails & deployment model: no cloud regions, VPC/VNet layout, subnets, NAT/GW/load balancer placement, or HA/DR strategy; no resource naming/tagging or blueprint compliance evidence. These are required by Experian Cloud Principles. 【4:2†Experian-Cloud-Principles.pdf】  \n- Observability & Ops: no logging retention policy, no metrics/traces defined, no dashboards or alerting thresholds, no runbooks or on-call/operational readiness evidence (Experian requires observability and operational readiness). 【4:2†Experian-EA-Principles.pdf】 【4:2†Experian-Cloud-Principles.pdf】  \n- Data handling & compliance: no data classification, PII handling, masking/tokenization, residency or audit logging described — required by Experian General Knowledge guidance. 【4:2†Experian-General-Knowledge.pdf】  \n- Architecture quality & resilience: no scalability, failover zones, backup/restore, RTO/RPO, or autoscaling policies specified. 【4:2†EA-Assessment-Category.pdf】\n\nRisks and likely impact if unchanged\n- High — Security & Compliance: absence of IAM/encryption/segmentation details risks unauthorized access, data exposure, and non-compliance with GDPR/PCI/SOX. 【4:2†Experian-EA-Principles.pdf】 【4:2†Experian-General-Knowledge.pdf】  \n- High — Availability & Resilience: lack of DR/HA design increases outage risk and missed SLAs. 【4:2†Experian-EA-Principles.pdf】  \n- Medium — Operability: no monitoring/alerting/runbooks means slower incident detection and recovery. 【4:2†EA-Assessment-Category.pdf】  \n- Medium — Cost & Governance: no tagging or cost controls increases risk of uncontrolled cloud spend. 【4:2†Experian-Cloud-Principles.pdf】\n\nConcrete, prioritized recommendations (what to add/change)\n1. Provide a System Context Diagram (urgent)\n   - Show all external actors (users, 3rd-party systems), interfaces and data flows, and trust boundaries. Include data sensitivity classification on flows. This addresses the “context” requirement in the EA review. 【4:2†EA-Assessment-Category.pdf】\n\n2. Provide an Application Architecture diagram (urgent)\n   - Identify components (frontend, API gateway, backend services, databases, caches, queues), protocols, authentication/authorization points, and which components handle PII. Indicate synchronous vs asynchronous flows. Map each component to approved technology stacks (or document exception requests). 【4:2†Experian-General-Knowledge.pdf】\n\n3. Produce a Cloud Deployment Model diagram (urgent)\n   - Show cloud provider, region(s), VPC/VNet, subnets (public/private), security groups / NACLS, gateways, load balancers, and where managed services live. Show multi-AZ/region redundancy and backup/replication paths. Include tagging & naming scheme compliance. 【4:2†Experian-Cloud-Principles.pdf】\n\n4. Complete Security Architecture details (critical)\n   - Define IAM model (roles, groups, least privilege), MFA, service principals, and automated provisioning.  \n   - Specify encryption: algorithms and KMS use for data at rest and TLS requirements for in-transit.  \n   - Secrets management approach (e.g., Vault / Cloud Secrets Manager), vulnerability scanning, and pentest plan.  \n   - Network segmentation and firewall rule examples plus zero-trust enforcement points. 【4:2†Experian-EA-Principles.pdf】 【4:2†Experian-General-Knowledge.pdf】\n\n5. Observability & Operations (high)\n   - Define logging sinks, log retention/rotation, who can access logs (audit), metrics to collect, tracing strategy (distributed tracing), alerting thresholds, escalation and runbooks, SLOs/SLIs and dashboards. Show how alerts route to on-call and incident runbook. 【4:2†Experian-EA-Principles.pdf】 【4:2†EA-Assessment-Category.pdf】\n\n6. Resiliency, DR & Backup (high)\n   - Add RTO/RPO targets, backup schedules, cross-region replication where required, failover/runbook steps, and results of DR test plans. 【4:2†Experian-Cloud-Principles.pdf】\n\n7. Compliance & Data Management (high)\n   - Show data classification per dataset, PII handling (masking/tokenization), retention policy, GDPR/data residency considerations, and audit logging. Attach compliance checklist for PCI/SOX/GDPR as applicable. 【4:2†Experian-General-Knowledge.pdf】\n\n8. Cost & Resource Governance (medium)\n   - Provide tagging plan, budget dashboards, autoscaling/cost-control policies and where cost alerts are configured. 【4:2†Experian-Cloud-Principles.pdf】\n\n9. Technology alignment & approval (medium)\n   - Map each proposed technology to Experian’s Technology Standards List or document formal exception requests for non-approved tech. 【4:2†Experian-General-Knowledge.pdf】\n\nSuggested checklist / artifacts to attach for the next submission\n- Annotated system context diagram with data classification\n- Component diagram with APIs, auth flow, and data stores\n- Cloud topology diagram (VPC/subnets/security groups/load balancers)\n- IAM matrix (roles, permissions, MFA)\n- Encryption & secrets approach (KMS, secrets store)\n- DR/backup plan, RTO/RPO, and recent DR test results\n- Monitoring plan: metrics/traces/logs, retention, alerting, runbooks\n- Compliance mapping (GDPR/PCI/SOX) and dataflow showing PII handling\n- Cost forecast and tagging policy\n- List of approved technologies and any exceptions requested\n\nHow this maps to the EA Assessment Categories\n- Security Assessment: missing IAM, encryption, segmentation. Add detailed controls to move from “High risk” to acceptable. 【4:2†EA-Assessment-Category.pdf】 【4:2†Experian-EA-Principles.pdf】  \n- Architecture Quality: need scalability/resilience details to evaluate. 【4:2†EA-Assessment-Category.pdf】  \n- Cloud Compliance: add blueprint, naming, and tagging evidence to meet cloud guardrails. 【4:2†Experian-Cloud-Principles.pdf】  \n- Operational Readiness: supply monitoring, runbooks, and on-call evidence. 【4:2†EA-Assessment-Category.pdf】\n\nNext steps I can help with\n- Review a revised set of diagrams and the checklist items above and produce a gap-by-gap EA review with risk scoring and remediation steps.  \n- Provide templates for the system context and cloud topology diagrams that align with Experian standards.  \n- Help draft the IAM matrix, encryption decisions, and an observability checklist.\n\nIf you’d like, upload the next version of the diagrams (recommended formats: PNG/PDF/Visio/Draw.io) and I will run a targeted review against the Experian EA and Cloud Principles and return a prioritized remediation plan.', 'images_analyzed': 6, 'thread_id': 'thread_aAeqNHpgpiYbzYSVZlhuQjWK', 'upload_info': {'uploaded_files': [{'filename': 'User-Architecture-Presentation.pptx', 'blob_url': 'https://stwu3mahaaya.blob.core.windows.net/newfiles/User-Architecture-Presentation.pptx', 'png_uploads': [{'filename': 'slide-2.png', 'blob_url': 'https://stwu3mahaaya.blob.core.windows.net/newfiles/User-Architecture-Presentation/2_slide-2.png'}, {'filename': 'slide-3.png', 'blob_url': 'https://stwu3mahaaya.blob.core.windows.net/newfiles/User-Architecture-Presentation/4_slide-3.png'}, {'filename': 'slide-1.png', 'blob_url': 'https://stwu3mahaaya.blob.core.windows.net/newfiles/User-Architecture-Presentation/5_slide-1.png'}, {'filename': 'slide-4.png', 'blob_url': 'https://stwu3mahaaya.blob.core.windows.net/newfiles/User-Architecture-Presentation/6_slide-4.png'}, {'filename': 'slide-5.png', 'blob_url': 'https://stwu3mahaaya.blob.core.windows.net/newfiles/User-Architecture-Presentation/7_slide-5.png'}, {'filename': 'slide-6.png', 'blob_url': 'https://stwu3mahaaya.blob.core.windows.net/newfiles/User-Architecture-Presentation/8_slide-6.png'}]}], 'message': 'Files uploaded successfully'}}
+2025-12-04 21:58:53,805 - watchfiles.main - INFO - 6 changes detected
+2025-12-04 21:58:57,948 - watchfiles.main - INFO - 5 changes detected
+2025-12-04 21:58:59,711 - watchfiles.main - INFO - 5 changes detected
